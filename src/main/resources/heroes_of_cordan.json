@@ -472,7 +472,7 @@
                         "This flagrant abuse of spell parchment and magic ink should at least be used to what little effect it creates."
                     ],
                     "flavor": [
-                        "\"If anyone in my order wasted valuable materilals in this fashion, I'd turn their skin into parchment to replace it.\" -- The Formless"
+                        "\"If anyone in my order wasted valuable materials in this fashion, I'd turn their skin into parchment to replace it.\" -- The Formless"
                     ],
                     "resources": {
                         "DIVINE": {
@@ -536,7 +536,7 @@
                     "name": "Bag of Sand",
                     "descriptions": [
                         "Scatter it in front of you. It's marginally quieter than walking on the bare floor.",
-                        "The soft crunch of underfood sand is quieter than the echoing noise tiles make, so...",
+                        "The soft crunch of underfoot sand is quieter than the echoing noise tiles make, so...",
                         "Throw sand onto rough ground, step on sand to be quieter. Flour would probably be a better choice."
                     ],
                     "flavor": [
