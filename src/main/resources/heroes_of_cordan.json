@@ -2360,14 +2360,65 @@
                 },
                 {
                     "id": "EQUIPMENT #2-5",
-                    "name": "EQUIPMENT #2-5",
+                    "name": "Basic Wand",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "One inch shy of a foot, holly wood, phoenix feathers for a core. Suitable for an adolescent wizard at best.",
+                        "It's a regular old stick with some magic inside of it. It'll work, but no points for style.",
+                        "Just a smooth varnished stick of wood. Be careful not to get this mixed up with a drumstick."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Maybe with some silver caps and gold engraving, it could be a real wand...\" -- Laurie"
+                    ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
+                    "id": "EQUIPMENT #2-6",
+                    "name": "Arcana Textbook",
+                    "descriptions": [
+                        "Jam-packed with magical theory that no wizard ever uses in practice.",
+                        "It costs two hundred gold pieces new and is required reading at wizarding college.",
+                        "Required reading at the mage's college, and surely by coincidence, written by the Evocations professor."
+                    ],
+                    "flavor": [
+                        "\"Sadly, they are only worth twenty percent of their original value second-hand, even in mint condition.\" -- Uharo"
+                    ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
+                    "id": "EQUIPMENT #2-7",
+                    "name": "Wizard Academy Robes",
+                    "descriptions": [
+                        "Stitched with the academy's emblem, and a handful of protective - and tracking - enchantments.",
+                        "The fibers of this fabric serve as a tracking device, preventing young wizards from causing mischief.",
+                        "These robes both track students and protect them from whatever they encounter during ill-fated adventures."
+                    ],
+                    "flavor": [
+                        "\"I feel like if I put these on, my old teachers will appear and yell at me for breaking curfew...\" -- Marty"
+                    ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
+                    "id": "EQUIPMENT #2-8",
+                    "name": "Sorceror's Necklace",
+                    "descriptions": [
+                        "It has a bit of the previous owner's power stored inside, and some of their blood on the outside.",
+                        "Some less-fortunate mage left this behind. You can borrow their power, just mind their bloodstains.",
+                        "Although it still holds some arcane power left to be tapped, it's soaked in the blood of its previous owner."
+                    ],
+                    "flavor": [
+                        "\"A bloodstained trophy just isn't the same when you didn't spill that blood yourself.\" -- Hodge"
                     ],
                     "resources": {
                         "MECHANICAL": {
@@ -2388,189 +2439,67 @@
                     }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
-                    "id": "EQUIPMENT #2-6",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 2
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #2-6"
-                },
-                {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
-                    "id": "EQUIPMENT #2-7",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 2
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #2-7"
-                },
-                {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
-                    "id": "EQUIPMENT #2-8",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 2
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #2-8"
-                },
-                {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #2-9",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 2
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #2-9"
-                },
-                {
+                    "name": "Iron Holy Symbol",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Iron is a perfectly pure and sacred metal among some dwarven clans.",
+                        "Iron is a popular choice of holy metals among religions on a budget.",
+                        "Perhaps not as good as a steel or silver holy symbol for some groups, but it works just fine."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I prefer something practical to a gaudy display of gold and jewels. ...no, really.\" -- Erdan"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #2-10",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 2
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #2-10"
-                },
-                {
+                    "name": "Holy Book (1st Edition)",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Aside from the \"Thou Shalt Commit Adultery\" typographical error, a perfectly serviceable text.",
+                        "Some of the names are mistranslated, but otherwise it'll do fine.",
+                        "It's flawless, but for the plotholes in the creation myth that got fixed in later editions."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Should one ever attain godhood, be sure to get a proofreader on the edicts to your followers.\" -- Neville"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #2-11",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 2
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #2-11"
-                },
-                {
+                    "name": "Giant Ankh",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "It's intended for religious purposes, but could be used as a bludgeoning weapon if you really had to.",
+                        "Filled with nondescript holy power, it can be swung two-handed for some ordinary skull-cracking power.",
+                        "Smite evil. Bonk monsters on the head. This comically oversized ankh does it all."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Depending on the religion it's for, using it as a melee weapon may or may not be heresy.\" -- Mulcahy"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #2-12",
+                    "name": "Mitre",
+                    "descriptions": [
+                        "This hat is used to make you look bigger, and thus, more intimidating.",
+                        "This oversized hat makes you taller, which in turn makes you more imposing to your enemies.",
+                        "Donning this clerical hat will make you so tall that those around you will be awestruck."
+                    ],
+                    "flavor": [
+                        "\"It's just like how animals try to look big to scare foes, except you're doing it to demons.\" -- Ralford"
+                    ],
                     "resources": {
                         "MECHANICAL": {
                             "value": 0
@@ -2587,77 +2516,53 @@
                         "PHYSICAL": {
                             "value": 0
                         }
-                    },
-                    "name": "EQUIPMENT #2-12"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #2-13",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 2
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #2-13"
-                },
-                {
+                    "name": "Cushioned Boots",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "They offer terrible traction but nobody will ever hear you approach if you can stay upright.",
+                        "Although it's a challenge to walk in them, they silence your footsteps wonderfully.",
+                        "It's not unlike wearing eight pairs of socks. If you can avoid falling over you'll walk silently."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Oh man, if we find a polished wood floor, this'll be great.\" -- Wyatt"
                     ],
+                    "resources": {
+                        "STEALTH": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #2-14",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 2
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #2-14"
-                },
-                {
+                    "name": "Camouflage Cloak",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "The pattern of this cloak looks exactly like the rough stone walls the dungeon is made of.",
+                        "This cloak has been enchanted to match the rough stone walls in its appearance.",
+                        "Although it only covers your torso, it'll make that much of you look just like the wall behind you."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Plus, if you curl up underneath it, you can disguise yourself as a rock.\" -- Karth"
                     ],
+                    "resources": {
+                        "STEALTH": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #2-15",
+                    "name": "Kunai",
+                    "descriptions": [
+                        "You can throw them to distract someone. They can also open boxes and tins.",
+                        "Throw them at distant walls to distract enemies. Also works as a letter-opener.",
+                        "A ninja tool that can be thrown to make a distraction. It's also useful prying stuck doors."
+                    ],
+                    "flavor": [
+                        "\"Hand that here, I have some trail rations stuck in my teeth I need to pick out.\" -- Tal'akh"
+                    ],
                     "resources": {
                         "MECHANICAL": {
                             "value": 0
@@ -2674,153 +2579,92 @@
                         "PHYSICAL": {
                             "value": 0
                         }
-                    },
-                    "name": "EQUIPMENT #2-15"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #2-16",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 2
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #2-16"
-                },
-                {
+                    "name": "Hand Mirror",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Lets you peek around corners surreptitiously. Can also help ensure that if you are spotted, you look fabulous.",
+                        "You can use it to peek around corners. It also lets you cheat on light-beam puzzles... if only this dungeon had some.",
+                        "Use it to look around corners, send signals, fix your hair, and prove to people you're not a vampire."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Don't give that to Tal'akh. His face will make it shatter.\" -- Hodge"
                     ],
+                    "resources": {
+                        "STEALTH": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #2-17",
+                    "name": "Lockpick Set",
+                    "descriptions": [
+                        "Standard-issue thieves' tools that are somehow legal for sale in equipment shops across the kingdom.",
+                        "Every rogue makes sure to legally buy a set of tools designed for illegal purposes.",
+                        "For whatever reason, these can be legally purchased in any equipment shop in Cordan. Don't question it."
+                    ],
+                    "flavor": [
+                        "\"Oh yeah, the Thieves' Guild makes these. It's a great way to get more recruits.\" -- Kirak"
+                    ],
                     "resources": {
                         "MECHANICAL": {
                             "value": 2
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "EQUIPMENT #2-17"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #2-18",
+                    "name": "Dwarven Army Knife",
+                    "descriptions": [
+                        "Almost all the tools are for opening alcohol containers, but there's a screwdriver and pliers too.",
+                        "It has fifteen different ways to get into alcohol containers, along with some more common tools.",
+                        "Seven bottle openers, three wine corkers, and even a tool for tapping beer kegs. Plus some other stuff."
+                    ],
+                    "flavor": [
+                        "\"This is far better than the human ones. Really, who needs a letter-opener on the battlefield?\" -- Erdan"
+                    ],
                     "resources": {
                         "MECHANICAL": {
                             "value": 2
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "EQUIPMENT #2-18"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #2-19",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 2
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #2-19"
-                },
-                {
+                    "name": "Alchemical Rust Remover",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Rust is a serious problem in dark, damp dungeons that get left untouched for decades at a time.",
+                        "Rust is the bane of dungeon architects, given that dungeons tend to be damp and unmaintained for decades.",
+                        "You'll be all set if you run into a rusted lever, rusted door, or a rust monster infestation."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I will hold it. This stuff does not mix well with open flames, and you mages love your fireballs.\" -- Avaris"
                     ],
-                    "id": "EQUIPMENT #2-20",
                     "resources": {
                         "MECHANICAL": {
                             "value": 2
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "EQUIPMENT #2-20"
+                    }
+                },
+                {
+                    "id": "EQUIPMENT #2-20",
+                    "name": "Crowbar",
+                    "descriptions": [
+                        "Why did you head out on an adventure without one, anyway?",
+                        "What kind of adventurer are you if you didn't have one of these in the first place?",
+                        "Now you're properly equipped to sneak around a dangerous place full of monsters."
+                    ],
+                    "flavor": [
+                        "\"I have an inexplicable urge to start smashing crates and boxes now...\" -- Rick"
+                    ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "value": 2
+                        }
+                    }
                 }
             ],
             "consumables": [
