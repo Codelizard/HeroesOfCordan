@@ -2669,644 +2669,344 @@
             ],
             "consumables": [
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #2-1",
+                    "name": "Potion of Strength",
+                    "descriptions": [
+                        "An adventurer classic, often sold to illiterate fighters who won't know about the side-effects of steroids.",
+                        "It's basically a shot of fast-acting steroids. The effects are temporary, the side-effects are permanent.",
+                        "One dose won't hurt, but career adventurers should be careful about long-term abuse of strength potions."
+                    ],
+                    "flavor": [
+                        "\"I'm pretty sure drinking this would violate the monk's code for keeping a pure body.\" -- Mac"
+                    ],
                     "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 2
                         }
-                    },
-                    "name": "CONSUMABLE #2-1"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #2-2",
+                    "name": "Potion of Extra Muscle",
+                    "descriptions": [
+                        "Enlarge your biceps instantly! Results guaranteed, or your money back! (Effects not permanent)",
+                        "Guaranteed to enlarge biceps, triceps, quadceps, pentceps, hexceps, and more, just not permanently.",
+                        "So effective, even your muscles will have muscles. Fortunately, the effects are temporary."
+                    ],
+                    "flavor": [
+                        "\"Drinking this isn't going to make me forget how to read, will it?\" -- Dresbin"
+                    ],
                     "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 2
                         }
-                    },
-                    "name": "CONSUMABLE #2-2"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #2-3",
+                    "name": "Herbs of Rage",
+                    "descriptions": [
+                        "Do not confuse with potpourri, garnishes, or tea leaves.",
+                        "It is highly recommended not to use these for cooking.",
+                        "These herbs, when chewed, grant a brief combat fury. When smoked, they cause fistfights."
+                    ],
+                    "flavor": [
+                        "\"These are dangerous if wild animals get into them... you heard about the killer rabbits?\" -- Asira"
+                    ],
                     "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 2
                         }
-                    },
-                    "name": "CONSUMABLE #2-3"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #2-4",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 2
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #2-4"
-                },
-                {
+                    "name": "Potion of Fireball",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "A spicy drink that makes you cough up a fireball shortly thereafter. Or, you know, you could just throw it.",
+                        "Drink swiftly, then cough up a fireball. Or, for the sane adventurer, throw it at what you want to blow up.",
+                        "Drink this to do a dragon impression and breathe fire! Or throw it, and keep your throat un-burned."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Pah, I've drunk worse. If you think this is bad for your insides, try a mug of Orcish Moonshine.\" -- Karth"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #2-5",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 2
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #2-5"
-                },
-                {
+                    "name": "Dead Wand of Lightning Bolt",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "You can probably squeeze one more charge out of it if you destroy the wand in the process.",
+                        "It'll destroy the wand if you wrench out its final charge, but what else would you use it for?",
+                        "Sadly, since you have no way to recharge it, you might as well force a final casting and destroy the wand."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I strongly recommend not using this while wearing metal gauntlets, or you'll find the experience shocking.\" -- Avaris"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #2-6",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 2
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #2-6"
-                },
-                {
+                    "name": "Scroll of Drain Life",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "The drained life goes to some unknown place, not you, but it'll still damage your target.",
+                        "Unfortunately the drained energy goes off to some malevolent force somewhere, but it still deals damage.",
+                        "Doesn't heal you, since the drained life is given to some elder god, but your target will still get hurt."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"It's only one little scroll of life draining. I doubt we'll cause the end of the world with it. Probably.\" -- Tavila"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #2-7",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 2
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #2-7"
-                },
-                {
+                    "name": "Holy Water",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Comes in an extra fragile flask for throwing at things that hate divine energy and/or glass shards.",
+                        "Throw it to deal radiant damage to certain creatures, and slashing damage from the glass shards to anything.",
+                        "If you throw it on the floor it'll burn with a holy fire for a few seconds. That's how water works, right?"
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Most churches are on a budget, so the ability to weaponize water is a powerful one.\" -- Neville"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #2-8",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 2
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #2-8"
-                },
-                {
+                    "name": "Divine Fortune Cookie",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "It contains a miniature Scroll of Holy Word, and the cookie is an excellent snack.",
+                        "The cookie is a fine snack, and inside it is a tiny Scroll of Divine Fortune.",
+                        "One side of the fortune is a line of scripture, but the other side is a Scroll of Holy Word."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"These are hard to make! Have you ever tried writing scripture on something so small?\" -- Mulcahy"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #2-9",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 2
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #2-9"
-                },
-                {
+                    "name": "Holy Acid",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Nothing in the rules says you can't make a multiclass Cleric/Alchemist.",
+                        "Alchemists who enter the clergy are responsible for these things.",
+                        "For extra style, set it on fire to deal three different damage types at once."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Apparently, anything can be made Holy if a cleric is the one who crafts it...\" -- Lyndra"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #2-10",
+                    "name": "Potion of Levitation",
+                    "descriptions": [
+                        "Make sure you have walls to push off of, or you're going to need to throw things behind you to move around.",
+                        "Floating above the floor means no footsteps. It also means that Physics says you need to push off walls.",
+                        "Levitation sounds great until you realize you can't walk; make sure to stay in arm's reach of the walls."
+                    ],
+                    "flavor": [
+                        "\"It's one of those things that's a lot better in theory than in practice.\" -- Aria"
+                    ],
                     "resources": {
                         "STEALTH": {
                             "value": 2
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "CONSUMABLE #2-10"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #2-11",
+                    "name": "Scroll of Blink",
+                    "descriptions": [
+                        "Instead of a short-range teleport, this scroll makes things blink when looking near you, giving you time to hide.",
+                        "Causes nearby creatures to blink uncontrollably, preventing them from spotting you.",
+                        "Anything in your vicinity will be forced to blink its eyes repeatedly, letting you pass undetected."
+                    ],
+                    "flavor": [
+                        "\"These are handy to have if you have a bit of sand or something in your eyes.\" -- Talon"
+                    ],
                     "resources": {
                         "STEALTH": {
                             "value": 2
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "CONSUMABLE #2-11"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #2-12",
+                    "name": "Anti-Lantern",
+                    "descriptions": [
+                        "Used by light-sensitive creatures in bright areas to cast a shadow around you. Explodes if it touches a lantern.",
+                        "Removes light from the nearby area to create darkness. Because that makes perfect sense.",
+                        "Sucks light out of the user's vicinity. Great for sneaking, raves, and campfire storytime."
+                    ],
+                    "flavor": [
+                        "\"What do you mean, useless? Maybe your species should have evolved darkvision.\" -- Tal'akh"
+                    ],
                     "resources": {
                         "STEALTH": {
                             "value": 2
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "CONSUMABLE #2-12"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #2-13",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 2
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #2-13"
-                },
-                {
+                    "name": "Interchangeable Antimatter Key",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "You found a small key! It can only be used in this dungeon to open a locked door. Which door? Any door!",
+                        "Opens any door by destroying both itself and the locking mechanism.",
+                        "You got a small key! Use it to open a locked door... permanently."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"With any luck, the Water Elemental won't require us to find a big one of these.\" -- Lyndra"
                     ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #2-14",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 2
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #2-14"
-                },
-                {
+                    "name": "Breaching Charge",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Mages aren't the only ones who can solve problems with explosions, you know.",
+                        "Trapped doors explode; untrapped doors can be exploded.",
+                        "For when you want to say, 'Screw this door in particular'."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"This here will make short work of even the rustiest of hinges.\" -- Davey"
                     ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #2-15",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 2
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #2-15"
-                },
-                {
+                    "name": "Scroll of Reveal Traps",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Highlights mechanical traps, magical traps, and crossdressers within a radius of the user.",
+                        "Casts a magical glow around trapped doors, trapped floors, and crossdressers nearby.",
+                        "This scroll reveals all nearby traps, including crossdressing passersby."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"The problem is, most people don't try and use one until they've already stumbled into a trap.\" -- Marty"
                     ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #2-16",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 2
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #2-16"
-                },
-                {
+                    "name": "Generic Healing Potion",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Who makes these? What's in them? Nobody knows, but adventurers swear by them anyway.",
+                        "Every supply shop is stocked with these things, but nobody knows where they come from.",
+                        "Enough of these can heal any injury, yet their ingredients are a complete mystery."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Don't look at me, I just sell them. For a tidy profit, I might add.\" -- Uharo"
                     ],
+                    "resources": {
+                        "HEALTH": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #2-17",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 2
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #2-17"
-                },
-                {
+                    "name": "Healing Herbs",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Closes a wound when rubbed on it. Also makes for an excellent cup of tea if steeped.",
+                        "Apply to a wound to heal it rapidly. Or, chew them for instantaneous fresh breath.",
+                        "Rubbing this on a wound will heal it. Not recommended to use for seasoning meat."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"These herbs have many medical uses... but everyone always tries to eat them.\" -- Asira"
                     ],
+                    "resources": {
+                        "HEALTH": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #2-18",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 2
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #2-18"
-                },
-                {
+                    "name": "Enchanted Bandages",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "These bandages automatically stop being adhesive when the wound is closed, and don't have to be ripped off.",
+                        "Herbal cures quickly mend wounds under them, and magic removes the adhesive so they don't need to be torn off.",
+                        "Designed for species with fur, these bandages lose their adhesive and fall off when the wound is healed."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"It's easy to say 'Man up and tear it off' when you won't lose a layer of scales in the process.\" -- Tal'akh"
                     ],
+                    "resources": {
+                        "HEALTH": {
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #2-19",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 2
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #2-19"
-                },
-                {
+                    "name": "Scroll of Healing",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Ironically, these scrolls are notorious for causing papercuts if mishandled.",
+                        "Though effective, these scrolls are known to cause papercuts very often.",
+                        "The precise craftsmanship of these scrolls often leads to papercuts, minimizing their effectiveness."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Okay, who's wearing chainmail gauntlets and knows how to use these?\" -- Siebel"
                     ],
-                    "id": "CONSUMABLE #2-20",
                     "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
                         "HEALTH": {
                             "value": 2
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "CONSUMABLE #2-20"
+                    }
+                },
+                {
+                    "id": "CONSUMABLE #2-20",
+                    "name": "Blood Clotting Medicine",
+                    "descriptions": [
+                        "Apply externally. It is highly recommended not to drink this.",
+                        "Apply to wounds directly; do not drink it. Keep out of reach of children and orcs.",
+                        "Used to stop wounds from bleeding. Drinking it is ill-advised."
+                    ],
+                    "flavor": [
+                        "\"It's also handy for getting blood off of your clothing as long as it's still wet.\" -- Aria"
+                    ],
+                    "resources": {
+                        "HEALTH": {
+                            "value": 2
+                        }
+                    }
                 }
             ],
             "boss": {
