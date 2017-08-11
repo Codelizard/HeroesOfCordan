@@ -3010,51 +3010,46 @@
                 }
             ],
             "boss": {
-                "name": "BOSS #2",
                 "id": "BOSS #2",
+                "name": "The Water Elemental",
                 "descriptions": [
-                    "DESCRIPTION 1",
-                    "DESCRIPTION 2",
-                    "DESCRIPTION 3"
+                    "A transparent humanoid figure formed from water. Don't underestimate it, or you'll get washed away.",
+                    "This guardian of the Water Portal is a column of water in the shape of a man. You'll have to pool your resources for this fight.",
+                    "The embodiment of water taking a humanoid appearance. As long as you're careful, you'll control the tide of the battle."
                 ],
                 "loot": "LEVELUP",
                 "flavor": [
-                    "FLAVOR TEXT"
+                    "\"There's water all over the floor. Great. I bet the room under this is soaked and covered in mold.\" -- Narius"
                 ],
                 "resources": {
-                    "STEALTH": {
-                        "texts": [
-                            "N/A"
-                        ],
-                        "value": 0
-                    },
                     "ARCANE": {
                         "texts": [
-                            "ACTION TEXT"
+                            "Electrocute it!",
+                            "Boil away the water with fire!",
+                            "Freeze it with a blast of cold!"
                         ],
                         "value": 8
                     },
-                    "MECHANICAL": {
-                        "texts": [
-                            "N/A"
-                        ],
-                        "value": 0
-                    },
                     "HEALTH": {
                         "texts": [
-                            "ACTION TEXT"
+                            "Fight normally!",
+                            "Fight it the hard way!"
                         ],
                         "value": 6
                     },
                     "DIVINE": {
                         "texts": [
-                            "ACTION TEXT"
+                            "Disable it with status effects!",
+                            "Ward away its attacks!",
+                            "Banish it back to the elemental planes!"
                         ],
                         "value": 8
                     },
                     "PHYSICAL": {
                         "texts": [
-                            "ACTION TEXT"
+                            "Chop it into a puddle!",
+                            "Break its attacks on your shield!",
+                            "It bleeds water; slice it open!"
                         ],
                         "value": 8
                     }
@@ -3062,855 +3057,452 @@
             },
             "events": [
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-1",
+                    "name": "Crossfire Trap",
+                    "descriptions": [
+                        "If one arrow trap is good, multiple arrow traps is even better.",
+                        "Arrow traps: Why stop at just one?",
+                        "Whoever built this must have gotten a bulk order discount on arrow traps."
+                    ],
+                    "flavor": [
+                        "\"And they laughed when I tried to learn how to dual-wield tower shields.\" -- Talrath"
+                    ],
                     "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Take the hit.",
+                                "Take the hits.",
+                                "Run through."
                             ],
                             "value": 2
                         },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Block the arrows.",
+                                "Deflect the arrows.",
+                                "Dodge, block, and run."
                             ],
                             "value": 3
                         }
-                    },
-                    "name": "EVENT #2-1"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-2",
+                    "name": "Ceiling Spear Trap",
+                    "descriptions": [
+                        "Because dungeon adventurers always forget to look up.",
+                        "Because everyone is so afraid of floor traps, they never look up.",
+                        "A sudden and pointed reminder to look up, too."
+                    ],
+                    "flavor": [
+                        "\"See, dat's just karma for all those short jokes.\" -- Wyatt"
+                    ],
                     "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Take the hit."
                             ],
                             "value": 2
                         },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Block the spear.",
+                                "Parry the spear.",
+                                "Break it when it comes out."
                             ],
                             "value": 3
                         }
-                    },
-                    "name": "EVENT #2-2"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-3",
+                    "name": "Statue Trap",
+                    "descriptions": [
+                        "Attempting to search this statue for traps will make it take a swing at you.",
+                        "The statue has a real sword because it swings at you as you go past.",
+                        "A statue of an armed warrior that clobbers adventurers who pass by it."
+                    ],
+                    "flavor": [
+                        "\"Some prankster set this up. I'd know, we've got fifty of them at the temple.\" -- Erdan"
+                    ],
                     "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Take the hit."
                             ],
                             "value": 2
                         },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Block the swing.",
+                                "Break the statue.",
+                                "Parry the attack."
                             ],
                             "value": 3
                         }
-                    },
-                    "name": "EVENT #2-3"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-4",
+                    "name": "Rune of Fire",
+                    "descriptions": [
+                        "Setting things on fire: The cause of, and solution to, arcane problems everywhere.",
+                        "Triggered trap causes sudden gouts of fire. An arcane classic.",
+                        "A blast of fire assails your party. A requirement for all dungeons over level 1."
+                    ],
+                    "flavor": [
+                        "\"Good scribing. Proper triggering. Potent infusion. Solid B+.\" -- Marty"
+                    ],
                     "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "ARCANE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Disarm the rune.",
+                                "Dispel the rune.",
+                                "Negate the rune."
                             ],
                             "value": 3
                         },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Take the hit."
                             ],
                             "value": 2
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-4"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-5",
+                    "name": "Rune of Ice",
+                    "descriptions": [
+                        "Intended for air conditioning, the mage who made it was from the Great Northern Wildlands, and he likes it cold.",
+                        "Perfect for making ice cubes, preserving meat, and freezing adventurers in their tracks.",
+                        "This rune sends a chill blast of icy wind over your party, which wouldn't be so bad in in the summer."
+                    ],
+                    "flavor": [
+                        "\"Look, YOU might be from some frozen wasteland, but some of us would prefer not to become icicles.\" -- Hodge"
+                    ],
                     "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "ARCANE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Disarm the rune.",
+                                "Dispel the rune.",
+                                "Negate the rune."
                             ],
                             "value": 3
                         },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "It's not THAT cold.",
+                                "Take the hit.",
+                                "Bundle up and take the hit."
                             ],
                             "value": 2
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-5"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-6",
+                    "name": "Rune of Electricity",
+                    "descriptions": [
+                        "This nefarious rune is invisible to the naked eye - but it buzzes audibly when you approach.",
+                        "Although you can't see this rune, you can hear a loud electrical buzz when you get close.",
+                        "This rune buzzes with the electrical energy it wants to discharge into you, which is good because you can't see it."
+                    ],
+                    "flavor": [
+                        "\"That sound? Oh, it's just 3,000 volts waiting to zap you. Standard dungeon fare.\" -- Eleri"
+                    ],
                     "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "ARCANE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Dispel the rune.",
+                                "Negate the rune.",
+                                "Disarm the rune."
                             ],
                             "value": 3
                         },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Take the hit."
                             ],
                             "value": 2
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-6"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-7",
+                    "name": "Life Drain Crystal",
+                    "descriptions": [
+                        "These are used by both Evil Cults and by Medical Professionals to collect large quantities of life force for transfer.",
+                        "Evil Cults use these all the time for their rituals; Medical Professionals use them to heal life drain effects.",
+                        "These terrifying crystals drain the life of those nearby for later transfer. A common tool of Evil Cults and Medical Professionals."
+                    ],
+                    "flavor": [
+                        "\"No, I will not go first. Contrary to popular belief, I do, in fact, have a soul.\" -- The Formless"
+                    ],
                     "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Run past it.",
+                                "Run past quickly."
                             ],
                             "value": 2
                         },
                         "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Ward against life drain.",
+                                "Out-heal the damage.",
+                                "Destroy the crystal's magic source."
                             ],
                             "value": 3
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-7"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-8",
+                    "name": "Miniature Hell Portal",
+                    "descriptions": [
+                        "It's only the size of a fist - and a demonic fist will swipe at you as you go past.",
+                        "This fist-sized portal seems innocuous, until a demonic fist smashes you when you walk by.",
+                        "About the size of a fist, this rift in the planes allows demons to punch passing adventurers."
+                    ],
+                    "flavor": [
+                        "\"Lazy demons use these. Saves them having to actually come to the material plane.\" -- Mulcahy"
+                    ],
                     "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Take the hit.",
+                                "Run past.",
+                                "It can't hit that hard."
                             ],
                             "value": 2
                         },
                         "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Dispel the portal.",
+                                "Banish the portal.",
+                                "Send some divine energy through the portal."
                             ],
                             "value": 3
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-8"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-9",
+                    "name": "Eldritch Tentacle",
+                    "descriptions": [
+                        "If this is just one appendage, it would suck to fight the rest of the Thing it's attached to.",
+                        "It could be worse, you could be fighting the rest of the Thing this tentacle belongs to.",
+                        "An unpleasant fight, but at least you're not fighting the owner of the tentacle."
+                    ],
+                    "flavor": [
+                        "\"If you cut off a piece, give it to me. Eldritch Calamari is a valuable delicacy.\" -- Uharo"
+                    ],
                     "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Take the hit.",
+                                "Take the slap."
                             ],
                             "value": 2
                         },
                         "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Banish the tentacle.",
+                                "Dispel the portal the tentacle is coming from.",
+                                "Purify the tentacle to back where it came from."
                             ],
                             "value": 3
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-9"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-10",
+                    "name": "Spring-Loaded Pressure Plate",
+                    "descriptions": [
+                        "Launches you into the ceiling at high speed. Multiple times, if you fall back down onto it.",
+                        "The strongly-wound spring will launch even the fighter in plate mail into the ceiling.",
+                        "The only hint to this pressure plate's existence is the cracks in the ceiling it will launch you into."
+                    ],
+                    "flavor": [
+                        "\"These aren't so bad in a dungeon with higher ceilings.\" -- Kirak"
+                    ],
                     "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "STEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Locate and go around the trap.",
+                                "Find the plate and go around it.",
+                                "Search for the trap and get past."
                             ],
                             "value": 3
                         },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Take the hit.",
+                                "Send someone with a helmet in front."
                             ],
                             "value": 2
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-10"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-11",
+                    "name": "Concealed Pit Trap",
+                    "descriptions": [
+                        "Any pit trap can be improved with a flimsy cover. In this case, it's paper-thin floor tiles that shatter when stepped on.",
+                        "Also known as the Level 2 Pit Trap, upgraded with a flimsy cover designed to look like the floor tiles around it.",
+                        "Are your pit traps too easily avoided? With a pit trap cover (only 250 gold pieces!) you can catch 75% more adventurers, guaranteed!"
+                    ],
+                    "flavor": [
+                        "\"What th- whaaaaaagh! ...hey, I found a covered pit trap!\" -- Narius"
+                    ],
                     "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "STEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Locate the trap.",
+                                "Find and avoid the trap.",
+                                "Uncover the pit."
                             ],
                             "value": 3
                         },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Find the pit the hard way."
                             ],
                             "value": 2
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-11"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-12",
+                    "name": "Mithril Caltrops",
+                    "descriptions": [
+                        "The only reason to make caltrops of mithril is to show adventurers that they're dealing with a high-class villain.",
+                        "Finding these in a dungeon is how you know you're not dealing with a run-of-the-mill antagonist.",
+                        "Only the classiest of dungeon lords sees fit to outfit his lair with caltrops of this stature."
+                    ],
+                    "flavor": [
+                        "\"If we weren't in such a hurry, I'd totally steal and resell these. Or melt them down.\" -- Talon"
+                    ],
                     "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "STEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Pick a path through the caltrops.",
+                                "Find a way around the caltrops.",
+                                "Find a way through the caltrops."
                             ],
                             "value": 3
                         },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Suck it up and walk across.",
+                                "Deal with it.",
+                                "Ignore the spikiness."
                             ],
                             "value": 2
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-12"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-13",
+                    "name": "Bear Trap",
+                    "descriptions": [
+                        "Don't forget that this is a fantasy setting, so it also works on owlbears, chimeras, and wildshaped druids.",
+                        "This formidable trap is a staple of dungeons the world over and is the bane of bears and bearshaped druids alike.",
+                        "Spring-loaded steel jaws designed to immobilize large creates, like bears, small dragons, and shapeshifted druids."
+                    ],
+                    "flavor": [
+                        "\"Hold it! Unless you were looking to get a peg leg, stay away from there...\" -- Lyndra"
+                    ],
                     "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Disarm the trap.",
+                                "Set off the trap safely.",
+                                "Move the trap safely."
                             ],
                             "value": 3
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Take the hit.",
+                                "You're wearing greaves, it'll be fine, right?"
                             ],
                             "value": 2
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-13"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-14",
+                    "name": "Mechanical Spike Trap",
+                    "descriptions": [
+                        "They extend, they retract, they extend, they retract. And then they alter the timing after a while just to mess you up.",
+                        "These spikes extend and retract on a pattern. And just when you think you have the pattern figured out, it changes.",
+                        "Although these spikes extend and retract on a pattern, it changes as soon as you think you've got it down."
+                    ],
+                    "flavor": [
+                        "\"Hey, I filed a patent on a trap like this! Some no-good thief is stealing my designs!\" -- Davey"
+                    ],
                     "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Disarm the trap.",
+                                "Jam the mechanism.",
+                                "Disable the trap."
                             ],
                             "value": 3
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Run across.",
+                                "Run for it.",
+                                "Rush across."
                             ],
                             "value": 2
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-14"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-15",
+                    "name": "Dwarven Crossbow Turret",
+                    "descriptions": [
+                        "The dwarves never figured out friend/foe recognition, so it just shoots anything that moves.",
+                        "A handy turret that only has the flaw of being unable to identify friendlies, thus shooting at everything.",
+                        "Although a marvel of dwarven engineering, it shoots at anyone and everyone nearby, enemy or not. A major flaw, that."
+                    ],
+                    "flavor": [
+                        "\"Ugh, these things. Do you have any idea how hard it is to make the sales pitch for them?\" -- Uharo"
+                    ],
                     "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Disarm the turret.",
+                                "Disable the turret.",
+                                "Jam the turret."
                             ],
                             "value": 3
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Run past.",
+                                "It only has a finite amount of ammo, right?",
+                                "Dash past quickly."
                             ],
                             "value": 2
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-15"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-16",
+                    "name": "Pushable Block Puzzle",
+                    "descriptions": [
+                        "At least whoever built this had the decency to include a reset button.",
+                        "A staple of dungeons everywhere, made more tolerable with a built-in reset button.",
+                        "Build your muscles and brains with this classic dungeon element. Now with a reset button included!"
+                    ],
+                    "flavor": [
+                        "\"Vikari is bored. When can Vikari get back to crushing tiny men's skulls against wall?\" -- Vikari"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
@@ -3918,828 +3510,433 @@
                             ],
                             "value": 2
                         },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "texts": [
                                 "ACTION TEXT"
                             ],
                             "value": 3
                         }
-                    },
-                    "name": "EVENT #2-16"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-17",
+                    "name": "Portcullis",
+                    "descriptions": [
+                        "The mechanism is broken, so someone will have to muscle up and lift it.",
+                        "The chain to raise it is broken, so you'll have to just lift the thing manually.",
+                        "Unfortunately the mechanism is busted, so you'll have to force it open."
+                    ],
+                    "flavor": [
+                        "\"Who uses a portcullis indoors anyway? Doors are better; you can kick 'em in for a dynamic entry!\" -- Rick"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Pool together and stuggle to lift it up.",
+                                "Find a way around.",
+                                "Give up and find another path."
                             ],
                             "value": 2
                         },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Lift the portcullis.",
+                                "Haul the portcullis up.",
+                                "Smash the portcullis."
                             ],
                             "value": 3
                         }
-                    },
-                    "name": "EVENT #2-17"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-18",
+                    "name": "Over-Barricaded Door",
+                    "descriptions": [
+                        "There's practically two doors' worth of wood here.",
+                        "Someone has used enough boards and nails on this door to make a small shack.",
+                        "Somewhere, underneath layers of boards nailed around the frame, is a door."
+                    ],
+                    "flavor": [
+                        "\"I really hope this isn't keeping some horrible monster trapped on the other side.\" -- Dresbin"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Find a way around.",
+                                "Go another way.",
+                                "Pull the boards off slowly."
                             ],
                             "value": 2
                         },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Rip the boards off.",
+                                "Smash the boards.",
+                                "Break through the boards and the door."
                             ],
                             "value": 3
                         }
-                    },
-                    "name": "EVENT #2-18"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-19",
+                    "name": "Rune of Fun",
+                    "descriptions": [
+                        "The ultimate delaying tactic, since time flies when you're having fun.",
+                        "An insidious rune that makes you oblivious to the passing of time through distraction.",
+                        "Not only will you waste precious time, you'll enjoy doing it, too!"
+                    ],
+                    "flavor": [
+                        "\"No, we can't stay 'just a bit longer'! We have a country to save!\" -- Laurie"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Just one more round...",
+                                "Just five more minutes...",
+                                "Just a bit longer..."
                             ],
                             "value": 2
                         },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "ARCANE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Dispel the rune.",
+                                "Count with a Rune of No Fun.",
+                                "Negate the rune."
                             ],
                             "value": 3
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-19"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-20",
+                    "name": "Teleportation Trap",
+                    "descriptions": [
+                        "Hope you really liked those last few rooms, because you'll be seeing them again real soon.",
+                        "If you missed anything in the last few rooms, you'll get a chance to check them again in a moment.",
+                        "Set off this trap and you'll be getting an instant replay of the last few rooms you went through."
+                    ],
+                    "flavor": [
+                        "\"What's worse, the architecture of this place all looks the same, so it's hard to know if you triggered the trap.\" -- Marty"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Trigger it and run back.",
+                                "Just set it off and run back.",
+                                "Set it off, then quickly return here."
                             ],
                             "value": 2
                         },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "ARCANE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Dispel the trap.",
+                                "Negate the trap.",
+                                "Use a stasis field to counter the trap."
                             ],
                             "value": 3
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-20"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-21",
+                    "name": "Slow Motion Rune",
+                    "descriptions": [
+                        "Everything is going to be very dramatic for a little bit if you set this off.",
+                        "Slows down you and everything you in your vicinity, and distorts sound so everything is baritone.",
+                        "Gives you an extended period of Arrow Time to either pull off epic dodges, or embarrass yourself terribly."
+                    ],
+                    "flavor": [
+                        "\"On the plus side, it'll increase your reaction times for a while. ...technically.\" -- Tavila"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Deal with it.",
+                                "Trigger the rune.",
+                                "Ssslllooowww mmmoootttiiiooonnn?"
                             ],
                             "value": 2
                         },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "ARCANE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Dispel the rune.",
+                                "Negate the rune.",
+                                "Cancel the rune with Haste."
                             ],
                             "value": 3
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-21"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-22",
+                    "name": "Riddle Demon",
+                    "descriptions": [
+                        "Solve his puzzle and win a prize! The prize is getting to keep all of your blood.",
+                        "Answer the riddle correctly and your internal organs will remain internal.",
+                        "This ungodly powerful demon enjoys puzzles. Answer one and he won't vaporize you where you stand."
+                    ],
+                    "flavor": [
+                        "\"This will be easy. The thieves' guild loves giving these kinds of puzzles during interviews.\" -- Kirak"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Solve the riddle.",
+                                "Answer the puzzle.",
+                                "Double- and triple-check to make sure it's the right answer."
                             ],
                             "value": 2
                         },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Ask the gods for the answer.",
+                                "Petition your patron deity for the answer.",
+                                "Ask a knowledgable deity for the answer."
                             ],
                             "value": 3
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-22"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-23",
+                    "name": "Lonely Ghost",
+                    "descriptions": [
+                        "It has a tragic story of how it came to haunt this dungeon, and just wants you to stay and listen to it.",
+                        "It's going to force you to sit there and listen to its sob story of why it's in this dungeon.",
+                        "It sealed the doors and extinguished most of the lights so that you have to listen to its tragic backstory."
+                    ],
+                    "flavor": [
+                        "\"Why does every deceased spirit feel the need to tell its life story?\" -- Lyndra"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Wait and listen.",
+                                "Listen, since you don't have a choice.",
+                                "Wait for it to finish."
                             ],
                             "value": 2
                         },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Banish the ghost.",
+                                "Smite the ghost.",
+                                "Make the ghost feel better so it lets you go."
                             ],
                             "value": 3
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-23"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-24",
+                    "name": "Idle Zombie Champion",
+                    "descriptions": [
+                        "Its master was killed, so it's just standing here. Unfortunately, it's right in your way, and it's wearing fullplate.",
+                        "This giant armored zombie is completely motionless, since its master was killed. However, it's blocking the doorway.",
+                        "A massive zombie in fullplate blocks the door. Its master is dead, so it won't move at all, which means it's still a problem."
+                    ],
+                    "flavor": [
+                        "\"This is why I always program my golems with a default location to ransack. Incidentally, it is my rival's estate.\" -- Avaris"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Go around.",
+                                "Find a way around.",
+                                "Climb over it."
                             ],
                             "value": 2
                         },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Turn Undead at it.",
+                                "Rebuke it so it runs away.",
+                                "Smite it so it moves away."
                             ],
                             "value": 3
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-24"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-25",
+                    "name": "Circular Labyrinth",
+                    "descriptions": [
+                        "Every single passage is curved, which serve only to make it all the more disorientating.",
+                        "Every last passage curves and makes this maze more confusing than a linear equivalent.",
+                        "All the walls are curved, which makes this labyrinth more of a pain than usual."
+                    ],
+                    "flavor": [
+                        "\"Even when you're not lossst, you ssstill end up walking in circlesss!\" -- Mardak"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Brute-force it.",
+                                "Stumble through.",
+                                "Keep trying passages until you get through."
                             ],
                             "value": 2
                         },
                         "STEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Solve the labyrinth.",
+                                "Map it and find the right path.",
+                                "Solve the maze."
                             ],
                             "value": 3
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-25"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-26",
+                    "name": "Trick Staircase",
+                    "descriptions": [
+                        "Transforms itself into a slide if you stand on the wrong steps. Wheeeeeeee!",
+                        "One foot on the wrong step, and you're going to slide all the way back down to the bottom.",
+                        "Some stairs are trapped to turn the whole staircase into a slide, so step carefully."
+                    ],
+                    "flavor": [
+                        "\"Sure, it sounds fun, right up until you land on the guy in spiked armor.\" -- Talon"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Wheeeeeeeeee!",
+                                "Whoaaaaaaaaa!",
+                                "Guess that was the wrong staaaaaaaair!"
                             ],
                             "value": 2
                         },
                         "STEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Find the right path up.",
+                                "Find the path up the stairs.",
+                                "Locate and avoid the trapped steps."
                             ],
                             "value": 3
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-26"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-27",
+                    "name": "Tar Trap",
+                    "descriptions": [
+                        "It'll dump a bucket of feathers on you afterwards, just to add insult to injury.",
+                        "Not only is it really disgusting, it takes FOREVER to get off of your gear.",
+                        "Comes with a complimentary feather trap that shares the same trigger."
+                    ],
+                    "flavor": [
+                        "\"You think you have it tough? Imagine trying to get tar out of the joints of plate armor.\" -- Talrath"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Eugh, it's in my hair!",
+                                "Ick, it's all over my clothes!",
+                                "Get it off, get it off!"
                             ],
                             "value": 2
                         },
                         "STEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Sneak around the trap.",
+                                "Avoid the trap trigger.",
+                                "Locate and avoid the trap."
                             ],
                             "value": 3
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-27"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-28",
+                    "name": "Suspiciously Panelled Corridor",
+                    "descriptions": [
+                        "One of these uniformly sized and spaced wall panels must be a secret door, but which is it?",
+                        "The fact that this corridor is lined with a series of identical wall panels means one MUST be a secret door.",
+                        "The only possible reason there are wall panels here instead of rough stone is that one of them is a secret door."
+                    ],
+                    "flavor": [
+                        "\"If it turns out that these are all actual wall panels, I am going to kill the dungeon architect.\" -- Eleri"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Check all of them.",
+                                "Knock on all the panels.",
+                                "Pull every panel until one moves."
                             ],
                             "value": 2
                         },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Locate the secret door.",
+                                "Determine the secret door's location.",
+                                "Quickly find and open the secret door."
                             ],
                             "value": 3
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-28"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #2-29",
-                    "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 2
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 3
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        }
-                    },
-                    "name": "EVENT #2-29"
-                },
-                {
+                    "name": "Balancing Scale Puzzle",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "One of the more difficult ones, these weights have fractional values and come in two different measuring systems.",
+                        "This tricky puzzle has weights of mixed measuring systems, so here's hoping you can do conversions.",
+                        "Annoyingly enough this puzzle's gimmick has weights of fractional values and multiple measurement systems."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"How many 2nd Century Pounds are in a 10 Century Kiloaum, again...?\" -- Asira"
                     ],
-                    "id": "EVENT #2-30",
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Brute force the puzzle.",
+                                "Trial and error the solution.",
+                                "Keep trying stuff until it's solved."
                             ],
                             "value": 2
                         },
-                        "STEALTH": {
+                        "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Calculate the solution.",
+                                "'Adjust' the scale to the correct value.",
+                                "Determine the proper solution."
                             ],
-                            "value": 0
-                        },
-                        "ARCANE": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
+                    "id": "EVENT #2-30",
+                    "name": "Circuitboard Puzzle",
+                    "descriptions": [
+                        "Hope you remember how logic gates work, or you'll be at this for a while.",
+                        "Yes, it is a bit of an anachronism, but since when did that ever get in the way of a good puzzle?",
+                        "Binary logic has been around forever, allowing formal logic and obtuse puzzles to be created."
+                    ],
+                    "flavor": [
+                        "\"What the hell is an XNAND supposed to be? Are we sure this uses binary logic?\" -- Solo"
+                    ],
+                    "resources": {
+                        "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Brute force the puzzle.",
+                                "Keep trying stuff until it works.",
+                                "Solve through trial and error."
                             ],
-                            "value": 0
+                            "value": 2
                         },
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Calculate the solution.",
+                                "Work out the solution.",
+                                "Solve the puzzle properly."
                             ],
                             "value": 3
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #2-30"
+                    }
                 }
             ],
             "monsters": [
