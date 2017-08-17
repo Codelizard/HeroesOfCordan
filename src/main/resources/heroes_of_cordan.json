@@ -2421,20 +2421,8 @@
                         "\"A bloodstained trophy just isn't the same when you didn't spill that blood yourself.\" -- Hodge"
                     ],
                     "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
                         "ARCANE": {
                             "value": 2
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
                     }
                 },
@@ -2501,20 +2489,8 @@
                         "\"It's just like how animals try to look big to scare foes, except you're doing it to demons.\" -- Ralford"
                     ],
                     "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
                         "DIVINE": {
                             "value": 2
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
                     }
                 },
@@ -2564,20 +2540,8 @@
                         "\"Hand that here, I have some trail rations stuck in my teeth I need to pick out.\" -- Tal'akh"
                     ],
                     "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
                         "STEALTH": {
                             "value": 2
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
                     }
                 },
@@ -4685,584 +4649,345 @@
         "3": {
             "equipment": [
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #3-1",
+                    "name": "Flaming Longsword",
+                    "descriptions": [
+                        "Comes with an asbestos sheath to stop your pants from catching fire when you're not using it.",
+                        "Also comes with an asbestos sheath so that it doesn't set your pants on fire.",
+                        "As a bonus, it comes in an asbestos sheath, so you don't need to wear fireproof pants."
+                    ],
+                    "flavor": [
+                        "\"These things are great for killing hydras, fighting trolls, and cutting potatoes.\" -- Karth"
+                    ],
                     "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 3
                         }
-                    },
-                    "name": "EQUIPMENT #3-1"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #3-2",
+                    "name": "Animated Shield",
+                    "descriptions": [
+                        "Ever wanted to have a shield and a two-handed weapon without playing some exotic species? Now you can!",
+                        "Is one shield not enough for you? Now you can have a second, hands-free one!",
+                        "Have you wanted to use a shield, but aren't proficient? This shield wields itself!"
+                    ],
+                    "flavor": [
+                        "\"The real question is, can they be dual-wielded?\" -- Mac"
+                    ],
                     "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 3
                         }
-                    },
-                    "name": "EQUIPMENT #3-2"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #3-3",
+                    "name": "Bow of True Flight",
+                    "descriptions": [
+                        "The medieval aimbot.",
+                        "Not all elves are good archers; some of them are just determined cheaters.",
+                        "Also known as the bow of \"those elves are cheating again\"."
+                    ],
+                    "flavor": [
+                        "\"It's not cheating! You just don't know how to dodge properly.\" -- Dresbin"
+                    ],
                     "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 3
                         }
-                    },
-                    "name": "EQUIPMENT #3-3"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #3-4",
+                    "name": "Repeating Crossbow",
+                    "descriptions": [
+                        "Did I fire four shots or five? Well to tell you the truth, in all this excitement, I kind of lost track myself...",
+                        "No longer will you have to carry multiple crossbows to make multiple attacks in a round!",
+                        "It beats having five crossbows hanging off your belt."
+                    ],
+                    "flavor": [
+                        "\"Unfortunate that it requires a proprietary design of crossbow bolt, though.\" -- Avaris"
+                    ],
                     "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 3
                         }
-                    },
-                    "name": "EQUIPMENT #3-4"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #3-5",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 3
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #3-5"
-                },
-                {
+                    "name": "Pointy Rune-Covered Staff",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "...okay, it's a spear, but it's a spear adorned with magic runes that enhance your spells, so don't complain.",
+                        "Yes, it's actually a spear, but it enhances spell power and isn't that good for stabbing.",
+                        "Sure, it's a spear. It's ceremonial and useless as a weapon, but the runes on it enhance magical spells."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"This is an old caster's trick, it makes us look intimidating. And less like squishy wizards.\" -- Tavila"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #3-6",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 3
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #3-6"
-                },
-                {
+                    "name": "The War Mage's Compendium",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Packed full of ways to cause magical destruction, each more exciting than the last.",
+                        "With each page, you can discover a new, even more exciting way to blow things up.",
+                        "I bet you thought there were only a few ways to set something on fire. This book proves otherwise."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Is that a First Edition? Don't let Uharo see it, I want that for my collection.\" -- Laurie"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #3-7",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 3
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #3-7"
-                },
-                {
+                    "name": "Robes of Protection",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Emblazoned with runes and sigils, it shields even the most excessive mage from the backblast of their own spells.",
+                        "An essential for overzealous sorcerors everywhere, it mostly protects the user from their own spells.",
+                        "Complimenting a 'bigger is better' philosophy, one of the robes' features is protection from the caster's own area spells."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Perfect, now my fireballs don't need to have a minimum range on them any more.\" -- Eleri"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #3-8",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 3
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #3-8"
-                },
-                {
+                    "name": "Amulet of Magic Ability",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Increases the user's Intelligence, Wisdom, and Charisma, just to cover all the bases.",
+                        "Increases your Magic stats, whether you have them or not.",
+                        "Boosts every magic-related stat, even those used by other systems."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"What are 'Psi Points', and why do I suddenly have them now?\" -- Bradley"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #3-9",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 3
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #3-9"
-                },
-                {
+                    "name": "Silver Holy Symbol",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Pure, 100% silver. This makes it both extremely holy, and very malleable, so don't grip it too hard.",
+                        "Pure silver is both incredibly holy and a highly soft metal, so don't squeeze it during prayer.",
+                        "Not just silver-plated, but entirely made out of silver. Equal parts holy and malleable so don't clutch it too hard."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"See, if you surface folk had the sense, you'd make holy symbols from iron like we do.\" -- Erdan"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #3-10",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 3
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #3-10"
-                },
-                {
+                    "name": "Brightly Glowing Armor",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Radiates a divine light upon your surroundings, scaring nearby demons and attracting the attention of everything else.",
+                        "Emits a pure light that terrifies demons and paints you as a target for everything else in the dungeon.",
+                        "Glowing with holy power, this armor scares off demons and attracts monsters that collect shiny things."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Neville, can you turn down the brightness on your armor, please?\" -- Siebel"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #3-11",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 3
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #3-11"
-                },
-                {
+                    "name": "Encyclopaedia Divinity",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "This gilded tome contains trivia on every deity of every nation and species. It also weighs about sixty pounds.",
+                        "Guaranteed to ensure you pass every Knowledge: Religion check, and also guaranteed to make you encumbered.",
+                        "Pro: You'll always be able to answer Religion-related questions. Con: It weighs as much as two cinderblocks."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"If... I don't make it... then... make Hodge carry this... for laughing at me.\" -- Mulcahy",
+                        "\"Don't laugh... or I'll... drop this thing... on your head.\" -- Mulcahy"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #3-12",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 3
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #3-12"
-                },
-                {
+                    "name": "Holy Grail",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Not *the* Holy Grail, of course, just *a* Holy Grail, cast in the likeness of the original by knights tired of having to go fetch it all the time.",
+                        "Not the real thing, but it's an expensive imitation made with real gold, jewels, and unspecified holiness.",
+                        "It's not the real Holy Grail, but it's still a grail of modest holiness and monetary value."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Eh, close enough. The secret to eternal youth wouldn't be much help in this dungeon, anyway.\" -- Solo"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #3-13",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 3
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #3-13"
-                },
-                {
+                    "name": "Archaeologist's Fedora",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Guaranteed to stay on your head while fleeing from rolling boulders and riding minecarts.",
+                        "Will stay on your head even while you are swimming in water or plummetting down a pit.",
+                        "Sure to remain on your head no matter how much backtracking or obtuse puzzle-solving you have to do."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Isn't this supposed to come with a whip?\" -- Narius"
                     ],
+                    "resources": {
+                        "STEALTH": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #3-14",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 3
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #3-14"
-                },
-                {
+                    "name": "Badass Longcoat",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Wear this, and your enemies will know that you really mean business.",
+                        "Because you can never have too many pockets.",
+                        "If you don't want to go the Dramatically Billowing Cloak route, this is an excellent alternative."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Sometimes it's just as much about looking the part as it is acting it.\" -- The Formless"
                     ],
+                    "resources": {
+                        "STEALTH": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #3-15",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 3
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #3-15"
-                },
-                {
+                    "name": "Shoes of Silence",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Won't scuff, squeak, thud, clomp, or any other form of onomatopaeia.",
+                        "Muffles the sound of footsteps, squeaky shoes, and the sound of you kicking a door in.",
+                        "Silences your footsteps, but as a trade-off, causes all tap-dancing checks to automatically fail."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"They're not in my sssize... I'll get blissstersss!\" -- Mardak"
                     ],
+                    "resources": {
+                        "STEALTH": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #3-16",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 3
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #3-16"
-                },
-                {
+                    "name": "Hollowed-out Boulder",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "As long as nobody sees the boulder grow legs and start to tiptoe around, it's the perfect disguise.",
+                        "Cardboard boxes are too obvious in a dungeon, so hide under a boulder instead.",
+                        "Just make sure nobody's looking when you tiptoe around while hiding under it, and you'll be fine."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Oh, hey, 'dis beats the paper bag for covering up Tal'akh's ugly mug.\" -- Wyatt"
                     ],
+                    "resources": {
+                        "STEALTH": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #3-17",
+                    "name": "Grey Adhesive Tape",
+                    "descriptions": [
+                        "This tough roll of a long adhesive strip seems surprisingly useful, somehow.",
+                        "It's just a gray strip covered with adhesive, and yet, you feel you could accomplish so much with it.",
+                        "The complement to any crafting project. If the dwarves don't find you handsome, they can at least find you handy.."
+                    ],
+                    "flavor": [
+                        "\"Ah, perfect. The artificer's secret weapon, its usefulness is limited only by one's imagination.\" -- Avaris"
+                    ],
                     "resources": {
                         "MECHANICAL": {
                             "value": 3
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "EQUIPMENT #3-17"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #3-18",
+                    "name": "Masterwork Modular Screwdriver",
+                    "descriptions": [
+                        "It comes with tips for every type of screw in existence, even the discontinued decalobular screws.",
+                        "Has tips for every screw used in Cordan, even the ones only the Smith On The Mountain uses.",
+                        "Guaranteed to have a screw bit for every type of screw in Cordan, even the Artificer's Guild patented ones."
+                    ],
+                    "flavor": [
+                        "\"It's even got the head for those pentalobe screws only used for the Lich King's bone golems!\" -- Erdan"
+                    ],
                     "resources": {
                         "MECHANICAL": {
                             "value": 3
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "EQUIPMENT #3-18"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #3-19",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 3
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #3-19"
-                },
-                {
+                    "name": "Artificer's Monocle",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Its only special feature is that it can zoom in, but damned if it doesn't make you look suave.",
+                        "Though its only ability is that it can magnify what you look at, it makes you look refined as well.",
+                        "Its primary ability is to make you look sophisticated. Its secondary ability is to a zoom function."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Man, artificers get all the good-looking gear.\" -- Rick"
                     ],
-                    "id": "EQUIPMENT #3-20",
                     "resources": {
                         "MECHANICAL": {
                             "value": 3
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "EQUIPMENT #3-20"
+                    }
+                },
+                {
+                    "id": "EQUIPMENT #3-20",
+                    "name": "Bag of Bits and Pieces",
+                    "descriptions": [
+                        "Can produce any small screw, nut, washer, or other mechanical part, as long as it's not patented by the Elven Council.",
+                        "Think of a screw, nut, washer, or other mechanical piece, and this bag will produce it for you, unless it's patented.",
+                        "Always has the exact tiny part you were looking for, but be prepared to rummage past innumerable other bits to find it."
+                    ],
+                    "flavor": [
+                        "\"Word of advice - don't try and pull a magnet out of the bag. Trust me.\" -- Davey"
+                    ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "value": 3
+                        }
+                    }
                 }
             ],
             "consumables": [
