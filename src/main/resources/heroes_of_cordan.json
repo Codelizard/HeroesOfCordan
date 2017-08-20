@@ -4992,644 +4992,344 @@
             ],
             "consumables": [
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #3-1",
+                    "name": "Boom-erang",
+                    "descriptions": [
+                        "Explodes when it hits something, so don't miss, because you don't want this returning to you.",
+                        "Easy to throw, but make sure you don't miss and have it come back because it explodes on contact.",
+                        "Easily thrown, explodes when it hits something - don't miss, because you don't want it returning."
+                    ],
+                    "flavor": [
+                        "\"I'm guessing it's a statement of confidence in the user's accuracy.\" -- Ralford"
+                    ],
                     "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 3
                         }
-                    },
-                    "name": "CONSUMABLE #3-1"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #3-2",
+                    "name": "Hollow-Point Javelin",
+                    "descriptions": [
+                        "The spearhead shatters inside the victim, causing additional damage. Is this good or bad construction? You decide!",
+                        "The point shatters when it hits the victim, which does extra damage but makes the javelin a single-use affair.",
+                        "This javelin deals extra damage by shattering inside the victim it strikes, which may or may not be intentional."
+                    ],
+                    "flavor": [
+                        "\"They're designed to do that? Here I thought Vikari was just throwing them too hard.\" -- Talrath"
+                    ],
                     "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 3
                         }
-                    },
-                    "name": "CONSUMABLE #3-2"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #3-3",
+                    "name": "Potion of Buffness",
+                    "descriptions": [
+                        "Makes you incedibly buff, albeit for a short time. Banned from Muscle Man competitions kingdom-wide.",
+                        "This tonic makes you extremely muscular temporarily, and thus has been banned from Muscle Man competitions.",
+                        "Gifts you with an impressive set of muscles. Banned from most competitions, so use it while you can."
+                    ],
+                    "flavor": [
+                        "\"If my muscles get as big as Vikari's, it's not going to make me start talking like him, right?\" -- Talon"
+                    ],
                     "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 3
                         }
-                    },
-                    "name": "CONSUMABLE #3-3"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #3-4",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 3
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #3-4"
-                },
-                {
+                    "name": "Fireball Bead",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "A potent magical throwable explosive, because wizards consider grenades too simplistic for their liking.",
+                        "A throwable, magical explosive. Not unlike a simple grenade, except it's way fancier.",
+                        "A throwable bead that explodes on impact. Wizards consider grenades too gauche, so they use these."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Of course they're better than a ball of gunpowder with a fuse that may or may not go off.\" -- Marty"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #3-5",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 3
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #3-5"
-                },
-                {
+                    "name": "Corrosive Bolt Wand",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Acid or alkali? If it eats through the flesh of your foes, does it really matter?",
+                        "Might be acid, might be alkali, but either way it does terrible things to exposed flesh.",
+                        "It doesn't matter if it shoots acid or alkaline bolts, because they both eat through flesh."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I feel like I should be wearing gauntlets if I want to use this wand.\" -- Laurie"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #3-6",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 3
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #3-6"
-                },
-                {
+                    "name": "Magic-Eating Critter",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "It can easily dispel or negate magical traps or enemies, but then gets too fat and curls up to nap for a few days.",
+                        "It's adorable, it interferes with magical traps or enemies, and it takes a two-day power nap afterwards.",
+                        "Cute enough to be a mascot, and effective against hostile magical effects, but sleeps for days to digest magic it eats."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Hallo! Is cute little critter! You want crush tiny men with Vikari? Yah? Yah! Hohoho, good critter.\" -- Vikari"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #3-7",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 3
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #3-7"
-                },
-                {
+                    "name": "Sacred Pearl",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Crushing it restores some divine power, and also makes the surrounding are smell of the seashore.",
+                        "You can crush it to recover divine power and give the area a beach-like scent.",
+                        "A multipurpose item; crushing it restores divine power, and acts like an air freshener. Sea Breeze scent!"
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Maybe I should save this for the next time we come across a room full of decomposing bodies.\" -- Narius"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #3-8",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 3
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #3-8"
-                },
-                {
+                    "name": "Holy Steak",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "It's made from Sacred Cows, of course.",
+                        "Chock-full of protein, iron, and divine energy. Definitely not sacrilige to eat.",
+                        "This is what happens to Sacred Cows who stop producing milk."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Keep your eyes out for some communion wine to wash this down with.\" -- Mulcahy"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #3-9",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 3
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #3-9"
-                },
-                {
+                    "name": "Sanctified Muffins",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Part of the leftovers from a nearby church's bake sale - but they never go stale.",
+                        "They never rot or go stale, but unless you're Lawful Good, they taste like dirt.",
+                        "Left over from a bake sale, they never go stale and the icing is always fresh."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I will have to find the recipe for these. They will greatly complement my tarts and pastries!\" -- Uharo"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #3-10",
+                    "name": "Scroll of Tinnitus",
+                    "descriptions": [
+                        "Causes nearby creatures to hear a ringing sound so annoying, they won't be able to focus on your foosteps.",
+                        "Subjects nearby enemies to a ringing sound so irritating they can't follow your footsteps even if they tried.",
+                        "Those in the area of effect will hear nothing but a high-pitched ringing sound. It's cruel but effective."
+                    ],
+                    "flavor": [
+                        "\"I got hit with one of these once. I almost wanted to stab by ears out.\" -- Tavila"
+                    ],
                     "resources": {
                         "STEALTH": {
                             "value": 3
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "CONSUMABLE #3-10"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #3-11",
+                    "name": "Wand of Darkness",
+                    "descriptions": [
+                        "It's not quite as good as invisibility, but the result is the same: nobody can see you.",
+                        "A substitute for invisibility as long as you don't run into someone with darkvision.",
+                        "Almost as good as invisibility, until you bump into something that can see in the dark."
+                    ],
+                    "flavor": [
+                        "\"I prefer these more for getting out over getting in, but that requires not tripping on furniture.\" -- Aria"
+                    ],
                     "resources": {
                         "STEALTH": {
                             "value": 3
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "CONSUMABLE #3-11"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #3-12",
+                    "name": "Potion of Inconspicuousness",
+                    "descriptions": [
+                        "Held in a plain, boring phial, drinking this potion will make you look just as plain and boring and not worth bothering with.",
+                        "This plain and boring potion will alter your appearance to make you look plain, boring, and forgettable.",
+                        "This potion seems so boring it's not worth your time. The effects of it do the same, giving you free reign to sneak around."
+                    ],
+                    "flavor": [
+                        "\"Nah, not for me. I'm so amazing that even this potion wouldn't be able to hide it.\" -- Bradley"
+                    ],
                     "resources": {
                         "STEALTH": {
                             "value": 3
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "CONSUMABLE #3-12"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #3-13",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 3
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #3-13"
-                },
-                {
+                    "name": "Schrödinger's Key",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "It simultaneously opens every door in the dungeon until you use it, at which point it only opens that one.",
+                        "It works on every door in the dungeon, until you use it, then it only works on that door.",
+                        "This key can open any door in the dungeon. But only the door that you first decide to use it on."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"This key is simultaneously in states of being extremely helpful and completely useless.\" -- Marty"
                     ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #3-14",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 3
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #3-14"
-                },
-                {
+                    "name": "Scroll of Detect Machinery",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Reveals any and all nearby traps, automatic doors, dwarven mechanisms, and dungeon cleaning constructs.",
+                        "Outlines any nearby traps, mechanical doors, constructs, and dungeon cleaning dwarfbots.",
+                        "Exposes the presence of mechanical traps, doors, and trapdoors."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"It only picks up functioning machinery, which doesn't help if you're trying to find what broke.\" -- Erdan"
                     ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #3-15",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 3
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #3-15"
-                },
-                {
+                    "name": "Scroll of Create Repair Manual",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "When used on a construct, transforms itself into a complete maintenance guide for it.",
+                        "Transforms into a complete maintenance manual for the target construct, with index and hardback cover.",
+                        "Generates a complete maintenance guide to the targeted construct. If none ever existed, the created one is signed."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"They ain't kidding when they say 'complete', by the way. Hope you know how to skim.\" -- Davey"
                     ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #3-16",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 3
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #3-16"
-                },
-                {
+                    "name": "Health Potion Concentrate",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "The label says to dilute before consumption, but why bother?",
+                        "You're supposed to dilute it first, but that hardly seems worth the time.",
+                        "Technically, you're meant to dilute it, but drinking it straight still works."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I'd rather swig a vial than have to chug a whole waterskin in the middle of combat.\" -- Mac"
                     ],
+                    "resources": {
+                        "HEALTH": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #3-17",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 3
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #3-17"
-                },
-                {
+                    "name": "Scroll of Mend Flesh",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "This energy-agnostic spell can heal living and undead alike, though it does tingle weirdly.",
+                        "This spell heals both living and undead alike through the power of something unspecified that makes your skin itch.",
+                        "Able to heal both living and undead, it's unknown what powers this scroll, just that the healing feels slimy."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"It works, but it feels almost as bad as when you get an itch on a limb that isn't there any more!\" -- Narius"
                     ],
+                    "resources": {
+                        "HEALTH": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #3-18",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 3
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #3-18"
-                },
-                {
+                    "name": "Potion of Great Heal",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "It has a normal healing effect, but it just happens to also make you feel great.",
+                        "So named not because of its potency, but because it leaves you feeling great.",
+                        "The healing effect is average but it leaves you feeling great afterwards."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Maybe I should serve these to my patrons, might make some of them less grumpy. Maybe.\" -- Karth"
                     ],
+                    "resources": {
+                        "HEALTH": {
+                            "value": 3
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #3-19",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 3
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #3-19"
-                },
-                {
+                    "name": "Elven Poultice",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Uses a secret recipe of 11 different herbs, but its effectiveness is undeniable.",
+                        "Uses so many different herbs it almost seems like it's for culinary purposes at first.",
+                        "Made of 11 different herbs, not to be confused with the OTHER elven secret that involves 11 herbs and spices."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"And keep in mind... plant sap smells far better than a festering wound.\" -- Asira"
                     ],
-                    "id": "CONSUMABLE #3-20",
                     "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
                         "HEALTH": {
                             "value": 3
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "CONSUMABLE #3-20"
+                    }
+                },
+                {
+                    "id": "CONSUMABLE #3-20",
+                    "name": "Wand of Minor Cure",
+                    "descriptions": [
+                        "Small heal multiplied by lots of charges equals pretty decent heal.",
+                        "It doesn't heal for much but it has 50 charges left, so it evens out.",
+                        "Tiny heal x many charges = moderate heal. Just keep poking until the wand is spent."
+                    ],
+                    "flavor": [
+                        "\"And I can use it in combat, if I pretend I'm playing a drum solo on you.\" -- Bradley"
+                    ],
+                    "resources": {
+                        "HEALTH": {
+                            "value": 3
+                        }
+                    }
                 }
             ],
             "boss": {
