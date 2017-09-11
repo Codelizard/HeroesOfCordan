@@ -6997,584 +6997,345 @@
         "4": {
             "equipment": [
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #4-1",
+                    "name": "Ridiculously Oversized Sword",
+                    "descriptions": [
+                        "So... compensating for something, huh?",
+                        "You know, the size doesn't matter as much as how you use it.",
+                        "This won't make you any more of a man, you know that, right?"
+                    ],
+                    "flavor": [
+                        "\"That you were even able to lift it off the ground is, quite frankly, astounding.\" -- Avaris"
+                    ],
                     "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 4
                         }
-                    },
-                    "name": "EQUIPMENT #4-1"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #4-2",
+                    "name": "Axe of Bisection",
+                    "descriptions": [
+                        "If you have a problem, use this axe. Then you'll have two halves of a problem, and that rounds down to zero problems.",
+                        "Turn a big problem into two small not-problems with a mighty swing of this enchanted axe!",
+                        "If a monster is in your way, use this axe to make it into two half-monsters that are not in your way."
+                    ],
+                    "flavor": [
+                        "\"Just be careful swinging that thing around - we don't need you to split the party with it.\" -- Talrath"
+                    ],
                     "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 4
                         }
-                    },
-                    "name": "EQUIPMENT #4-2"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #4-3",
+                    "name": "Whip of Laceration",
+                    "descriptions": [
+                        "Made out of bladed chains and with a flail on the end, it's quite likely whatever gets hit by this will die of blood loss before anything else.",
+                        "A length of bladed chains adorned with a flail on the tip just to truly ensure that this is one Bleeding effect the enemy can't ignore.",
+                        "This whip uses a multitude of bladed chains with a bladed flail tip to take advantage of the fact that Bleeding can stack with itself."
+                    ],
+                    "flavor": [
+                        "\"I'm going to stand well away from whoever decides to wield this. Don't cut yourself to ribbons, now.\" -- Dresbin"
+                    ],
                     "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 4
                         }
-                    },
-                    "name": "EQUIPMENT #4-3"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #4-4",
+                    "name": "Musket",
+                    "descriptions": [
+                        "Wait, this campaign is using firearm rules?!",
+                        "Wait, this setting has guns? Since when?!",
+                        "We're using early firearm rules? Why didn't anyone say anything?!"
+                    ],
+                    "flavor": [
+                        "\"Tch! It's heavy, takes forever to reload, is ruined by water... these things will never catch on.\" -- Tal'akh"
+                    ],
                     "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 4
                         }
-                    },
-                    "name": "EQUIPMENT #4-4"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #4-5",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 4
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #4-5"
-                },
-                {
+                    "name": "101 Incendiary Spells",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Learn the hottest mage tricks and become a trailblazer with these inflammatory incantations!",
+                        "Read this sizzling tome to add some spice to your spells and take yourself on a hot streak!",
+                        "Turn up the heat and make your foes sweat with these gloriously incandescent incantations."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Oooh. Gimme. There was a copy of this in the Restricted Section of the college's library.\" -- Eleri"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #4-6",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 4
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #4-6"
-                },
-                {
+                    "name": "Mage Counsellor's Staff",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Property of the Magic Council. If found, return to the Magic Council Head Office, City In The Sky, Floating Continent, 7743-A1A6.",
+                        "This staff once belonged to a member of the Magic Council. You should return it when you're done, but in the meantime, use its power.",
+                        "This staff is glowing and humming faintly with the amount of magical power it contains. Finders keepers!"
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I would like to earn one of these legitimately some day, but I can pretend in the meantime.\" -- Laurie"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #4-7",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 4
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #4-7"
-                },
-                {
+                    "name": "Archmage Robes",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Archmage is a brand name in this case, but they are still very high-quality garments stitched with arcane runes.",
+                        "That's Archmage, the brand name. That said, they're still well-made and infused with enough magical power to glow at all times.",
+                        "Not to be confused with Archmage's Robes, these are robes sold under the Archmage brand. They're still very high quality at least."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I always wanted some of these, but they never make them in my size, and they clash with my boots.\" -- Volkur"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #4-8",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 4
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #4-8"
-                },
-                {
+                    "name": "Scepter of Magical Convenience",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Although its capacity is finite, it usually recharges fast enough to have just enough energy for whatever if is you're trying to do.",
+                        "It technically has a limited capacity but always seems to have -just- enough to do whatever it is you're trying to do.",
+                        "This staff always has enough magic to do whatever it is you're trying to do - just barely enough, every single time."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Maybe if I remind it that the fate of all Cordan is in our hands, it'll become even more powerful.\" -- Marty"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #4-9",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 4
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #4-9"
-                },
-                {
+                    "name": "Staff of Religious Tolerance",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "The symbols of all major religions dangle from this staff as a symbol of cooperation between churches. Jangles loudly whenever you move.",
+                        "In a sign of cooperation between numerous churches, this staff is adorned with symbols of all of them. It's very crowded.",
+                        "All the various major religions contributed towards making this staff, which is why it is covered in symbols from every last one."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"It's both a favored weapon of my deity and a profane tool of my sworn enemies. I have mixed feelings.\" -- Neville"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #4-10",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 4
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #4-10"
-                },
-                {
+                    "name": "Deific Reference Compendium",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Everything you ever wanted to know about the gods, but were afraid to ask.",
+                        "Contains detailed information - and embarrassing secrets - about all the various gods.",
+                        "The ultimate source of divine information, be it legitimate background or mocking descriptions of rituals."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Give it here, I know you children would immediately want to look up the rituals of the fertility goddess's followers.\" -- Mulcahy"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #4-11",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 4
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #4-11"
-                },
-                {
+                    "name": "High Priest's Robes",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Care instructions: Hand wash in holy water only.",
+                        "These delicate robes instill the wearer with divine power, as long as they are properly washed.",
+                        "The height of fashion (from about a century ago) and comes with its own ridiculous hat."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I just know the next thing we encounter after I put these on is going to be some awful slime creature.\" -- Erdan"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #4-12",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 4
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #4-12"
-                },
-                {
+                    "name": "Blessed Chain Whip",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Who knew that whips were so good at destroying vampires?",
+                        "One vampire hunting family started the tradition of using whips, and it caught on for some reason.",
+                        "It's a one of a kind item because every single chain in the length was blessed individually."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"These are particularly effective against the newest vampires. They can't handle something that sparkles more than they do.\" -- The Formless"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #4-13",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 4
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #4-13"
-                },
-                {
+                    "name": "Ninja Garb",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Enhances your jumping and running ability at the cost of forcing you to brood dramatically in poorly-lit areas every few minutes.",
+                        "This light gear is made to allow you comfortably and quickly run, jump, and brood in front of a sunset.",
+                        "Expertly made and of the highest quality, this clothing is made to let you run, jump, and stand on top of buildings with a dramatic backdrop."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"No, look, monk clothes and ninja clothes are completely different. Even if they serve the exact same purpose.\" -- Mac"
                     ],
+                    "resources": {
+                        "STEALTH": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #4-14",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 4
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #4-14"
-                },
-                {
+                    "name": "Bundle of Kunai",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Useless as weapons but great for throwing into dark corridors as a distraction or to set off traps. Also decent gardening tools.",
+                        "Glorified gardening tools that are actually terrible weapons. The serve far better as distractions, pitons, and letter openers.",
+                        "Despite depiction in the media, kunai are useless as weapons, unless you try and poke someone's eye out with one."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"You can kill with these if you have imagination. I killed someone with a soup spoon once.\" -- The Formless"
                     ],
+                    "resources": {
+                        "STEALTH": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #4-15",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 4
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #4-15"
-                },
-                {
+                    "name": "Sandals of Stealth",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Lighter and without all the stiffness of leather. The only sandals it is acceptable to wear socks with.",
+                        "Lighter than boots and easy to slip on, these are the only sandals you should wear socks with - just make sure they're dark.",
+                        "You're allowed to wear socks with these sandals, as long as they aren't bright white, plaid, argyle, or otherwise conspicuous."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"You go ahead and take those flimsy things. I shall keep my steeltoed boots.\" -- Talrath"
                     ],
+                    "resources": {
+                        "STEALTH": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #4-16",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 4
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #4-16"
-                },
-                {
+                    "name": "Belt of Roll Dodging",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Everyone knows that roll dodging is the fastest and most efficient form of transportation.",
+                        "Because there's no faster way to get around than to roll dodge.",
+                        "Walking is for chumps. Get ahead of the pack by roll dodging to your destination today."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Yeah, I'm just gonna say it: it may be faster, but you look like a complete freakin' moron doing that.\" -- Wyatt",
+                        "\"Hup! Hah! Hoah! Ho! Hup! ...ugh, man, this is really tiring.\" -- Narius"
                     ],
+                    "resources": {
+                        "STEALTH": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #4-17",
+                    "name": "Dwarven 3D Printer",
+                    "descriptions": [
+                        "Who needs to bother bringing spare parts when you have one of these?",
+                        "Its convenience can't be matched, but only the elders of the dwarven council know how it works.",
+                        "At least this one's still full; the mithril powder cartridges cost more than the printers themselves."
+                    ],
+                    "flavor": [
+                        "\"Heck yes, I've been looking for one of these for years. Let's try not to fall into any water pit traps now, y'hear?\" -- Davey"
+                    ],
                     "resources": {
                         "MECHANICAL": {
                             "value": 4
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "EQUIPMENT #4-17"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #4-18",
+                    "name": "Orb of Telekineis",
+                    "descriptions": [
+                        "Mechanical tasks are way easier when you can have the equivalent of ten pairs of hands working on them at a time.",
+                        "Ever wanted to be able to fix that thing without having to get out of your chair? Now you can!",
+                        "If you've ever felt like you've never had enough hands while working on something, this is the item for you."
+                    ],
+                    "flavor": [
+                        "\"I can also use it to push on pressure plates from a distance before you bumblers rush ahead and set them off.\" -- Volkur"
+                    ],
                     "resources": {
                         "MECHANICAL": {
                             "value": 4
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "EQUIPMENT #4-18"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #4-19",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 4
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #4-19"
-                },
-                {
+                    "name": "Throwing Spanner",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Guaranteed to bring any nonmagical mechanism to a halt - just throw it in!",
+                        "Throw it into the works of any machine and it'll bring the whole thing to a halt.",
+                        "As it turns out, the phrase \"Throw a spanner in the works\" was based on a true story."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Do not throw it at one of my constructs, or I shall be forced to throw one of my nonmagical wrenches at your head.\" -- Avaris"
                     ],
-                    "id": "EQUIPMENT #4-20",
                     "resources": {
                         "MECHANICAL": {
                             "value": 4
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "EQUIPMENT #4-20"
+                    }
+                },
+                {
+                    "id": "EQUIPMENT #4-20",
+                    "name": "Mithril Multitool",
+                    "descriptions": [
+                        "Wrench, pliers, screwdriver, hammer, measuring tape, and more - and it weighs about as much as a single tool would.",
+                        "A foldable set of tools that fit into your pocket, weigh as much as one tool normally does, and are distractingly shiny.",
+                        "A super lightweight tool set that folds up into a pocket-sized slab of metal. Loved by rich folks and noodle-armed craftspeople."
+                    ],
+                    "flavor": [
+                        "\"Careful you don't take one of your fingers off folding it back up, though.\" -- Rick"
+                    ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "value": 4
+                        }
+                    }
                 }
             ],
             "consumables": [
