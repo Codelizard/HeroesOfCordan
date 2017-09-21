@@ -7340,644 +7340,344 @@
             ],
             "consumables": [
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #4-1",
+                    "name": "Beef Cake",
+                    "descriptions": [
+                        "Not nearly as tasty as it sounds but packed with enough protein to bulk you up in a hurry.",
+                        "In this case, a Beef Pie would have been unquestioningly superior, but it's still packed with protein.",
+                        "Of all the things that beef can be served in, a cake is not recommended. At least it's still cock full of protein."
+                    ],
+                    "flavor": [
+                        "\"Look, I'm partial to eating raw meat on occasion, and even I won't touch that.\" -- Kirak"
+                    ],
                     "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 4
                         }
-                    },
-                    "name": "CONSUMABLE #4-1"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #4-2",
+                    "name": "Performance Enhancing Potion",
+                    "descriptions": [
+                        "You might as well; the monsters are probably drinking this stuff too.",
+                        "If it's any consolation the monsters are all consuming this stuff as well.",
+                        "Hopefully it improves your combat performance, and not, you know, your other performance."
+                    ],
+                    "flavor": [
+                        "\"I shall hold off on my lecture about the evils of potion abuse, as this one might just save us all.\" -- Neville"
+                    ],
                     "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 4
                         }
-                    },
-                    "name": "CONSUMABLE #4-2"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #4-3",
+                    "name": "Home Cooked Meal",
+                    "descriptions": [
+                        "Just like grandma used to make, before you doomed your hometown by becoming a protagonist adventurer.",
+                        "You used to be able to get these in your hometown before you became an adventurer and doomed it.",
+                        "A delicious home cooked meal like your family made before your nemesis killed them to give you a tragic backstory."
+                    ],
+                    "flavor": [
+                        "\"Yep, just like my ma used to make... with way too much salt.\" -- Wyatt"
+                    ],
                     "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 4
                         }
-                    },
-                    "name": "CONSUMABLE #4-3"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #4-4",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 4
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #4-4"
-                },
-                {
+                    "name": "Fireball Bead Chain",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "You could wear it as a necklace if you get a thrill from potentially exploding when someone hits you.",
+                        "If you want to live life on the edge, wear this: The magical equivalent of a string of grenades.",
+                        "Just because you CAN wear a string of impact-sensitive magical explosives doesn't mean you SHOULD."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I mean, there are worse ways to go than in a chain of explosions, but this just seems reckless.\" -- Eleri"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #4-5",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 4
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #4-5"
-                },
-                {
+                    "name": "Dwarven Firewater",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Later on in history, the dwarves will be recognized for being the first people to process oil into gasoline, and then drink it.",
+                        "Whatever this stuff is made out of, not only does it taste awful but it burns *really* well.",
+                        "Proof, if any more were needed, that the dwarves will drink just about anything if it has alcohol content."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"And the dwarves get mad at us for not drinking 'real booze'?\" -- Lyndra"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #4-6",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 4
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #4-6"
-                },
-                {
+                    "name": "Magic Brownie",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "No, like, literally magic. Not \"magic\". The secret ingredient is mana.",
+                        "That's the literal kind of magic, as in, arcane powered. Not, you know... \"magic\".",
+                        "That is, a brownie infused with thaumaturgic power. Not intoxicating plant substances."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"For the last time... just because I am a druid, does not mean I can supply you with 'herbs'.\" -- Asira"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #4-7",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 4
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #4-7"
-                },
-                {
+                    "name": "Scroll of Status Effects",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Whoever gets hit with this gets poisoned, blinded, deafened, stunned, disarmed, confused, slowed, [37 more]",
+                        "The unfortunate victim of this scroll will be cursed - along with 43 other negative status effects.",
+                        "Inflicts poison, deafness, insanity, bad luck, cursed, doomed, wrickets, depression, obesity, homesickness, coulrophobia..."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Hitting someone with both Frozen and Burning seems at worst pointless and at best completely overkill.\" -- Mulcahy"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #4-8",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 4
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #4-8"
-                },
-                {
+                    "name": "Potion of Pure",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "\"Potion of Pure -What-?\", people ask. Nobody's ever gotten an answer, but whatever it is, it's effective.",
+                        "Nobody quite knows what noun was supposed to come at the end of this potion, but it's certainly effective.",
+                        "The effectiveness of this potion is widely known; whatever was supposed to suffix the 'Pure', however, is not."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Pure energy? Pure orange juice? Pure evil? Pure alcohol?\" -- Laurie"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #4-9",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 4
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #4-9"
-                },
-                {
+                    "name": "Scroll of Divine Fire",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "An obvious case of magical plagiarism, it's just Fire Wall except the flames are white and do Radiant Damage instead.",
+                        "First, the wizards invented the Column Of Flame spell. Then, the clerics stole it and made this, and it still hits like a flaming truck.",
+                        "The Incendiary Pillar spell was so effective that the divine casters stole it and made their own version."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"This is far better against an undead horde anyway; you don't get that charred flesh smell.\" -- Siebel"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #4-10",
+                    "name": "Wand of Distraction",
+                    "descriptions": [
+                        "It's actually just a rod of gold. Throw it, and your foes will rush to go grab it and ignore you.",
+                        "This stick of silver has no magical properties whatsoever, but if you throw it, your foes will run after it greedily.",
+                        "Sure, it's just a rod of gold, but you can guarantee that any patrols that see it will immediately rush over to it."
+                    ],
+                    "flavor": [
+                        "\"This is another fine case in the argument that riches CAN solve all your problems.\" -- Tavila"
+                    ],
                     "resources": {
                         "STEALTH": {
                             "value": 4
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "CONSUMABLE #4-10"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #4-11",
+                    "name": "Disguise Potion",
+                    "descriptions": [
+                        "It disguises you AS a potion. But, potions are small and easy to miss in a dark dungeon, so it works out well.",
+                        "The Disguise Potion makes a Potion Disguise. This makes you very small and easy to miss in a dark dungeon.",
+                        "Disguising yourself AS a potion doesn't seem that useful, but remember that potion vials are tiny and hard to see in the dark."
+                    ],
+                    "flavor": [
+                        "\"Seems like an awful lot of work to go to compared to just, you know, invisibility.\" -- Talon"
+                    ],
                     "resources": {
                         "STEALTH": {
                             "value": 4
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "CONSUMABLE #4-11"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #4-12",
+                    "name": "Scroll of Garishness",
+                    "descriptions": [
+                        "Your outfit will be altered to such a hideously clashing array of oclors and styles that even oozes will recoil in horror and look away.",
+                        "This scroll alters your outfit to such bright and awfully clashing colors that every monster will glance away and pretend you don't exist.",
+                        "The effects of this scroll cause your outfit to become so intensely gaudy that even zombies will shield their eyes and look away, ashamed for you."
+                    ],
+                    "flavor": [
+                        "\"I don't think this works on the nobility though - they'll just assume it's the latest fashion.\" -- Bradley"
+                    ],
                     "resources": {
                         "STEALTH": {
                             "value": 4
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "CONSUMABLE #4-12"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #4-13",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 4
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #4-13"
-                },
-                {
+                    "name": "Bag of Thermite",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Hoarded by the dwarves for centuries, this incendiary compound is guaranteed to destroy any mechanical trap you light it near.",
+                        "This ancient dwarven secret, finally revealed, is guaranteed to destroy any machine you light it on. And part of the floor, too.",
+                        "Guaranteed to destroy any trap you light it on, melt the wall it's set into, and burn a hole into the floor underneath it."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I strongly recommend not attempting to start a campfire with this. Burned food will be the least of your concerns.\" -- Uharo"
                     ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #4-14",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 4
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #4-14"
-                },
-                {
+                    "name": "Dwarven Electromagnet",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Burns out after one use but it's bound to rip -something- important out of the nearest trap or construct.",
+                        "Generates a field so powerful it'll rip apart a nearby construct, and then burn itself out.",
+                        "Tears apart machines and constructs with ease. Caution: Do not point at party members in full plate."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Please let me get out of the way before you use this. Losing my arm once was bad enough.\" -- Narius"
                     ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #4-15",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 4
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #4-15"
-                },
-                {
+                    "name": "Electrostatic Throwable Potion",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "EMP grenades are anachronistic to the setting, so here's the next best thing.",
+                        "Pretty much just an EMP grenade that's appropriate to the setting.",
+                        "Generates a powerful electromagnetic field that ruins constructs and metal traps, and is definitely not just a reskinned EMP."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"These infernal things not only ruin constructs, they'll also make your hair stand on end.\" -- Avaris"
                     ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #4-16",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 4
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #4-16"
-                },
-                {
+                    "name": "Fairy in a Bottle",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "\"Please let me out!\" it cries, \"I'll heal you if you do, just set me free!\" Better keep hold of it for later.",
+                        "Some cruel person has stuck a fae creature into this tiny bottle. Let it out and it will heal you. Better hang onto it.",
+                        "This fairy has been stuffed into a bottle to make it so desperate to escape it will heal whoever releases it."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I feel like we ought to release it, but on the other hand, I wouldn't want the healing to go to waste...\" -- Solo"
                     ],
+                    "resources": {
+                        "HEALTH": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #4-17",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 4
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #4-17"
-                },
-                {
+                    "name": "Potion of Stop Dying",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Even orc shamans are capable of brewing excellent substances, they just can't name them properly.",
+                        "This blunt name is an indicator that it was brewed by an orc shaman; its potency indicates it was one of the few good ones.",
+                        "A masterful orc shaman brewed this potent concoction. He named it so his followers would comprehent what it does."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"It's not as if orcish is a terribly prosaic language to write item descriptions in, anyway.\" -- Ralford"
                     ],
+                    "resources": {
+                        "HEALTH": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #4-18",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 4
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #4-18"
-                },
-                {
+                    "name": "Hero Sandwich",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "The secret ingredient is a Potion of Heroism mixed into the honey mustard sauce.",
+                        "Enchanted tomatoes, elven wayfarer bread, smoked dire boar ham, and a Potion of Heroism mixed into the honey mustard sauce.",
+                        "Edible perfection made from only the freshest ingredients, toasted just right, and with a Potion of Heroism in the sauce."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Anybody have a knife - that hasn't been used to stab something today - to cut this with?\" -- Dresbin"
                     ],
+                    "resources": {
+                        "HEALTH": {
+                            "value": 4
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #4-19",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 4
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #4-19"
-                },
-                {
+                    "name": "Scroll of Regeneration",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Causes wounds to rapidly clot, scab, scar over, and mend within seconds. Sounds and looks awful, but works amazingly well.",
+                        "Induces the normal healing process, but at a rapidly increased pace. Saves you having to tear off a band-aid.",
+                        "Speeds up the normal healing process to finish in a matter of minutes. Clean the wound first, or you'll see a high-speed infection too."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Knock it off, stop staring. It's bad enough already that my flesh is making noises at me.\" -- Hodge"
                     ],
-                    "id": "CONSUMABLE #4-20",
                     "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
                         "HEALTH": {
                             "value": 4
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "CONSUMABLE #4-20"
+                    }
+                },
+                {
+                    "id": "CONSUMABLE #4-20",
+                    "name": "Miracle Cure",
+                    "descriptions": [
+                        "A green herbal paste that smells, feels, looks, tastes, and even sounds awful - but heals wounds within seconds of application.",
+                        "This paste is an affront to all four-to-six senses, depending on your species and racial abilities, but it works amazingly.",
+                        "The potency of his herbal paste is the stuff of legends. Unfortunately, so is its offense to all of the senses."
+                    ],
+                    "flavor": [
+                        "\"Don't complain... if your wounds get infected, they will look and smell far worse than this.\" -- Asira"
+                    ],
+                    "resources": {
+                        "HEALTH": {
+                            "value": 4
+                        }
+                    }
                 }
             ],
             "boss": {
