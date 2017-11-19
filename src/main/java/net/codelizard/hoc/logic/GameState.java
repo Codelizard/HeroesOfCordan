@@ -440,7 +440,8 @@ public enum GameState {
                 responses.add(getMessage("action.scout"));
             }
             
-            if(currentState.getResourceCount(ResourceType.MECHANICAL) > 0) {
+            if(currentState.getResourceCount(ResourceType.MECHANICAL) > 0
+                && !currentState.outOfMonsters()) {
                 responses.add(getMessage("action.secret_door"));
             }
             
