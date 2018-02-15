@@ -14041,9 +14041,9 @@
                 "type": "MONSTER",
                 "resource": "DIVINE"
             },
-            "flavor": "FLAVOR TEXT",
+            "flavor": "Somewhere between a paladin and a priest sits the cleric; able to support the party with his divine magic, but not afraid to dish out some righteous vengeance with it either.",
             "name": "Neville",
-            "quote": "QUOTE TEXT",
+            "quote": "The light shall guide us to victory!",
             "description": "Offensive Divine Specialist",
             "id": "HERO #5",
             "resources": {
@@ -14070,9 +14070,9 @@
                 "type": "EVENT",
                 "resource": "DIVINE"
             },
-            "flavor": "FLAVOR TEXT",
+            "flavor": "About as close to a walking library as one can get, divining information to act upon and refer to is this priest's specialty.",
             "name": "Mulcahy",
-            "quote": "QUOTE TEXT",
+            "quote": "Allow me to shine a little light on the situation...",
             "description": "Defensive Divine Specialist",
             "id": "HERO #6",
             "resources": {
@@ -14099,9 +14099,9 @@
                 "type": "MONSTER",
                 "resource": "STEALTH"
             },
-            "flavor": "FLAVOR TEXT",
+            "flavor": "A master of cloak and dagger tactics, the target's fate is sealed the moment the assassin marks them for death.",
             "name": "Aria",
-            "quote": "QUOTE TEXT",
+            "quote": "They'll drop dead before they even know I was there.",
             "description": "Offensive Stealth Specialist",
             "id": "HERO #7",
             "resources": {
@@ -14128,9 +14128,9 @@
                 "type": "EVENT",
                 "resource": "STEALTH"
             },
-            "flavor": "FLAVOR TEXT",
+            "flavor": "The one to call when you need bodies disposed and tracks covered. The cleaner ensures that no evidence is left behind in his wake.",
             "name": "Mardak",
-            "quote": "QUOTE TEXT",
+            "quote": "I'll make cccertain nobody can follow usss.",
             "description": "Defensive Stealth Specialist",
             "id": "HERO #8",
             "resources": {
@@ -14186,9 +14186,9 @@
                 "type": "EVENT",
                 "resource": "MECHANICAL"
             },
-            "flavor": "FLAVOR TEXT",
+            "flavor": "Mastery of tools and moving parts has allowed the artificer to handle any construction he comes across.",
             "name": "Davey",
-            "quote": "QUOTE TEXT",
+            "quote": "Now that there's a fine piece a' work... let's see if I can take it apart.",
             "description": "Defensive Mechanics Specialist",
             "id": "HERO #10",
             "resources": {
@@ -14215,9 +14215,9 @@
                 "type": "MONSTER",
                 "resource": "PHYSICAL"
             },
-            "flavor": "FLAVOR TEXT",
+            "flavor": "Weaving spell and sword together, the spellblade has an answer for every type of foe.",
             "name": "Hodge",
-            "quote": "QUOTE TEXT",
+            "quote": "There's two ways this ends, I stab you to death, or you burn to death, your choice.",
             "description": "Physical/Arcane Hybrid",
             "id": "HERO #11",
             "resources": {
