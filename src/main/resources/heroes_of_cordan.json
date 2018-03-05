@@ -5444,7 +5444,7 @@
                         "Evidently the dungeon designer decided to go big with the traps at this point."
                     ],
                     "flavor": [
-                        "\"\""
+                        "\"Whichever trapsmith made this must have had impressive muscles of his own to assemble it.\" -- Avaris"
                     ],
                     "resources": {
                         "HEALTH": {
@@ -5500,7 +5500,7 @@
                         "So sensitive, it can explode if you look at it wrong. It's amazing it hasn't gone off already."
                     ],
                     "flavor": [
-                        "\"\""
+                        "\"You really want me to sing a lullaby for a rune trap?\" -- Siebel"
                     ],
                     "resources": {
                         "ARCANE": {
