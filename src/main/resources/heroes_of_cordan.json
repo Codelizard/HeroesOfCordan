@@ -931,27 +931,27 @@
                 },
                 {
                     "id": "EVENT #1-8",
-                    "name": "Blood Rune of Advertisements",
+                    "name": "Poison Mist Emitter",
                     "descriptions": [
-                        "Covers your vision and blots out your hearing with demonic pop-ups, causing you to blunder into other traps.",
-                        "This rune obscures your vision with pop-up ads for pre-approved soul sales, making you stumble into more traps.",
-                        "No matter how fast you dismiss the pop-ups, more still come, leaving you defenceless to other traps."
+                        "Once a magical humidifier, something crawled inside it and died a long time ago.",
+                        "It actually used to be a beneficial device to clear the air, but something fell in it and died a while back.",
+                        "Once an air scrubber, now it accomplishes the reverse ever since that slime monster fell into it."
                     ],
                     "flavor": [
-                        "\"No! I don't want any! Get outta here! Any of you clerics got a spell for 'dis?\" -- Wyatt"
+                        "\"Hah! I TOLD you it smelled some something was rotting! I know my carrion!\" -- Kirak"
                     ],
                     "resources": {
                         "HEALTH": {
                             "texts": [
-                                "Get out of range, no matter the cost.",
-                                "Just stumble forward until you get out of range."
+                                "Run through the mist."
                             ],
                             "value": 1
                         },
                         "DIVINE": {
                             "texts": [
-                                "Ward against the pop-ups.",
-                                "Cast the Lesser Ad Blocker spell."
+                                "Protection from Disease!",
+                                "Sterilize the area.",
+                                "Ward the party from disease."
                             ],
                             "value": 2
                         }
@@ -7728,14 +7728,14 @@
             "events": [
                 {
                     "id": "EVENT #4-1",
-                    "name": "Random Arrows Aimed At Nothing",
+                    "name": "Ballista Trap",
                     "descriptions": [
-                        "Some other idiot adventurer further into the dungeon must be shooting blindly.",
-                        "Some careless adventurer or minion up ahead must be shooting wildly.",
-                        "Clearly, someone further down the corridor is employing quantity over quality."
+                        "When an arrow trap just isn't enough.",
+                        "Take it up a notch from arrow traps, and you have this.",
+                        "Arrow traps not cutting it? Try a ballista trap, and give those pesky adventurers what for."
                     ],
                     "flavor": [
-                        "\"Okay, we've been waiting here for a minute and he still hasn't run out. What the heck?\" -- Mac"
+                        "\"When they break out the miniaturized siege equipment, they're getting serious.\" -- Rick"
                     ],
                     "resources": {
                         "HEALTH": {
@@ -7746,9 +7746,9 @@
                         },
                         "PHYSICAL": {
                             "texts": [
-                                "Block the arrows.",
-                                "Deflect the arrows.",
-                                "Duck and cover through the arrows."
+                                "Block the bolt.",
+                                "Deflect the bolt.",
+                                "Stop the bolt on a shield."
                             ],
                             "value": 5
                         }
@@ -7756,34 +7756,6 @@
                 },
                 {
                     "id": "EVENT #4-2",
-                    "name": "Animated Floor Tiles",
-                    "descriptions": [
-                        "Because everything here is trying to kill you: these tiles rise up from the ground one at a time and fly directly at your face.",
-                        "Many of the floor tiles in this room will slowly rise, one at a time, then fling themselves at your face out of spite.",
-                        "A case of even the room trying to kill you, the floor tiles here rise into the air one by one before flying straight towards your face."
-                    ],
-                    "flavor": [
-                        "\"What next? Doors that fall on us when we approach them? ...I've jinxed it now, haven't I?\" -- Talrath"
-                    ],
-                    "resources": {
-                        "HEALTH": {
-                            "texts": [
-                                "Take the hit."
-                            ],
-                            "value": 4
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "Block the tiles.",
-                                "Smack the tiles out of the air.",
-                                "Hit the tiles away with your weapon."
-                            ],
-                            "value": 5
-                        }
-                    }
-                },
-                {
-                    "id": "EVENT #4-3",
                     "name": "Swinging Fullblade Trap",
                     "descriptions": [
                         "At this point the traps might as well be swinging steel support beams at you.",
@@ -7811,36 +7783,35 @@
                     }
                 },
                 {
-                    "id": "EVENT #4-4",
-                    "name": "Arcane Riddle Trap",
+                    "id": "EVENT #4-3",
+                    "name": "Animated Floor Tiles",
                     "descriptions": [
-                        "It's simple: Answer a random bit of arcane trivia, or eat a fireball.",
-                        "Answer correctly to pass. Answer incorrectly to receive a free Lightning Bolt.",
-                        "These once featured in a dark elven game show. If you answer incorrectly, you explode."
+                        "Because everything here is trying to kill you: these tiles rise up from the ground one at a time and fly directly at your face.",
+                        "Many of the floor tiles in this room will slowly rise, one at a time, then fling themselves at your face out of spite.",
+                        "A case of even the room trying to kill you, the floor tiles here rise into the air one by one before flying straight towards your face."
                     ],
                     "flavor": [
-                        "\"We'll be fine, I've got this... as long as it doesn't ask about Ethereal Calculus.\" -- Eleri"
+                        "\"What next? Doors that fall on us when we approach them? ...I've jinxed it now, haven't I?\" -- Talrath"
                     ],
                     "resources": {
-                        "ARCANE": {
-                            "texts": [
-                                "Answer the riddle.",
-                                "Look up the answer.",
-                                "Solve the riddle."
-                            ],
-                            "value": 5
-                        },
                         "HEALTH": {
                             "texts": [
-                                "Take the hit.",
-                                "Blue. No, yel-- Auuuuuuuugh!"
+                                "Take the hit."
                             ],
                             "value": 4
+                        },
+                        "PHYSICAL": {
+                            "texts": [
+                                "Block the tiles.",
+                                "Smack the tiles out of the air.",
+                                "Hit the tiles away with your weapon."
+                            ],
+                            "value": 5
                         }
                     }
                 },
                 {
-                    "id": "EVENT #4-5",
+                    "id": "EVENT #4-4",
                     "name": "Cluster Rune",
                     "descriptions": [
                         "When triggered this rune creates more runes in a circle around it. Then, they all explode.",
@@ -7849,6 +7820,34 @@
                     ],
                     "flavor": [
                         "\"I'd tell you to stand back, but with the way this thing works, it won't matter.\" -- Marty"
+                    ],
+                    "resources": {
+                        "ARCANE": {
+                            "texts": [
+                                "Disarm the rune.",
+                                "Dispel the rune.",
+                                "Negate the rune."
+                            ],
+                            "value": 5
+                        },
+                        "HEALTH": {
+                            "texts": [
+                                "Take the hit."
+                            ],
+                            "value": 4
+                        }
+                    }
+                },
+                {
+                    "id": "EVENT #4-5",
+                    "name": "Flash Freezing Rune",
+                    "descriptions": [
+                        "Freezes you, Blinds you, and Stuns you for good measure, on top fo the d12s for damage dice.",
+                        "That is, a flash and a freeze, so that you're both blinded and frozen. And down a bunch of hitpoints.",
+                        "Freezes you in the blink of an eye. Also blinds you in the blink of an eye. And damages... you get the picture."
+                    ],
+                    "flavor": [
+                        "\"The trap is also set up so that if you make any cold-related puns, it detonates immediately.\" -- Laurie"
                     ],
                     "resources": {
                         "ARCANE": {
@@ -7897,27 +7896,28 @@
                 },
                 {
                     "id": "EVENT #4-7",
-                    "name": "Poison Mist Emitter",
+                    "name": "Scarab of Death",
                     "descriptions": [
-                        "Once a magical humidifier, something crawled inside it and died a long time ago.",
-                        "It actually used to be a beneficial device to clear the air, but something fell in it and died a while back.",
-                        "Once an air scrubber, now it accomplishes the reverse ever since that slime monster fell into it."
+                        "Now you know why you might not want to use the \"Take All\" button when examining a loot pile.",
+                        "Just in case you wondered why you might want to not use the Take All action at a loot pile.",
+                        "If you survive, consider it a lesson in why you shouldn't use the Loot All option on corpses."
                     ],
                     "flavor": [
-                        "\"Hah! I TOLD you it smelled some something was rotting! I know my carrion!\" -- Kirak"
+                        "\"We should've had The Formless pick it up, I'm pretty sure he doesn't have a heart for it to burrow into.\" -- Hodge"
                     ],
                     "resources": {
                         "HEALTH": {
                             "texts": [
-                                "Run through the mist."
+                                "Get it off get it off get it off!",
+                                "Quick, tear it off!"
                             ],
                             "value": 4
                         },
                         "DIVINE": {
                             "texts": [
-                                "Protection from Disease!",
-                                "Sterilize the area.",
-                                "Ward the party from disease."
+                                "Remove Curse.",
+                                "Remove C-... uh... never mind, Resurrection.",
+                                "Nothing a Resurrection won't fix..."
                             ],
                             "value": 5
                         }
@@ -7925,27 +7925,28 @@
                 },
                 {
                     "id": "EVENT #4-8",
-                    "name": "Rune of Decay",
+                    "name": "Obligatory Sewer Section",
                     "descriptions": [
-                        "This rune is often seen in necromancers' gardens where it kills unwanted herbivores and turns them into fertilizer.",
-                        "A common decoration found in the gardens of necromancers that rapidly turns living flesh into fertilizer.",
-                        "Drains the life of those around it, and causes their flesh to decay into fertilizer for the caster's plants."
+                        "Hah! And you thought you'd go a whole adventure without one! Hold on to your noses.",
+                        "Sucker, you thought you could go an entire adventure without one.",
+                        "You should have seen it coming; it's required by law for every adventure to have at least one."
                     ],
                     "flavor": [
-                        "\"Don't give your crops a taste of mortal flesh... that's how man-eating plants are made.\" -- Asira"
+                        "\"People really have gotta stop building these absurdly spacious sewers.\" -- Wyatt"
                     ],
                     "resources": {
                         "HEALTH": {
                             "texts": [
-                                "Run past the rune."
+                                "Just run through it.",
+                                "Hold your breath, if you can."
                             ],
                             "value": 4
                         },
                         "DIVINE": {
                             "texts": [
-                                "Ward against the rune.",
-                                "Ward against decay",
-                                "Protection from Negative Energy."
+                                "Greater Disease Ward.",
+                                "Protection from You Don't Want To Know.",
+                                "Ward against disease."
                             ],
                             "value": 5
                         }
@@ -7953,27 +7954,25 @@
                 },
                 {
                     "id": "EVENT #4-9",
-                    "name": "Stalking Corpse",
+                    "name": "That Which Has No Description",
                     "descriptions": [
-                        "Far worse than a walking corpse, it pops up behind you when you least expect it.",
-                        "Imagine a walking corpse that pops up behind you whenever things get quiet.",
-                        "Walking corpses are bad enough, but those one likes to sneak up and bite you on the shoulder."
+                        ""
                     ],
                     "flavor": [
-                        "\"Where is it? I know it's here. It's here somewhere! It has to be. It- GWAH!\" -- Narius"
+                        "\"There are worse eldritch horrors, but trying to describe it would be pretty maddening.\" -- Neville"
                     ],
                     "resources": {
                         "HEALTH": {
                             "texts": [
-                                "Take the hit."
+                                "Run away!"
                             ],
                             "value": 4
                         },
                         "DIVINE": {
                             "texts": [
-                                "Turn Undead.",
+                                "Banish it.",
                                 "Smite it.",
-                                "Ward against undead."
+                                "Blast it with divine energy."
                             ],
                             "value": 5
                         }
@@ -8009,27 +8008,27 @@
                 },
                 {
                     "id": "EVENT #4-11",
-                    "name": "Minotaur Maze",
+                    "name": "Dark Room Full Of Pits",
                     "descriptions": [
-                        "It's a relatively simple maze, but it's filled with minotaurs that are surprisingly good aims with their throwing axes.",
-                        "Each dead end in this maze contains a minotaur who is a scarily good throw with an axe.",
-                        "The maze isn't too bad, which is just as well, as the wrong paths have minotaurs that enjoy throwing axes at adventurers."
+                        "A foul magic prevents any light being cast in this room, ensuring many embarrassing plunges through holes in the floor.",
+                        "Try as you might, this room cannot be lit by mundane or magical means, so step carefully.",
+                        "Various magical enchantments prevent you from bringing light here, so listen out for your allies falling down pits."
                     ],
                     "flavor": [
-                        "\"Just because I CAN heal axe wounds doesn't mean I particularly want to take them.\" -- Neville"
+                        "\"I am immediately suspicious of any plan involving me walking at the front.\" -- Narius"
                     ],
                     "resources": {
                         "STEALTH": {
                             "texts": [
-                                "Find an axe-free path through.",
-                                "Find the best path.",
-                                "Find the path of least axes."
+                                "Find a path through.",
+                                "Carefully avoid the pits.",
+                                "Locate and avoid the pits."
                             ],
                             "value": 5
                         },
                         "HEALTH": {
                             "texts": [
-                                "Take the hits."
+                                "Bumble through the room."
                             ],
                             "value": 4
                         }
@@ -8037,27 +8036,27 @@
                 },
                 {
                     "id": "EVENT #4-12",
-                    "name": "Competent Patrols",
+                    "name": "Low-Height Swinging Blades",
                     "descriptions": [
-                        "Not only are they using the buddy system, but they treat all sudden noises as signs of an incoming ambush.",
-                        "Every so often they do a half-circle turn, just to mess with anyone sneaking up from behind.",
-                        "They have an unpredictable patrol path, take wide turns around blind corners, and fire crossbows at strange noises."
+                        "Too low to block with a shield, you'd better jump right if you trigger one or risk losing a couple feet.",
+                        "These are too low to be blocked by a shield, so here's hoping you know how to jump.",
+                        "Positioned at just the right height to make a shield impractical, hopefully you brought armored pants."
                     ],
                     "flavor": [
-                        "\"Hmm. Not bad. I wonder, where can I hire some of these?\" -- The Formless"
+                        "\"No, I did not bring enough full-plate armor for everyone, and it would not fit you anyway.\" -- Talrath"
                     ],
                     "resources": {
                         "STEALTH": {
                             "texts": [
-                                "Sneak past.",
-                                "Sneak by.",
-                                "Sneak around."
+                                "Avoid the triggers.",
+                                "Jump over the blades.",
+                                "Locate and avoid the trigger plates."
                             ],
                             "value": 5
                         },
                         "HEALTH": {
                             "texts": [
-                                "Fight them."
+                                "Take the hit."
                             ],
                             "value": 4
                         }
@@ -8093,27 +8092,27 @@
                 },
                 {
                     "id": "EVENT #4-14",
-                    "name": "Kobold Art Museum",
+                    "name": "Sawblade Launcher",
                     "descriptions": [
-                        "A long corridor of intricate and aesthetically pleasing traps. It is highly recommended not to treat this as a hands-on exhibit.",
-                        "For authenticity, all traps displayed in this exhibit are fully functional and just as lethal as the real ones.",
-                        "Numerous traps have been placed here, and are both aesthetically pleasing and incredibly deadly."
+                        "This deadly trap can also be repurposed for long-range forestry projects.",
+                        "Attempting to block these is highly unrecommended. Especially with a wooden shield.",
+                        "Initially used for taking down trees from a safe distance, it was quickly repurposed for nefarious traps."
                     ],
                     "flavor": [
-                        "\"Hmm, is that an authentic Tucker's piece? Yes, that particular design of the oil flasks...\" -- Kirak"
+                        "\"Actually, we came up with these when the elves tried to send the treants after us.\" -- Kirak"
                     ],
                     "resources": {
                         "MECHANICAL": {
                             "texts": [
-                                "Disarm the traps.",
-                                "Locate and avoid the triggers.",
+                                "Disarm the trap.",
+                                "Locate and avoid the trigger.",
                                 "Find the disarming mechanism."
                             ],
                             "value": 5
                         },
                         "HEALTH": {
                             "texts": [
-                                "Run through."
+                                "Take the hit."
                             ],
                             "value": 4
                         }
@@ -8121,28 +8120,27 @@
                 },
                 {
                     "id": "EVENT #4-15",
-                    "name": "Launcher Trap",
+                    "name": "Electrified Metal Door",
                     "descriptions": [
-                        "It doesn't launch projectiles, it launches YOU - into the ceiling.",
-                        "In subterranean Cordan, trap launches you!",
-                        "A pressure plate with a high-tension spring that launches the person who steps on it into the ceiling."
+                        "Nothing seems to be amiss with this door, until you turn the handle.",
+                        "This door seems perfectly willing to be opened until you touch it.",
+                        "This metal door only has a cheap lock, but that's not the reason it's still closed tight."
                     ],
                     "flavor": [
-                        "\"...why do you guys want me out in front? Now I'm just getting suspicious.\" -- Narius"
+                        "\"Now see, this is why you want to wear non-conducting boots and gloves in a place like this.\" -- Davey"
                     ],
                     "resources": {
                         "MECHANICAL": {
                             "texts": [
-                                "Disarm the trap.",
-                                "Spring the trap safely.",
-                                "Locate and avoid the trap."
+                                "Ground the electricity.",
+                                "Ground the door to render it harmless.",
+                                "Ground out the electricity."
                             ],
                             "value": 5
                         },
                         "HEALTH": {
                             "texts": [
-                                "Take the hit.",
-                                "Get launched."
+                                "Take the hit."
                             ],
                             "value": 4
                         }
@@ -8150,27 +8148,28 @@
                 },
                 {
                     "id": "EVENT #4-16",
-                    "name": "Long Vertical Shaft",
+                    "name": "Bombproof Metal Door",
                     "descriptions": [
-                        "How do they make the platforms float in midair? Why do the critters just fly back and forth horizontally? We may never know.",
-                        "A series of gravity-defying platforms and flying critters that serve as such are your only way up.",
-                        "The only way up is to jump on mysterious floating platforms and flying flat-topped critters. Hope you didn't skip leg day."
+                        "This little piggy built his house out of steel girders and reinforced concrete.",
+                        "Someone has caught on to your mages' penchant for solving problems with explosions.",
+                        "Normally this would be total overkill, but your party seems to routinely apply explosions to solve their problems."
                     ],
                     "flavor": [
-                        "\"You'll have to carry me. Your armor alone is heavier than me, so don't complain about it.\" -- Lyndra"
+                        "\"It can't be blown up? Well, I'm out of ideas.\" -- Eleri"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Ugh. Jump challenges."
+                                "Find a way around.",
+                                "Go another way."
                             ],
                             "value": 4
                         },
                         "PHYSICAL": {
                             "texts": [
-                                "Throw the lighter party members up.",
-                                "Jump! Jump! Jump!",
-                                "Jump, and pull up the noodlier party members."
+                                "Smash it down.",
+                                "Break the hinges instead.",
+                                "Tear the door off its hinges."
                             ],
                             "value": 5
                         }
@@ -8208,29 +8207,27 @@
                 },
                 {
                     "id": "EVENT #4-18",
-                    "name": "Rotating Wall Maze",
+                    "name": "Long Vertical Shaft",
                     "descriptions": [
-                        "It's not a terribly complicated maze, but it takes a lot of upper-body strength to push an entire section of stone wall around.",
-                        "This maze requires you to rotate wall sections to progress, so roll up your sleeves and shove your best.",
-                        "Some wall sections in this maze rotate. And the gears haven't been oiled in a long time, so be prepared to shove hard."
+                        "How do they make the platforms float in midair? Why do the critters just fly back and forth horizontally? We may never know.",
+                        "A series of gravity-defying platforms and flying critters that serve as such are your only way up.",
+                        "The only way up is to jump on mysterious floating platforms and flying flat-topped critters. Hope you didn't skip leg day."
                     ],
                     "flavor": [
-                        "\"I'm starting to wonder if it'd be any easier to just break down the wall instead.\" -- Talrath"
+                        "\"You'll have to carry me. Your armor alone is heavier than me, so don't complain about it.\" -- Lyndra"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Strain and push your way through.",
-                                "Slowly push the wall segments.",
-                                "Push through slowly."
+                                "Ugh. Jump challenges."
                             ],
                             "value": 4
                         },
                         "PHYSICAL": {
                             "texts": [
-                                "Shove!",
-                                "Shove the wall segments.",
-                                "Put those muscles to work."
+                                "Throw the lighter party members up.",
+                                "Jump! Jump! Jump!",
+                                "Jump, and pull up the noodlier party members."
                             ],
                             "value": 5
                         }
@@ -8238,6 +8235,66 @@
                 },
                 {
                     "id": "EVENT #4-19",
+                    "name": "Frozen Room",
+                    "descriptions": [
+                        "Ugh. Ice Physics!",
+                        "Oh no, not Ice Physics.",
+                        "Just when you were least expecting it - Ice Physics!"
+                    ],
+                    "flavor": [
+                        "\"Come on, you gotta admit, watching them flail about on the ice is *hilarious*.\" -- Wyatt"
+                    ],
+                    "resources": {
+                        "TIME": {
+                            "texts": [
+                                "Slide back and forth for a while.",
+                                "Skid around until you reach the other side.",
+                                "Slip and slide until you reach the door."
+                            ],
+                            "value": 4
+                        },
+                        "ARCANE": {
+                            "texts": [
+                                "Melt the ice.",
+                                "Heat the room to melt the ice.",
+                                "Levitate over the ice."
+                            ],
+                            "value": 5
+                        }
+                    }
+                },
+                {
+                    "id": "EVENT #4-20",
+                    "name": "Teleporter Labyrinth",
+                    "descriptions": [
+                        "It's nearly impossible to map and the teleporters make you queasy every time you take them.",
+                        "Made all the more annoying by an extended teleporting animation slowing you down.",
+                        "This would be easier if most of the rooms weren't completely identical."
+                    ],
+                    "flavor": [
+                        "\"I'm starting to be convinced that the dungeon architect is a sadist.\" -- Tavila"
+                    ],
+                    "resources": {
+                        "TIME": {
+                            "texts": [
+                                "Bumble through the puzzle.",
+                                "Keep trying teleporters until you get out.",
+                                "Just keep trying teleporters."
+                            ],
+                            "value": 4
+                        },
+                        "ARCANE": {
+                            "texts": [
+                                "Determine the teleporters' destinations.",
+                                "'Adjust' one of the teleporters to go where you need.",
+                                "Calculate the correct path of teleporters."
+                            ],
+                            "value": 5
+                        }
+                    }
+                },
+                {
+                    "id": "EVENT #4-21",
                     "name": "Cutscene Trigger",
                     "descriptions": [
                         "Trigger it, and you'll be locked in place for several minutes listening to exposition.",
@@ -8267,590 +8324,270 @@
                     }
                 },
                 {
-                    "id": "EVENT #4-20",
-                    "name": "EVENT #4-20",
+                    "id": "EVENT #4-22",
+                    "name": "Lucrative Sidequest",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Just head back to the dungeon entrance to pick up a minor item for this fetch quest and earn a legendary item!",
+                        "Go fetch 30 slorm gems and 50 flabble nuts for a reward!",
+                        "Go kill 100 of the infinitely respawning minor monsters to feel good about yourself and get a reward!"
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Guys, we can do the sidequest after the main one... hey! Come back!\" -- Mac"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Shiny things!",
+                                "Treasure and XP!",
+                                "Must... complete... sidequests..."
                             ],
                             "value": 4
                         },
-                        "ARCANE": {
+                        "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "It's just an illusion!",
+                                "Break the sidequest-giver's enchantment.",
+                                "It's just a trap! Break the enchantment!"
                             ],
                             "value": 5
                         }
                     }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
-                    "id": "EVENT #4-21",
-                    "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 4
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 5
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        }
-                    },
-                    "name": "EVENT #4-21"
-                },
-                {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
-                    "id": "EVENT #4-22",
-                    "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 4
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 5
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        }
-                    },
-                    "name": "EVENT #4-22"
-                },
-                {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #4-23",
+                    "name": "Highly-String Salesdemon",
+                    "descriptions": [
+                        "Free delivery! Extended warranty! Just listen to these testimonials! But wait; there's more! Sell one soul, get credit for two!",
+                        "Bael Mays here with a whole variety of high-quality Legendary demonic items that can be yours for this low, low price!",
+                        "Is your soul old and tainted by sins? Don't worry! We'll give you the best deal for your old soul when you trade it in today!"
+                    ],
+                    "flavor": [
+                        "\"These demons are relentless. Shouting at me won't make me buy your stuff!\" -- Dresbin"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Convince it to go away."
                             ],
                             "value": 4
                         },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Banish the demon.",
+                                "Smite the demon.",
+                                "Send it back where it came from."
                             ],
                             "value": 5
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #4-23"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #4-24",
+                    "name": "Medusa Lair",
+                    "descriptions": [
+                        "If the dungeon master ever describes statues as \"incredibly lifelike\", it's time to equip your petrification protection items.",
+                        "The dungeon master never describes statues as being extremely lifelike unless they're actually petrified people.",
+                        "The \"eerily lifelike\" statues in horrified poses are a dead giveaway, every time."
+                    ],
+                    "flavor": [
+                        "\"I'd bet 50 gold that \"It can't petrify ALL of us!\" were the last words of one of these sets of statues.\" -- Bradley"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Find a way around.",
+                                "Go around."
                             ],
                             "value": 4
                         },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Protection from Petrification.",
+                                "Smite it from around the corner.",
+                                "Petrification Resistance!"
                             ],
                             "value": 5
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #4-24"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #4-25",
+                    "name": "Recursive Maze",
+                    "descriptions": [
+                        "It's a big maze made up of other, smaller mazes, some of which have tiny mazes and puzzles inside.",
+                        "Some sections of the maze are smaller, self-contained mazes, and some of those have puzzles in the middle.",
+                        "Each section of the maze is actually a smaller maze, and has a puzzle at the exit."
+                    ],
+                    "flavor": [
+                        "\"I think the architect stole the designs of existing mazes, glued them together, and called it new...\" -- Tavila"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Muddle through eventually.",
+                                "Brute-force the mazes.",
+                                "Right-hand rule each mini-maze."
                             ],
                             "value": 4
                         },
                         "STEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Find the shortest path.",
+                                "Find the best way through.",
+                                "Solve the mazes."
                             ],
                             "value": 5
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #4-25"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #4-26",
+                    "name": "Corridoor",
+                    "descriptions": [
+                        "A hallway of nothing but doors featuring every type and variant of mechanical lock known to dwarf.",
+                        "It's a long hallway with a door every five feet, and every one of them has a different type of lock.",
+                        "Behind each door is another door, each with a different type of lock. When does it end?"
+                    ],
+                    "flavor": [
+                        "\"I've seen home improvement stores with fewer doors than this hallway.\" -- Davey"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Go around.",
+                                "Go a different way.",
+                                "No. We're not doing this.",
+                                "No. Just no.",
+                                "No. We're going around."
                             ],
                             "value": 4
                         },
                         "STEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Pick ALL the locks.",
+                                "Pick the locks.",
+                                "Open all the locks."
                             ],
                             "value": 5
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #4-26"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #4-27",
+                    "name": "Sneezing Gas Trap",
+                    "descriptions": [
+                        "This definitely violates some kind of treaty about cruel and unusual dungeon traps.",
+                        "This trap has to be illegal under the laws about cruel and unusual traps.",
+                        "Whoever installed this is clearly ignoring the standards on cruel and unusual traps."
+                    ],
+                    "flavor": [
+                        "\"Now see, had only you thought to wear a mask like mine, you wouldn't be in this predicament.\" -- The Formless"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Achoo!",
+                                "Ah, ah, achoo!"
                             ],
                             "value": 4
                         },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 5
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Disarm the trap.",
+                                "Disable the trap.",
+                                "Jam the gas emitters."
                             ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
+                            "value": 5
                         }
-                    },
-                    "name": "EVENT #4-27"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #4-28",
+                    "name": "Deceptively Long Corridor",
+                    "descriptions": [
+                        "There's no reason anyone would build a corridor this long if it didn't have a secret door in it somewhere.",
+                        "Any passage this long with no other features has to be concealing a secret passageway.",
+                        "Nobody ever digs a corridor this long without hiding a secret passage near the middle."
+                    ],
+                    "flavor": [
+                        "\"It's dwarven tradition to put secret rooms in these corridors, mostly for hiding ale casks.\" -- Volkur"
+                    ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Check the walls.",
+                                "Tap on all the walls.",
+                                "Search the whole corridor."
                             ],
                             "value": 4
                         },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Pinpoint the secret door.",
+                                "Locate the secret door.",
+                                "Find the secret door."
                             ],
                             "value": 5
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #4-28"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EVENT #4-29",
-                    "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 4
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 5
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        }
-                    },
-                    "name": "EVENT #4-29"
-                },
-                {
+                    "name": "Nested Puzzles",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Solving the pushable block puzzle reveals the solution to a room full of levers that exposes a 15-tile puzzle...",
+                        "Complete the weight-balancing puzzle to reveal a torch-lighting puzzle that unlocks the pushable blocks...",
+                        "The tile-rotating puzzle leads to a color-matching puzzle that itself reveals riddle..."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Be quiet for once and let me think - the rest of you can get back to smashing things soon.\" -- Volkur"
                     ],
-                    "id": "EVENT #4-30",
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Brute force the puzzles."
                             ],
                             "value": 4
                         },
-                        "STEALTH": {
+                        "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Solve the puzzles.",
+                                "Figure out the solutions.",
+                                "Work out the solutions."
                             ],
-                            "value": 0
-                        },
-                        "ARCANE": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
+                    "id": "EVENT #4-30",
+                    "name": "Broken Plumbing",
+                    "descriptions": [
+                        "Reconnecting them all up properly opens the way. Connecting them improperly results in a sewage shower.",
+                        "The novelty of this puzzle stems from the fact that if you screw it up, you'll be sprayed with sewage.",
+                        "Fix the pipes to proceed; get it wrong for a copious showering of sewage."
+                    ],
+                    "flavor": [
+                        "\"Are you SURE this is the right solution? Are you sure you're sure? Don't open the valve if you have ANY doubts.\" -- Aria"
+                    ],
+                    "resources": {
+                        "TIME": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Brute force the solution.",
+                                "Keep trying pipes until it works.",
+                                "Very, very carefully find the solution."
                             ],
-                            "value": 0
+                            "value": 4
                         },
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Work out the solution.",
+                                "Determine the solution.",
+                                "Calculate the solution."
                             ],
                             "value": 5
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
-                    },
-                    "name": "EVENT #4-30"
+                    }
                 }
             ],
             "monsters": [
@@ -11296,7 +11033,8 @@
                             "texts": [
                                 "Try to answer.",
                                 "Be bad at riddles.",
-                                "Does this riddle even have an answer?"
+                                "Does this riddle even have an answer?",
+                                "Blue. No, yel-- Auuuuuuuugh!"
                             ],
                             "value": 5
                         }
