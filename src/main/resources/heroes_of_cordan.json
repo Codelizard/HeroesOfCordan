@@ -2530,14 +2530,14 @@
                 },
                 {
                     "id": "EQUIPMENT #2-15",
-                    "name": "Kunai",
+                    "name": "Pantyhose of Sneaking",
                     "descriptions": [
-                        "You can throw them to distract someone. They can also open boxes and tins.",
-                        "Throw them at distant walls to distract enemies. Also works as a letter-opener.",
-                        "A ninja tool that can be thrown to make a distraction. It's also useful prying stuck doors."
+                        "Did you know you can just append \"of sneaking\" to basically anything?",
+                        "For the adventurer who wants every single item of their clothing to have a suffix.",
+                        "It could be worse, it could be the corset of sneaking."
                     ],
                     "flavor": [
-                        "\"Hand that here, I have some trail rations stuck in my teeth I need to pick out.\" -- Tal'akh"
+                        "\"No, I'm not going to wear them! I'm not THAT kind of bard!\" -- Bradley"
                     ],
                     "resources": {
                         "STEALTH": {
