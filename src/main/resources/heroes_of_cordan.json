@@ -3373,7 +3373,7 @@
                     "descriptions": [
                         "Don't forget that this is a fantasy setting, so it also works on owlbears, chimeras, and wildshaped druids.",
                         "This formidable trap is a staple of dungeons the world over and is the bane of bears and bearshaped druids alike.",
-                        "Spring-loaded steel jaws designed to immobilize large creates, like bears, small dragons, and shapeshifted druids."
+                        "Spring-loaded steel jaws designed to immobilize large creatures, like bears, small dragons, and shapeshifted druids."
                     ],
                     "flavor": [
                         "\"Hold it! Unless you were looking to get a peg leg, stay away from there...\" -- Lyndra"
@@ -3851,7 +3851,7 @@
                         "Annoyingly enough this puzzle's gimmick has weights of fractional values and multiple measurement systems."
                     ],
                     "flavor": [
-                        "\"How many 2nd Century Pounds are in a 10 Century Kiloaum, again...?\" -- Asira"
+                        "\"How many 2nd Century Pounds are in a 10th Century Kiloaum, again...?\" -- Asira"
                     ],
                     "resources": {
                         "TIME": {
