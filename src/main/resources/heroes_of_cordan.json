@@ -987,29 +987,27 @@
                 },
                 {
                     "id": "EVENT #1-10",
-                    "name": "Stone Block Trap",
+                    "name": "Crumbling Floor",
                     "descriptions": [
-                        "These things are the real reason people wear spiked helmets.",
-                        "A less than friendly reminder to wear a helmet when dungeoneering.",
-                        "Given the state of the dungeon, it may just be a collapsing section of the ceiling."
+                        "Careful, it's almost ready to collapse. And no, you can't skip a dungeon floor by falling down it.",
+                        "It's about to collapse - unfortunately, you can't skip a dungeon floor by falling into the resulting pit.",
+                        "It'll collapse if you step on it wrong, but unfortunately you can't skip a dungeon floor if you fall down."
                     ],
                     "flavor": [
-                        "\"Careful... don't step over there unless you have a burning desire to be flatter.\" -- Lyndra"
+                        "\"This right here is a poor display. Even a dungeon overlord still needs to do maintenance!\" -- Davey"
                     ],
                     "resources": {
                         "STEALTH": {
                             "texts": [
-                                "Locate the trigger.",
-                                "Avoid the trigger.",
-                                "Sneak around it."
+                                "Find a safe path across.",
+                                "Find a way around.",
+                                "Search for a safe path across."
                             ],
                             "value": 2
                         },
                         "HEALTH": {
                             "texts": [
-                                "Take the hit",
-                                "How bad can it be?",
-                                "I've taken worse wounds in tavern brawls."
+                                "Fall down and climb back up."
                             ],
                             "value": 1
                         }
@@ -1189,26 +1187,28 @@
                 },
                 {
                     "id": "EVENT #1-17",
-                    "name": "Rusted Lever",
+                    "name": "Box Stacking Puzzle",
                     "descriptions": [
-                        "A fine lesson on why not to use untreated iron when constructing your dungeon.",
-                        "Humid dungeons and ungalvanized metal are a disaster waiting to happen.",
-                        "It's got so much rust on it, there may not even be any iron left."
+                        "This wouldn't be so bad if the boxes didn't feel like they were full of rocks... or if there weren't an antimagic field.",
+                        "No, there are no grappling hook points at the room exit that would let you cheat.",
+                        "Too bad for you that the walls are smooth and unclimbable; you have to do this the intended way."
                     ],
                     "flavor": [
-                        "\"This is worse than that Rust Monster infestation I cleared back in '47.\" -- Ralford"
+                        "\"Stupid competent dungeon designers making me solve their stupid puzzles like they wanted...\" -- Hodge"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Find a way around."
+                                "Stack crates one by one.",
+                                "Pool your strength to shift the crates."
                             ],
                             "value": 1
                         },
                         "PHYSICAL": {
                             "texts": [
-                                "Give it a good pull!",
-                                "Pull harder!"
+                                "Toss the boxes around to speed things up.",
+                                "Stack up crates and toss party members to the top.",
+                                "Stack the crates while your allies are standing on them."
                             ],
                             "value": 2
                         }
@@ -1443,27 +1443,27 @@
                 },
                 {
                     "id": "EVENT #1-26",
-                    "name": "Pressure Plate Maze",
+                    "name": "Trapped Locked Door",
                     "descriptions": [
-                        "The plates aren't wired to anything, but they sound like nails on a chalkboard so you need to avoid them anyway.",
-                        "Stepping on one does nothing except make a scraping noise that hurts your ears.",
-                        "You need to avoid the plates, not for traps, but because they make an agonizing nails-on-chalkboard sound."
+                        "Unfortunately, if you kick this one, it explodes; best to just pick the lock.",
+                        "Breaking down the door makes it explode, so picking the lock is recommended.",
+                        "Someone expected you to kick the door open instead of lockpicking it; it'll explode if you try that."
                     ],
                     "flavor": [
-                        "\"You think you have it bad? Some of us have keen elven senses.\" -- Aria"
+                        "\"Step back, meatheads, this one is going to require some finesse, not smashy-smashy.\" -- Kirak"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Carefully pick a path through.",
-                                "Find a way around the plates."
+                                "Find a way around."
                             ],
                             "value": 1
                         },
                         "STEALTH": {
                             "texts": [
-                                "Find a path through the plates.",
-                                "Determine what tiles are plates and avoid them."
+                                "Pick the lock.",
+                                "Carefully pick the lock.",
+                                "Disable the lock."
                             ],
                             "value": 2
                         }
@@ -1555,14 +1555,14 @@
                 },
                 {
                     "id": "EVENT #1-30",
-                    "name": "Trapped Locked Door",
+                    "name": "Rusted Lever",
                     "descriptions": [
-                        "Unfortunately, if you kick this one, it explodes; best to just pick the lock.",
-                        "Breaking down the door makes it explode, so picking the lock is recommended.",
-                        "Someone expected you to kick the door open instead of lockpicking it; it'll explode if you try that."
+                        "A fine lesson on why not to use untreated iron when constructing your dungeon.",
+                        "Humid dungeons and ungalvanized metal are a disaster waiting to happen.",
+                        "It's got so much rust on it, there may not even be any iron left."
                     ],
                     "flavor": [
-                        "\"Step back, meatheads, this one is going to require some finesse, not smashy-smashy.\" -- Kirak"
+                        "\"This is worse than that Rust Monster infestation I cleared back in '47.\" -- Davey"
                     ],
                     "resources": {
                         "TIME": {
@@ -1573,9 +1573,9 @@
                         },
                         "MECHANICAL": {
                             "texts": [
-                                "Pick the lock.",
-                                "Disarm the trap and open the door.",
-                                "Disable the trap and lock."
+                                "Fix the lever.",
+                                "Bust out the rust remover.",
+                                "Repair the lever."
                             ],
                             "value": 2
                         }
@@ -3282,28 +3282,28 @@
                 },
                 {
                     "id": "EVENT #2-10",
-                    "name": "Spring-Loaded Pressure Plate",
+                    "name": "Bear Trap",
                     "descriptions": [
-                        "Launches you into the ceiling at high speed. Multiple times, if you fall back down onto it.",
-                        "The strongly-wound spring will launch even the fighter in plate mail into the ceiling.",
-                        "The only hint to this pressure plate's existence is the cracks in the ceiling it will launch you into."
+                        "Don't forget that this is a fantasy setting, so it also works on owlbears, chimeras, and wildshaped druids.",
+                        "This formidable trap is a staple of dungeons the world over and is the bane of bears and bearshaped druids alike.",
+                        "Spring-loaded steel jaws designed to immobilize large creatures, like bears, small dragons, and shapeshifted druids."
                     ],
                     "flavor": [
-                        "\"These aren't so bad in a dungeon with higher ceilings.\" -- Kirak"
+                        "\"Hold it! Unless you were looking to get a peg leg, stay away from there...\" -- Lyndra"
                     ],
                     "resources": {
                         "STEALTH": {
                             "texts": [
-                                "Locate and go around the trap.",
-                                "Find the plate and go around it.",
-                                "Search for the trap and get past."
+                                "Disarm the trap.",
+                                "Set off the trap safely.",
+                                "Move the trap safely."
                             ],
                             "value": 3
                         },
                         "HEALTH": {
                             "texts": [
                                 "Take the hit.",
-                                "Send someone with a helmet in front."
+                                "You're wearing greaves, it'll be fine, right?"
                             ],
                             "value": 2
                         }
@@ -3369,28 +3369,29 @@
                 },
                 {
                     "id": "EVENT #2-13",
-                    "name": "Bear Trap",
+                    "name": "Stone Block Trap",
                     "descriptions": [
-                        "Don't forget that this is a fantasy setting, so it also works on owlbears, chimeras, and wildshaped druids.",
-                        "This formidable trap is a staple of dungeons the world over and is the bane of bears and bearshaped druids alike.",
-                        "Spring-loaded steel jaws designed to immobilize large creatures, like bears, small dragons, and shapeshifted druids."
+                        "These things are the real reason people wear spiked helmets.",
+                        "A less than friendly reminder to wear a helmet when dungeoneering.",
+                        "Given the state of the dungeon, it may just be a collapsing section of the ceiling."
                     ],
                     "flavor": [
-                        "\"Hold it! Unless you were looking to get a peg leg, stay away from there...\" -- Lyndra"
+                        "\"How about one of you guys with a helmet take the lead on this one?\" -- Mac"
                     ],
                     "resources": {
                         "MECHANICAL": {
                             "texts": [
-                                "Disarm the trap.",
-                                "Set off the trap safely.",
-                                "Move the trap safely."
+                                "Locate the trigger.",
+                                "Avoid the trigger.",
+                                "Sneak around it."
                             ],
                             "value": 3
                         },
                         "HEALTH": {
                             "texts": [
-                                "Take the hit.",
-                                "You're wearing greaves, it'll be fine, right?"
+                                "Take the hit",
+                                "How bad can it be?",
+                                "I've taken worse wounds in tavern brawls."
                             ],
                             "value": 2
                         }
@@ -3664,29 +3665,29 @@
                 },
                 {
                     "id": "EVENT #2-23",
-                    "name": "Lonely Ghost",
+                    "name": "Summoned Devil",
                     "descriptions": [
-                        "It has a tragic story of how it came to haunt this dungeon, and just wants you to stay and listen to it.",
-                        "It's going to force you to sit there and listen to its sob story of why it's in this dungeon.",
-                        "It sealed the doors and extinguished most of the lights so that you have to listen to its tragic backstory."
+                        "It's just as confused as you are why it's here, and wants some directions back to the Infernal Planes.",
+                        "The summoner got killed and now this demon just wants some directions back to the Lower Planes.",
+                        "This demon isn't hostile, but it isn't sure how to get back to the Infernal Planes and could use some directions."
                     ],
                     "flavor": [
-                        "\"Why does every deceased spirit feel the need to tell its life story?\" -- Lyndra"
+                        "\"I suppose a few directions in exchange for not being blasted with hellfire is a fair trade.\" -- Dresbin"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Wait and listen.",
-                                "Listen, since you don't have a choice.",
-                                "Wait for it to finish."
+                                "I think we saw a portal on the last floor...",
+                                "We went past a portal on the previous floor...",
+                                "Go up a floor and there should be a portal..."
                             ],
                             "value": 2
                         },
                         "DIVINE": {
                             "texts": [
-                                "Banish the ghost.",
-                                "Smite the ghost.",
-                                "Make the ghost feel better so it lets you go."
+                                "Banish it.",
+                                "Banish it, since that's what it wants.",
+                                "Send it back to hell where it wants to be."
                             ],
                             "value": 3
                         }
@@ -5381,27 +5382,29 @@
             "events": [
                 {
                     "id": "EVENT #3-1",
-                    "name": "Ballista Trap",
+                    "name": "Crossfire Trap",
                     "descriptions": [
-                        "When an arrow trap just isn't enough.",
-                        "Take it up a notch from arrow traps, and you have this.",
-                        "Arrow traps not cutting it? Try a ballista trap, and give those pesky adventurers what for."
+                        "If one arrow trap is good, multiple arrow traps is even better.",
+                        "Arrow traps: Why stop at just one?",
+                        "Whoever built this must have gotten a bulk order discount on arrow traps."
                     ],
                     "flavor": [
-                        "\"When they break out the miniaturized siege equipment, they're getting serious.\" -- Rick"
+                        "\"And they laughed when I tried to learn how to dual-wield tower shields.\" -- Talrath"
                     ],
                     "resources": {
                         "HEALTH": {
                             "texts": [
-                                "Take the hit."
+                                "Take the hit.",
+                                "Take the hits.",
+                                "Run through."
                             ],
                             "value": 3
                         },
                         "PHYSICAL": {
                             "texts": [
-                                "Block the bolt.",
-                                "Deflect the bolt.",
-                                "Stop the bolt on a shield."
+                                "Block the arrows.",
+                                "Deflect the arrows.",
+                                "Dodge, block, and run."
                             ],
                             "value": 4
                         }
@@ -5437,14 +5440,14 @@
                 },
                 {
                     "id": "EVENT #3-3",
-                    "name": "Zweihander Trap",
+                    "name": "Trap Gauntlet",
                     "descriptions": [
-                        "Since machines can swing arbitrarily large swords, you might as well go big.",
-                        "Machines don't take penalties to large weapons, so why not go big?",
-                        "Evidently the dungeon designer decided to go big with the traps at this point."
+                        "A narrow corridor lined with traps spaced in just such a way that there are no safe spots in the whole thing.",
+                        "No space in this corridor is safe from some trap or other, so keep on moving.",
+                        "Every step down this corridor triggers another trap, forcing you to move into the path of another one."
                     ],
                     "flavor": [
-                        "\"Whichever trapsmith made this must have had impressive muscles of his own to assemble it.\" -- Avaris"
+                        "\"I can only deflect so many arrows in a short time, you know!\" -- Mac"
                     ],
                     "resources": {
                         "HEALTH": {
@@ -5455,9 +5458,9 @@
                         },
                         "PHYSICAL": {
                             "texts": [
-                                "Block the swing.",
-                                "Parry the swing.",
-                                "Catch the swing on a shield."
+                                "Block the traps.",
+                                "Shield against the traps.",
+                                "Charge through with a shield up."
                             ],
                             "value": 4
                         }
@@ -5465,34 +5468,6 @@
                 },
                 {
                     "id": "EVENT #3-4",
-                    "name": "Greased Floor, Spiked Walls",
-                    "descriptions": [
-                        "For such a simple setup, there seems to be an awful lot of skeletons lining this corridor.",
-                        "It's a very simple setup and yet its effectiveness is proven by the skeletons lying everywhere.",
-                        "It seems a little too simple, but the skeletons stuck on the spikes demonstrate its effectiveness."
-                    ],
-                    "flavor": [
-                        "\"Don't wear your spiked shoes today, they said. We're going dungeon crawling, they said...\" -- Tavila"
-                    ],
-                    "resources": {
-                        "ARCANE": {
-                            "texts": [
-                                "Levitate over the floor.",
-                                "Use Levitation to avoid the grease.",
-                                "Levitate so the grease doesn't affect you."
-                            ],
-                            "value": 4
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "Just go for it."
-                            ],
-                            "value": 3
-                        }
-                    }
-                },
-                {
-                    "id": "EVENT #3-5",
                     "name": "Exploding Rune",
                     "descriptions": [
                         "This sensitive and potent rune can be triggered by reading it, poking it, sneezing on it...",
@@ -5520,22 +5495,52 @@
                     }
                 },
                 {
-                    "id": "EVENT #3-6",
-                    "name": "Giant Animated Stone Hand",
+                    "id": "EVENT #3-5",
+                    "name": "Bitterly Cold Rune",
                     "descriptions": [
-                        "Get too close, and with a heavy punch it sends you back the way you came, then flips you off.",
-                        "Step too close and it'll punch you back into the previous room, then flip you the bird.",
-                        "After it punches you back into the corridor, it'll make offensive hand gestures at you."
+                        "Forces you to stop, build a campfire, warm your hands, and complain about the temperature for a little while.",
+                        "Drops its surroundings to a temperature that's really not that bad, if you're from the frozen north.",
+                        "This rune makes some party members stop and complain about the cold while others tell them what REAL cold is like."
                     ],
                     "flavor": [
-                        "\"Some mage heard the phrase 'add insult to injury' and decided to take it literally.\" -- Laurie"
+                        "\"Pfah! Vikari been outside shirtless in colder air than this!\" -- Vikari",
+                        "\"This is nothing. I had to shovel two feet of snow just to clear a path from the barracks once. Both ways!\" -- Talrath",
+                        "\"Yeah, we get it, and you hiked uphill both ways through the snow, too. I don't care, it's cold!\" -- Wyatt"
                     ],
                     "resources": {
                         "ARCANE": {
                             "texts": [
-                                "Disintegrate the hand.",
-                                "Crumble the hand to dust.",
-                                "Hit it with Disintegrate."
+                                "Negate the rune.",
+                                "Dispel the rune.",
+                                "Cancel the rune with a Heat Aura spell."
+                            ],
+                            "value": 4
+                        },
+                        "HEALTH": {
+                            "texts": [
+                                "Frostbite builds character."
+                            ],
+                            "value": 3
+                        }
+                    }
+                },
+                {
+                    "id": "EVENT #3-6",
+                    "name": "Magic Missile Launcher",
+                    "descriptions": [
+                        "Being assailed by magical bolts is bad enough; it's worse when they can't miss and come ten at a time.",
+                        "Magic Missile is bad enough on its own, but it's even worse when fired as a salvo.",
+                        "Magic Missile normally stops at three bolts, and yet, you now have twelve of them hurtling at you."
+                    ],
+                    "flavor": [
+                        "\"They're even all colored differently. That's dedication. Or is it obsession?\" -- Laurie"
+                    ],
+                    "resources": {
+                        "ARCANE": {
+                            "texts": [
+                                "Counter the magic missiles.",
+                                "Cast Arcane Shield.",
+                                "Put up an antimagic barrier."
                             ],
                             "value": 4
                         },
@@ -5549,27 +5554,30 @@
                 },
                 {
                     "id": "EVENT #3-7",
-                    "name": "Desecrated Ground",
+                    "name": "Cursed Ring of Copious Bleeding",
                     "descriptions": [
-                        "It's covered in bones, rotting vegetation, evil energy, and dark purple light sources.",
-                        "The area has been decorated with skulls, candles made from human fat, nasty curses, and edgy posters.",
-                        "This room has been defiled by unholy energy, rotting corpses, poison mushrooms and sweaty gym clothes."
+                        "You really shouldn't have picked this up, but at least it wasn't the Ring of You Die.",
+                        "If you must pick up rings you find on the floor, at least stop putting them on without identifying them.",
+                        "Have you ever, perhaps, considered identifying jewelry BEFORE you put it on?"
                     ],
                     "flavor": [
-                        "\"Sometimes I wonder if the first thing necromancers sacrifice isn't their soul, but their sense of smell.\" -- Eleri"
+                        "\"Great, there's blood everywhere. You're going to attract every vampire in the dungeon.\" -- Talon",
+                        "\"I did not think one person could actually have that much blood in them. Impressive.\" -- The Formless"
                     ],
                     "resources": {
                         "HEALTH": {
                             "texts": [
-                                "Force through the evil energy."
+                                "It drained out all my blood!",
+                                "Take the hit.",
+                                "Pull it off!"
                             ],
                             "value": 3
                         },
                         "DIVINE": {
                             "texts": [
-                                "Consecrate the area.",
-                                "Purify the area.",
-                                "Cleanse the area."
+                                "Remove the curse.",
+                                "Uncurse the ring.",
+                                "Break the curse."
                             ],
                             "value": 4
                         }
@@ -5577,29 +5585,28 @@
                 },
                 {
                     "id": "EVENT #3-8",
-                    "name": "Trickster Imp",
+                    "name": "Evil Entomology Lab",
                     "descriptions": [
-                        "Unfortunately, this imp's idea of a practical joke is a 10,000 volt handshake.",
-                        "The bad side is that his practical jokes include a whoopee cushion that deals sonic damage.",
-                        "He's just joking around, but his main joke involves an exploding cigar with the power of a fireball."
+                        "Do you want to try your luck with the spiders, the flying insects, or the flying spiders?",
+                        "If you don't like insects, this is probably the worst room in the dungeon for you. Sorry.",
+                        "You know how scorpions are only remotely bearable because they can't fly? Yeah, about that..."
                     ],
                     "flavor": [
-                        "\"I don't know why you're so sour, watching him trick YOU was hilarious.\" -- Hodge"
+                        "\"You know how some insane wizards make chimeras? This is what the druidic equivalent looks like.\" -- Asira"
                     ],
                     "resources": {
                         "HEALTH": {
                             "texts": [
-                                "Pull his finger.",
-                                "Humor him so he goes away.",
-                                "\"Who's there?\""
+                                "Run through.",
+                                "Don't stop running!"
                             ],
                             "value": 3
                         },
                         "DIVINE": {
                             "texts": [
-                                "Banish the imp.",
-                                "Send the imp back to hell.",
-                                "Smite the imp."
+                                "Ward against poison.",
+                                "Protection from Insects!",
+                                "Neutralize Poison."
                             ],
                             "value": 4
                         }
@@ -5607,11 +5614,11 @@
                 },
                 {
                     "id": "EVENT #3-9",
-                    "name": "Sacred Puzzle",
+                    "name": "That Which Should Not Be Here",
                     "descriptions": [
-                        "It's relatively simple, but even a small mistake results in Divine Retribution smacking you down.",
-                        "The puzzle isn't too hard but if you disturb anything else a bolt of divine lightning hits you.",
-                        "Be careful solving the puzzle; it's not hard but if you disturb the surroundings, a bolt of Divine Retribution stikes you."
+                        "Don't eldritch abominations have better things to be doing than lurking about in old dungeons?",
+                        "The only thing worse than an eldritch abomination is an out-of-depth eldritch abomination.",
+                        "Really, this THING shouldn't even exist in the first place. Nothing should have that many tentacles."
                     ],
                     "flavor": [
                         "\"Why don't you just wait over by the door and stand *perfectly still* while we solve this?\" -- Lyndra"
@@ -5619,17 +5626,15 @@
                     "resources": {
                         "HEALTH": {
                             "texts": [
-                                "How bad can one lightning bolt be?",
-                                "Oops, was that important?",
-                                "Take the hits."
+                                "Run past it."
                             ],
                             "value": 3
                         },
                         "DIVINE": {
                             "texts": [
-                                "Remove the divine protection.",
-                                "Pacify the divine protection.",
-                                "Suppress the divine protection."
+                                "Banish it.",
+                                "Send it to another plane.",
+                                "Banish the Thing."
                             ],
                             "value": 4
                         }
@@ -5637,6 +5642,34 @@
                 },
                 {
                     "id": "EVENT #3-10",
+                    "name": "Giant Animated Stone Hand",
+                    "descriptions": [
+                        "Get too close, and with a heavy punch it sends you back the way you came, then flips you off.",
+                        "Step too close and it'll punch you back into the previous room, then flip you the bird.",
+                        "After it punches you back into the corridor, it'll make offensive hand gestures at you."
+                    ],
+                    "flavor": [
+                        "\"Some mage heard the phrase 'add insult to injury' and decided to take it literally.\" -- Laurie"
+                    ],
+                    "resources": {
+                        "STEALTH": {
+                            "texts": [
+                                "Sneak past.",
+                                "Avoid the trigger.",
+                                "Sneak around it."
+                            ],
+                            "value": 4
+                        },
+                        "HEALTH": {
+                            "texts": [
+                                "Take the hit."
+                            ],
+                            "value": 3
+                        }
+                    }
+                },
+                {
+                    "id": "EVENT #3-11",
                     "name": "Delayed Trigger Trapdoor",
                     "descriptions": [
                         "Taking advantage of the common arrangement of adventuring parties, this trapdoor doesn't open until the whole party is over it.",
@@ -5664,36 +5697,38 @@
                     }
                 },
                 {
-                    "id": "EVENT #3-11",
-                    "name": "Crumbling Floor",
+                    "id": "EVENT #3-12",
+                    "name": "Mithril Caltrops",
                     "descriptions": [
-                        "Careful, it's almost ready to collapse. And no, you can't skip a dungeon floor by falling down it.",
-                        "It's about to collapse - unfortunately, you can't skip a dungeon floor by falling into the resulting pit.",
-                        "It'll collapse if you step on it wrong, but unfortunately you can't skip a dungeon floor if you fall down."
+                        "The only reason to make caltrops of mithril is to show adventurers that they're dealing with a high-class villain.",
+                        "Finding these in a dungeon is how you know you're not dealing with a run-of-the-mill antagonist.",
+                        "Only the classiest of dungeon lords sees fit to outfit his lair with caltrops of this stature."
                     ],
                     "flavor": [
-                        "\"This right here is a poor display. Even a dungeon overlord still needs to do maintenance!\" -- Davey"
+                        "\"If we weren't in such a hurry, I'd totally steal and resell these. Or melt them down.\" -- Talon"
                     ],
                     "resources": {
                         "STEALTH": {
                             "texts": [
-                                "Find a safe path across.",
-                                "Find a way around.",
-                                "Search for a safe path across."
+                                "Pick a path through the caltrops.",
+                                "Find a way around the caltrops.",
+                                "Find a way through the caltrops."
                             ],
                             "value": 4
                         },
                         "HEALTH": {
                             "texts": [
-                                "Fall down and climb back up."
+                                "Suck it up and walk across.",
+                                "Deal with it.",
+                                "Ignore the spikiness."
                             ],
                             "value": 3
                         }
                     }
                 },
                 {
-                    "id": "EVENT #3-12",
-                    "name": "Pendulum Blade Trap",
+                    "id": "EVENT #3-13",
+                    "name": "Swinging Blade Trap",
                     "descriptions": [
                         "Take care passing through its arc, or you'll get cut down to size.",
                         "It swings back and forth, cutting down slow and clumsy adventurers.",
@@ -5703,11 +5738,11 @@
                         "\"These are also handy for cutting up roast meats, by the way.\" -- Erdan"
                     ],
                     "resources": {
-                        "STEALTH": {
+                        "MECHANICAL": {
                             "texts": [
-                                "Find a way around.",
-                                "Find the right timing to get past.",
-                                "Sneak through with the right timing."
+                                "Disarm the trap.",
+                                "Find a way to turn it off.",
+                                "Jam the mechanism."
                             ],
                             "value": 4
                         },
@@ -5720,7 +5755,35 @@
                     }
                 },
                 {
-                    "id": "EVENT #3-13",
+                    "id": "EVENT #3-14",
+                    "name": "Hand Axe Launcher",
+                    "descriptions": [
+                        "They're hand axes of returning, too, so don't think you can set it off once and be done with it.",
+                        "Dodging once is insufficient, as it fires hand axes of returning.",
+                        "The hand axes are enchanted to return to the launcher, too, so watch your back."
+                    ],
+                    "flavor": [
+                        "\"Is it still a hand axe if it's launched by a spring? Then again, 'spring axe' doesn't have the same ring to it.\" -- Tal'akh"
+                    ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "texts": [
+                                "Disarm the trap.",
+                                "Disable the trap.",
+                                "Disable the trigger."
+                            ],
+                            "value": 4
+                        },
+                        "HEALTH": {
+                            "texts": [
+                                "Take the hit."
+                            ],
+                            "value": 3
+                        }
+                    }
+                },
+                {
+                    "id": "EVENT #3-15",
                     "name": "Trapped Door Trap",
                     "descriptions": [
                         "The door trap is obvious. The trap that springs when you try to disarm THAT trap is better hidden, and much deadlier.",
@@ -5748,63 +5811,65 @@
                     }
                 },
                 {
-                    "id": "EVENT #3-14",
-                    "name": "Electrified Metal Door",
-                    "descriptions": [
-                        "Nothing seems to be amiss with this door, until you turn the handle.",
-                        "This door seems perfectly willing to be opened until you touch it.",
-                        "This metal door only has a cheap lock, but that's not the reason it's still closed tight."
-                    ],
-                    "flavor": [
-                        "\"Now see, this is why you want to wear non-conducting boots and gloves in a place like this.\" -- Davey"
-                    ],
-                    "resources": {
-                        "MECHANICAL": {
-                            "texts": [
-                                "Ground the electricity.",
-                                "Ground the door to render it harmless.",
-                                "Ground out the electricity."
-                            ],
-                            "value": 4
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "Take the hit."
-                            ],
-                            "value": 3
-                        }
-                    }
-                },
-                {
-                    "id": "EVENT #3-15",
-                    "name": "Infinite Projectile Trap",
-                    "descriptions": [
-                        "Each arrow, dart, or shuriken flies into a hole on the other side of the wall where it presumably gets recycled.",
-                        "Launches arrows, shuriken, darts, and more into a hole on the opposite wall, and with uneven timing too.",
-                        "It launches shuriken, arrows, crossbow bolts, and darts with no pattern into a hole in the opposite wall."
-                    ],
-                    "flavor": [
-                        "\"Maybe if we wait long enough it'll fire a kitchen sink at us.\" -- Tal'akh"
-                    ],
-                    "resources": {
-                        "MECHANICAL": {
-                            "texts": [
-                                "Disarm the trap.",
-                                "Disable the trap.",
-                                "Jam the launcher."
-                            ],
-                            "value": 4
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "Take the hit."
-                            ],
-                            "value": 3
-                        }
-                    }
-                },
-                {
                     "id": "EVENT #3-16",
+                    "name": "Portcullis",
+                    "descriptions": [
+                        "The mechanism is broken, so someone will have to muscle up and lift it.",
+                        "The chain to raise it is broken, so you'll have to just lift the thing manually.",
+                        "Unfortunately the mechanism is busted, so you'll have to force it open."
+                    ],
+                    "flavor": [
+                        "\"Who uses a portcullis indoors anyway? Doors are better; you can kick 'em in for a dynamic entry!\" -- Rick"
+                    ],
+                    "resources": {
+                        "TIME": {
+                            "texts": [
+                                "Pool together and stuggle to lift it up.",
+                                "Find a way around.",
+                                "Give up and find another path."
+                            ],
+                            "value": 3
+                        },
+                        "PHYSICAL": {
+                            "texts": [
+                                "Lift the portcullis.",
+                                "Haul the portcullis up.",
+                                "Smash the portcullis."
+                            ],
+                            "value": 4
+                        }
+                    }
+                },
+                {
+                    "id": "EVENT #3-17",
+                    "name": "Pillar Rolling Puzzle",
+                    "descriptions": [
+                        "Somehow they don't stop rolling until they hit something, and then stop instead of rolling back.",
+                        "The pillars only move when you push them, but then keep moving until they hit something no matter what.",
+                        "These weird pillars cannot be stopped once you push them, until they hit a wall or another pillar."
+                    ],
+                    "flavor": [
+                        "\"Typical. Some wizard figures out how to negate friction, and wastes it on a stupid puzzle.\" -- Hodge"
+                    ],
+                    "resources": {
+                        "TIME": {
+                            "texts": [
+                                "These things are heavy!",
+                                "Combine your strength to push the pillars."
+                            ],
+                            "value": 3
+                        },
+                        "PHYSICAL": {
+                            "texts": [
+                                "Shove the pillars quickly.",
+                                "Push the pillars around easily."
+                            ],
+                            "value": 4
+                        }
+                    }
+                },
+                {
+                    "id": "EVENT #3-18",
                     "name": "Platforming Section",
                     "descriptions": [
                         "It goes without saying that if you screw up at all, you'll fall all the way down to the bottom.",
@@ -5826,66 +5891,6 @@
                                 "Jump like you mean it!",
                                 "Jump like a pro.",
                                 "Jump for all you're worth."
-                            ],
-                            "value": 4
-                        }
-                    }
-                },
-                {
-                    "id": "EVENT #3-17",
-                    "name": "Crate Stacking Puzzle",
-                    "descriptions": [
-                        "To make things worse, the puzzle designer put up an antimagic field just so you can't cheat.",
-                        "No, there are no grappling hook points at the room exit that would let you cheat.",
-                        "Too bad for you that the walls are smooth and unclimbable; you have to do this the intended way."
-                    ],
-                    "flavor": [
-                        "\"Stupid competent dungeon designers making me solve their stupid puzzles like they wanted...\" -- Hodge"
-                    ],
-                    "resources": {
-                        "TIME": {
-                            "texts": [
-                                "Solve the puzzle.",
-                                "Push and shove crates around.",
-                                "Stack crates one by one."
-                            ],
-                            "value": 3
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "Carry and stack crates quickly.",
-                                "Stack up crates and toss party members to the top.",
-                                "Stack the crates while your allies are standing on them."
-                            ],
-                            "value": 4
-                        }
-                    }
-                },
-                {
-                    "id": "EVENT #3-18",
-                    "name": "Solid Metal Door",
-                    "descriptions": [
-                        "This little piggy built his house out of steel girders and reinforced concrete...",
-                        "Now THIS is a door. Better be prepared if you want to take this one down.",
-                        "And it doesn't even have a keyhole on this side for you to try picking it."
-                    ],
-                    "flavor": [
-                        "\"Finally, Vikari find door worthy of Vikari's time.\" -- Vikari"
-                    ],
-                    "resources": {
-                        "TIME": {
-                            "texts": [
-                                "Unhinge the door.",
-                                "Remove the door from its frame.",
-                                "Take down the frame to remove the door."
-                            ],
-                            "value": 3
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "Bust it down.",
-                                "Charge into the door.",
-                                "Break it down with a charge."
                             ],
                             "value": 4
                         }
@@ -5923,21 +5928,51 @@
                 },
                 {
                     "id": "EVENT #3-20",
-                    "name": "Freezing Rune",
+                    "name": "Teleportitis Trap",
                     "descriptions": [
-                        "Forces your party to stop and complain loudly about the ambient temperature for a while.",
-                        "Causes your group to stop and build a campfire to warm their hands while complaining loudly.",
-                        "This rune makes some party members stop and complain about the cold while others tell them what REAL cold is like."
+                        "Funny how 'random' teleporting never takes yuo in the direction you want to go, isn't it?",
+                        "Inflicts 'random' teleportation on you for a while that will never take you in a helpful direction.",
+                        "Causes you to periodically teleport in a 'random' direction that always takes you further from your destination."
                     ],
                     "flavor": [
-                        "\"This is nothing. I had to shovel two feet of snow just to clear a path from the barracks once. Both ways!\" -- Talrath"
+                        "\"I'm just waiting for it to dump me into a trap or a pile of monsters, and then never trigger again.\" -- Tal'akh"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Could someone turn up the heat?",
-                                "Camp out for a bit.",
-                                "Build a fire and wait it out."
+                                "Wait until it stops.",
+                                "Wait out the duration.",
+                                "Wait it out and come back."
+                            ],
+                            "value": 3
+                        },
+                        "ARCANE": {
+                            "texts": [
+                                "Dispel the effect.",
+                                "Negate the effect.",
+                                "Supress the teleportation."
+                            ],
+                            "value": 4
+                        }
+                    }
+                },
+                {
+                    "id": "EVENT #3-21",
+                    "name": "Rune of Dancing",
+                    "descriptions": [
+                        "Causes your party to break out into a perfectly synchronized (but time-consuming) rendition of a famous performance.",
+                        "Forces your entire party to break into a song and dance routine. It's harmless, but time-consuming.",
+                        "You thought you didn't know how to dance, but apparently, you do, and now you can't stop."
+                    ],
+                    "flavor": [
+                        "\"We are all fortunate that I was given the vocals, rather than our throaty sword-wielders...\" -- Siebel"
+                    ],
+                    "resources": {
+                        "TIME": {
+                            "texts": [
+                                "Roll for Perform: Dance.",
+                                "Moonwalk for a while.",
+                                "You can tap-dance in greaves? Wow!"
                             ],
                             "value": 3
                         },
@@ -5952,37 +5987,37 @@
                     }
                 },
                 {
-                    "id": "EVENT #3-21",
-                    "name": "Frozen Room",
+                    "id": "EVENT #3-22",
+                    "name": "Spa & Sauna",
                     "descriptions": [
-                        "Ugh. Ice Physics!",
-                        "Hah, and you thought you could go a whole dungeon without dealing with Ice Physics. Think again!",
-                        "Just when you were least expecting it - Ice Physics!"
+                        "Don't judge adventurers for trying to stay beautiful! Adventuring is rugged work.",
+                        "Hey, that Charisma score isn't going to maintain itself.",
+                        "It's also conveniently divided: Men, Women, and Constructs."
                     ],
                     "flavor": [
-                        "\"Come on, you gotta admit, watching them flail about on 'da ice is *hilarious*.\" -- Wyatt"
+                        "\"About time I got the chance to get all of this blood off of me.\" -- Aria"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Slide back and forth for a while.",
-                                "Skid around until you reach the other side.",
-                                "Slip and slide until you reach the door."
+                                "Time for a break.",
+                                "Everyone needs a rest.",
+                                "Sweet, complimentary towels!"
                             ],
                             "value": 3
                         },
-                        "ARCANE": {
+                        "DIVINE": {
                             "texts": [
-                                "Melt the ice.",
-                                "Heat the room to melt the ice.",
-                                "Levitate over the ice."
+                                "It's a trap! Resist temptation!",
+                                "It's just an illusion! Break its effect!",
+                                "It's just an illuion, ward against it!"
                             ],
                             "value": 4
                         }
                     }
                 },
                 {
-                    "id": "EVENT #3-22",
+                    "id": "EVENT #3-23",
                     "name": "Bargaining Demon",
                     "descriptions": [
                         "It's not trying to make you sell your soul, but instead to rent it out to the Infernal Realms in a time-sharing scheme.",
@@ -6012,60 +6047,30 @@
                     }
                 },
                 {
-                    "id": "EVENT #3-23",
-                    "name": "Summoned Devil",
-                    "descriptions": [
-                        "It's just as confused as you are why it's here, and wants some directions back to the Infernal Planes.",
-                        "The summoner got killed and now this demon just wants some directions back to the Lower Planes.",
-                        "This demon isn't hostile, but it isn't sure how to get back to the Infernal Planes and could use some directions."
-                    ],
-                    "flavor": [
-                        "\"I suppose a few directions in exchange for not being blasted with hellfire is a fair trade.\" -- Dresbin"
-                    ],
-                    "resources": {
-                        "TIME": {
-                            "texts": [
-                                "I think we saw a portal on the last floor...",
-                                "We went past a portal on the previous floor...",
-                                "Go up a floor and there should be a portal..."
-                            ],
-                            "value": 3
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "Banish it.",
-                                "Banish it, since that's what it wants.",
-                                "Send it back to hell where it wants to be."
-                            ],
-                            "value": 4
-                        }
-                    }
-                },
-                {
                     "id": "EVENT #3-24",
-                    "name": "Succubus Celebrity",
+                    "name": "Desecrated Ground",
                     "descriptions": [
-                        "Reigning \"Miss World\" champion and the hottest thing to come from the nine hells, you should at least get her autograph.",
-                        "Also known as the \"hottest thing in the nine hells\", she's on tour and could use some more groupies.",
-                        "She's on tour right now, modelling the skimpiest of leather armors, and she could use some extras for a photo shoot."
+                        "It's covered in bones, rotting vegetation, evil energy, and dark purple light sources.",
+                        "The area has been decorated with skulls, candles made from human fat, nasty curses, and edgy posters.",
+                        "This room has been defiled by unholy energy, rotting corpses, poison mushrooms and sweaty gym clothes."
                     ],
                     "flavor": [
-                        "\"Vikari, stop staring at her chest! You'll just make her more powerful!\" -- Talrath"
+                        "\"Sometimes I wonder if the first thing necromancers sacrifice isn't their soul, but their sense of smell.\" -- Eleri"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Get some autographs to placate her.",
-                                "Agree to a photo opportunity.",
-                                "Fawn over her until she lets you go."
+                                "Go around.",
+                                "Find a way around.",
+                                "Go another way."
                             ],
                             "value": 3
                         },
                         "DIVINE": {
                             "texts": [
-                                "Banish her.",
-                                "Send her back to hell.",
-                                "Banish her to somewhere else."
+                                "Consecrate the area.",
+                                "Purify the area.",
+                                "Cleanse the area."
                             ],
                             "value": 4
                         }
@@ -6103,29 +6108,29 @@
                 },
                 {
                     "id": "EVENT #3-26",
-                    "name": "Portal Pit Room",
+                    "name": "Combination Lock",
                     "descriptions": [
-                        "Fall into one of the pits and you get dumped back at the start of the room, faceplanting in embarrassing fashion.",
-                        "This room is covered with concealed pits, each of which contains a small portal that dumps you on your face at the room entrance.",
-                        "Each of the many pits in this room has a portal that will drop you on your face at the front of the room to embarrass you."
+                        "Whatever crazy species made this apparently counts from 00 to FF because that's what the dial is labelled in.",
+                        "This dial goes up to 99, and then just keeps counting in some weird arcane glyphs.",
+                        "The dial on this lock includes fractions and imaginary numbers for extra frustration."
                     ],
                     "flavor": [
-                        "\"Whoa-! Oof! ...hey, guys, there's a pit ten feet to the left and twenty ahead.\" -- Narius"
+                        "\"Who locks a door with one of these things?\" -- Marty"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Find the pits by trial and error.",
-                                "Find the pits the hard way.",
-                                "Stumble through eventually."
+                                "Go around.",
+                                "Brute force the... no, just go around.",
+                                "Find a way around."
                             ],
                             "value": 3
                         },
                         "STEALTH": {
                             "texts": [
-                                "Avoid the pits.",
-                                "Find a path through the pits.",
-                                "Pick out a safe path."
+                                "Decipher the lock.",
+                                "Determine the lock combination.",
+                                "Figure out the combination."
                             ],
                             "value": 4
                         }
@@ -6133,29 +6138,29 @@
                 },
                 {
                     "id": "EVENT #3-27",
-                    "name": "Recursive Maze",
+                    "name": "Tar Trap",
                     "descriptions": [
-                        "It's a big maze made up of other, smaller mazes, some of which have tiny mazes and puzzles inside.",
-                        "Some sections of the maze are smaller, self-contained mazes, and some of those have puzzles in the middle.",
-                        "Each section of the maze is actually a smaller maze, and has a puzzle at the exit."
+                        "It'll dump a bucket of feathers on you afterwards, just to add insult to injury.",
+                        "Not only is it really disgusting, it takes FOREVER to get off of your gear.",
+                        "Comes with a complimentary feather trap that shares the same trigger."
                     ],
                     "flavor": [
-                        "\"I think the architect stole the designs of existing mazes, glued them together, and called it new...\" -- Tavila"
+                        "\"You think you have it tough? Imagine trying to get tar out of the joints of plate armor.\" -- Talrath"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Muddle through eventually.",
-                                "Brute-force the mazes.",
-                                "Right-hand rule each mini-maze."
+                                "Eugh, it's in my hair!",
+                                "Ick, it's all over my clothes!",
+                                "Get it off, get it off!"
                             ],
                             "value": 3
                         },
                         "STEALTH": {
                             "texts": [
-                                "Find the shortest path.",
-                                "Find the best way through.",
-                                "Solve the mazes."
+                                "Sneak around the trap.",
+                                "Avoid the trap trigger.",
+                                "Locate and avoid the trap."
                             ],
                             "value": 4
                         }
@@ -6163,29 +6168,29 @@
                 },
                 {
                     "id": "EVENT #3-28",
-                    "name": "Multi-Gate Puzzle",
+                    "name": "Multicolored Brick Wall",
                     "descriptions": [
-                        "Levels and gates, each lever opens, closes, and toggles some number of gates. Who builds these things?",
-                        "A lever/gate puzzle where levers open, close, and toggle gates. Probably a final project from dungeon architect college.",
-                        "This contraption is a series of gates controlled by levers that each open/close/toggle gates. A budget obstacle, but an effective one."
+                        "Every single brick on the wall is a different color, so good luck figuring out which one is the secret door trigger.",
+                        "You can't look for the one odd-colored brick that triggers a secret passage because every brick is a different color.",
+                        "This entire wall is made of bricks that don't repeat the same color twice, removing the easy way of finding the secret passage trigger."
                     ],
                     "flavor": [
-                        "\"The puzzles that I have to start taking notes for are by far the worst ones.\" -- Avaris"
+                        "\"It is doubly ingenious and/or insane because it hurts to even look at such a mash of colors.\" -- Avaris"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Brute force the solution.",
-                                "Trial and error the solution.",
-                                "Pull levers until the puzzle is solved."
+                                "Search the whole wall.",
+                                "Poke at every brick.",
+                                "Check the entire wall."
                             ],
                             "value": 3
                         },
                         "MECHANICAL": {
                             "texts": [
-                                "Solve the puzzle.",
-                                "Determine what each lever does and solve the puzzle.",
-                                "Cheat and rewire the puzzle."
+                                "Find the trigger.",
+                                "Locate the trigger.",
+                                "Pinpoint the secret trigger."
                             ],
                             "value": 4
                         }
@@ -6193,28 +6198,29 @@
                 },
                 {
                     "id": "EVENT #3-29",
-                    "name": "Sneezing Gas Trap",
+                    "name": "Circuitboard Puzzle",
                     "descriptions": [
-                        "This definitely violates some kind of treaty about cruel and unusual dungeon traps.",
-                        "This trap has to be illegal under the laws about cruel and unusual traps.",
-                        "Whoever installed this is clearly ignoring the standards on cruel and unusual traps."
+                        "Hope you remember how logic gates work, or you'll be at this for a while.",
+                        "Yes, it is a bit of an anachronism, but since when did that ever get in the way of a good puzzle?",
+                        "Binary logic has been around forever, allowing formal logic and obtuse puzzles to be created."
                     ],
                     "flavor": [
-                        "\"Now see, had only you thought to wear a mask like mine, you wouldn't be in this predicament.\" -- The Formless"
+                        "\"What the heck is an XNAND supposed to be? Are we sure this uses binary logic?\" -- Solo"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Achoo!",
-                                "Ah, ah, achoo!"
+                                "Brute force the puzzle.",
+                                "Keep trying stuff until it works.",
+                                "Solve through trial and error."
                             ],
                             "value": 3
                         },
                         "MECHANICAL": {
                             "texts": [
-                                "Disarm the trap.",
-                                "Disable the trap.",
-                                "Jam the gas emitters."
+                                "Calculate the solution.",
+                                "Work out the solution.",
+                                "Solve the puzzle properly."
                             ],
                             "value": 4
                         }
@@ -6222,10 +6228,10 @@
                 },
                 {
                     "id": "EVENT #3-30",
-                    "name": "Elaborate Clockwork Puzzle",
+                    "name": "Disassembled Clockwork Mechanism",
                     "descriptions": [
                         "This time, all the gears are the same size and have different numbers of teeth. Don't get your fingers crushed!",
-                        "This iteration of the classic puzzle features cams in addition to gears with different numbers of teeth.",
+                        "This iteration of the classic puzzle-obstacle features cams in addition to gears with different numbers of teeth.",
                         "And for this time around, the gears all have different shapes of teeth and sometimes require chains to connect them."
                     ],
                     "flavor": [
@@ -6235,15 +6241,15 @@
                         "TIME": {
                             "texts": [
                                 "Try everything in every slot.",
-                                "Brute force the puzzle.",
+                                "Brute force the solution.",
                                 "Try things until it works."
                             ],
                             "value": 3
                         },
                         "MECHANICAL": {
                             "texts": [
-                                "Solve the puzzle.",
-                                "Repair the puzzle quickly.",
+                                "Fix the mechanism.",
+                                "Repair the mechanism quickly.",
                                 "Replace the gears in the right spots."
                             ],
                             "value": 4
