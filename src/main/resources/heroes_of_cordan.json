@@ -3022,29 +3022,27 @@
             "events": [
                 {
                     "id": "EVENT #2-1",
-                    "name": "Crossfire Trap",
+                    "name": "Arrow Trap",
                     "descriptions": [
-                        "If one arrow trap is good, multiple arrow traps is even better.",
-                        "Arrow traps: Why stop at just one?",
-                        "Whoever built this must have gotten a bulk order discount on arrow traps."
+                        "One of the classics. No dungeon would be complete without one.",
+                        "Concealed hole in wall fires arrow when triggered. A timeless classic.",
+                        "You don't have a REAL dungeon until you've installed some of these."
                     ],
                     "flavor": [
-                        "\"And they laughed when I tried to learn how to dual-wield tower shields.\" -- Talrath"
+                        "\"Just once I'd like to see a crossbow trap or even a throwing axe trap, just for variety.\" -- Talon"
                     ],
                     "resources": {
                         "HEALTH": {
                             "texts": [
-                                "Take the hit.",
-                                "Take the hits.",
-                                "Run through."
+                                "Take the hit."
                             ],
                             "value": 2
                         },
                         "PHYSICAL": {
                             "texts": [
-                                "Block the arrows.",
-                                "Deflect the arrows.",
-                                "Dodge, block, and run."
+                                "Block the arrow.",
+                                "Deflect the arrow.",
+                                "Knock the arrow out of the air."
                             ],
                             "value": 3
                         }
@@ -3223,29 +3221,28 @@
                 },
                 {
                     "id": "EVENT #2-8",
-                    "name": "Miniature Hell Portal",
+                    "name": "Toxic Fog",
                     "descriptions": [
-                        "It's only the size of a fist - and a demonic fist will swipe at you as you go past.",
-                        "This fist-sized portal seems innocuous, until a demonic fist smashes you when you walk by.",
-                        "About the size of a fist, this rift in the planes allows demons to punch passing adventurers."
+                        "Also known as \"low-altitude smog\", this is the byproduct of oil-burning machinery further down the dungeon.",
+                        "Coal and oil-burning machinery further down into the dungeon produces this and exhausts it into this area.",
+                        "Rather than a typical poison cloud, this is the waste product of coal-burning machines a couple floors down."
                     ],
                     "flavor": [
-                        "\"Lazy demons use these. Saves them having to actually come to the material plane.\" -- Mulcahy"
+                        "\"It's a common problem with steam boilers. Stings the eyes, hurts the lungs, and angers the nature spirits.\" -- Volkur"
                     ],
                     "resources": {
                         "HEALTH": {
                             "texts": [
-                                "Take the hit.",
-                                "Run past.",
-                                "It can't hit that hard."
+                                "Run through.",
+                                "Try holding your breath."
                             ],
                             "value": 2
                         },
                         "DIVINE": {
                             "texts": [
-                                "Dispel the portal.",
-                                "Banish the portal.",
-                                "Send some divine energy through the portal."
+                                "Ward against poison.",
+                                "Protection from Poison.",
+                                "Protect the party from poison."
                             ],
                             "value": 3
                         }
@@ -3339,29 +3336,27 @@
                 },
                 {
                     "id": "EVENT #2-12",
-                    "name": "Mithril Caltrops",
+                    "name": "Retractable Floor Spikes",
                     "descriptions": [
-                        "The only reason to make caltrops of mithril is to show adventurers that they're dealing with a high-class villain.",
-                        "Finding these in a dungeon is how you know you're not dealing with a run-of-the-mill antagonist.",
-                        "Only the classiest of dungeon lords sees fit to outfit his lair with caltrops of this stature."
+                        "They extend, they retract, they extend, they retract. And then they alter the timing after a while just to mess you up.",
+                        "Extending and retracting through holes on the floor, with an uneven timing to make things hard.",
+                        "They extend and retract on a timer, and when you approach, and whenever they feel like it, really."
                     ],
                     "flavor": [
-                        "\"If we weren't in such a hurry, I'd totally steal and resell these. Or melt them down.\" -- Talon"
+                        "\"It's a violation of the dungeon builders' code to construct traps like this that don't have a pattern!\" -- Rick"
                     ],
                     "resources": {
                         "STEALTH": {
                             "texts": [
-                                "Pick a path through the caltrops.",
-                                "Find a way around the caltrops.",
-                                "Find a way through the caltrops."
+                                "Find a safe path.",
+                                "Find a safe spot.",
+                                "Look for safe spots."
                             ],
                             "value": 3
                         },
                         "HEALTH": {
                             "texts": [
-                                "Suck it up and walk across.",
-                                "Deal with it.",
-                                "Ignore the spikiness."
+                                "Take the hit."
                             ],
                             "value": 2
                         }
@@ -3381,17 +3376,15 @@
                     "resources": {
                         "MECHANICAL": {
                             "texts": [
-                                "Locate the trigger.",
-                                "Avoid the trigger.",
-                                "Sneak around it."
+                                "Disable the trigger.",
+                                "Dismantle the trigger.",
+                                "Disarm the trigger."
                             ],
                             "value": 3
                         },
                         "HEALTH": {
                             "texts": [
-                                "Take the hit",
-                                "How bad can it be?",
-                                "I've taken worse wounds in tavern brawls."
+                                "Take the hit"
                             ],
                             "value": 2
                         }
@@ -3399,36 +3392,6 @@
                 },
                 {
                     "id": "EVENT #2-14",
-                    "name": "Mechanical Spike Trap",
-                    "descriptions": [
-                        "They extend, they retract, they extend, they retract. And then they alter the timing after a while just to mess you up.",
-                        "These spikes extend and retract on a pattern. And just when you think you have the pattern figured out, it changes.",
-                        "Although these spikes extend and retract on a pattern, it changes as soon as you think you've got it down."
-                    ],
-                    "flavor": [
-                        "\"Hey, I filed a patent on a trap like this! Some no-good thief is stealing my designs!\" -- Davey"
-                    ],
-                    "resources": {
-                        "MECHANICAL": {
-                            "texts": [
-                                "Disarm the trap.",
-                                "Jam the mechanism.",
-                                "Disable the trap."
-                            ],
-                            "value": 3
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "Run across.",
-                                "Run for it.",
-                                "Rush across."
-                            ],
-                            "value": 2
-                        }
-                    }
-                },
-                {
-                    "id": "EVENT #2-15",
                     "name": "Dwarven Crossbow Turret",
                     "descriptions": [
                         "The dwarves never figured out friend/foe recognition, so it just shoots anything that moves.",
@@ -3458,63 +3421,35 @@
                     }
                 },
                 {
+                    "id": "EVENT #2-15",
+                    "name": "Trick Door",
+                    "descriptions": [
+                        "Try to open this thick, oak, steel-reinforced door without disabling the trap, and it'll fall on your face.",
+                        "Opening this door causes it to fall on your face. It's also solid oak and reinforced with steel.",
+                        "Should you try to open this door, it will get rather offended, and collapse onto you out of spite."
+                    ],
+                    "flavor": [
+                        "\"I'm supposed to smash the doors, not the other way around!\" -- Rick"
+                    ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "texts": [
+                                "Disable the trap.",
+                                "Jam the trap mechanism.",
+                                "Disarm the trap."
+                            ],
+                            "value": 3
+                        },
+                        "HEALTH": {
+                            "texts": [
+                                "Take the hit."
+                            ],
+                            "value": 2
+                        }
+                    }
+                },
+                {
                     "id": "EVENT #2-16",
-                    "name": "Pushable Block Puzzle",
-                    "descriptions": [
-                        "At least whoever built this had the decency to include a reset button.",
-                        "A staple of dungeons everywhere, made more tolerable with a built-in reset button.",
-                        "Build your muscles and brains with this classic dungeon element. Now with a reset button included!"
-                    ],
-                    "flavor": [
-                        "\"Vikari is bored. When can Vikari get back to crushing tiny men's skulls against wall?\" -- Vikari"
-                    ],
-                    "resources": {
-                        "TIME": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 2
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 3
-                        }
-                    }
-                },
-                {
-                    "id": "EVENT #2-17",
-                    "name": "Portcullis",
-                    "descriptions": [
-                        "The mechanism is broken, so someone will have to muscle up and lift it.",
-                        "The chain to raise it is broken, so you'll have to just lift the thing manually.",
-                        "Unfortunately the mechanism is busted, so you'll have to force it open."
-                    ],
-                    "flavor": [
-                        "\"Who uses a portcullis indoors anyway? Doors are better; you can kick 'em in for a dynamic entry!\" -- Rick"
-                    ],
-                    "resources": {
-                        "TIME": {
-                            "texts": [
-                                "Pool together and stuggle to lift it up.",
-                                "Find a way around.",
-                                "Give up and find another path."
-                            ],
-                            "value": 2
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "Lift the portcullis.",
-                                "Haul the portcullis up.",
-                                "Smash the portcullis."
-                            ],
-                            "value": 3
-                        }
-                    }
-                },
-                {
-                    "id": "EVENT #2-18",
                     "name": "Over-Barricaded Door",
                     "descriptions": [
                         "There's practically two doors' worth of wood here.",
@@ -3544,30 +3479,89 @@
                     }
                 },
                 {
-                    "id": "EVENT #2-19",
-                    "name": "Rune of Fun",
+                    "id": "EVENT #2-17",
+                    "name": "Pushable Block Puzzle",
                     "descriptions": [
-                        "The ultimate delaying tactic, since time flies when you're having fun.",
-                        "An insidious rune that makes you oblivious to the passing of time through distraction.",
-                        "Not only will you waste precious time, you'll enjoy doing it, too!"
+                        "At least whoever built this had the decency to include a reset button.",
+                        "A staple of dungeons everywhere, made more tolerable with a built-in reset button.",
+                        "Build your muscles and brains with this classic dungeon element. Now with a reset button included!"
                     ],
                     "flavor": [
-                        "\"No, we can't stay 'just a bit longer'! We have a country to save!\" -- Laurie"
+                        "\"Vikari is bored. When can Vikari get back to crushing tiny men's skulls against wall?\" -- Vikari"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Just one more round...",
-                                "Just five more minutes...",
-                                "Just a bit longer..."
+                                "Work together to push the blocks.",
+                                "Slowly push the blocks around."
+                            ],
+                            "value": 2
+                        },
+                        "PHYSICAL": {
+                            "texts": [
+                                "Shove the blocks quickly.",
+                                "Easily shove the blocks around.",
+                                "Get shoving."
+                            ],
+                            "value": 3
+                        }
+                    }
+                },
+                {
+                    "id": "EVENT #2-18",
+                    "name": "Bottomless Chasm",
+                    "descriptions": [
+                        "There's some spatial shenanigans going on to fit a bottomless pit in here. You're not even on the lowest floor yet!",
+                        "Hang on, you're not on the bottom floor yet. How is there a bottomless pit in this dungeon?",
+                        "It will forever be a mystery how a bottomless pit is located somewhere other than the bottom dungeon floor."
+                    ],
+                    "flavor": [
+                        "\"Sure, it's probably not literally bottomless, but are you going to jump in and find out?\" -- Solo"
+                    ],
+                    "resources": {
+                        "TIME": {
+                            "texts": [
+                                "Find a way around.",
+                                "Go another way.",
+                                "Find an alternate path."
+                            ],
+                            "value": 2
+                        },
+                        "PHYSICAL": {
+                            "texts": [
+                                "Jump across and tie a rope.",
+                                "Make the jump and tie a rope.",
+                                "Throw someone across so they can tie a rope."
+                            ],
+                            "value": 3
+                        }
+                    }
+                },
+                {
+                    "id": "EVENT #2-19",
+                    "name": "Wall of Webs",
+                    "descriptions": [
+                        "What do these giant spiders even eat for there to be so many webs here?",
+                        "There must be a giant fly nest nearby for there to be so many giant spiders here.",
+                        "Something must be keeping these giant spiders well-fed for there to be so many of them."
+                    ],
+                    "flavor": [
+                        "\"I don't like giant spiders, but I'll tell you now, I hate giant wasps and giant hornets a lot more.\" -- Eleri"
+                    ],
+                    "resources": {
+                        "TIME": {
+                            "texts": [
+                                "Hack through the webs.",
+                                "Cut through the webs.",
+                                "Pull down the webs."
                             ],
                             "value": 2
                         },
                         "ARCANE": {
                             "texts": [
-                                "Dispel the rune.",
-                                "Count with a Rune of No Fun.",
-                                "Negate the rune."
+                                "Burn the webs.",
+                                "Incinerate the webs.",
+                                "Fireball the webs."
                             ],
                             "value": 3
                         }
@@ -3635,29 +3629,29 @@
                 },
                 {
                     "id": "EVENT #2-22",
-                    "name": "Riddle Demon",
+                    "name": "Snack Bar",
                     "descriptions": [
-                        "Solve his puzzle and win a prize! The prize is getting to keep all of your blood.",
-                        "Answer the riddle correctly and your internal organs will remain internal.",
-                        "This ungodly powerful demon enjoys puzzles. Answer one and he won't vaporize you where you stand."
+                        "Oh, man! Free food!",
+                        "Everything's better with free pizza!",
+                        "Score; free food and drinks!"
                     ],
                     "flavor": [
-                        "\"This will be easy. The thieves' guild loves giving these kinds of puzzles during interviews.\" -- Kirak"
+                        "\"And they've left a keg of the good stuff, too. Drink up before Vikari chugs it all!\" -- Karth"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Solve the riddle.",
-                                "Answer the puzzle.",
-                                "Double- and triple-check to make sure it's the right answer."
+                                "Indulge!",
+                                "Clean it out.",
+                                "Devour the lot of it."
                             ],
                             "value": 2
                         },
                         "DIVINE": {
                             "texts": [
-                                "Ask the gods for the answer.",
-                                "Petition your patron deity for the answer.",
-                                "Ask a knowledgable deity for the answer."
+                                "It's an illusion! Resist temptation!",
+                                "It's just an illusion! Dispel it.",
+                                "It's an illusion - dispel it!"
                             ],
                             "value": 3
                         }
@@ -3695,29 +3689,29 @@
                 },
                 {
                     "id": "EVENT #2-24",
-                    "name": "Idle Zombie Champion",
+                    "name": "Acid Fog",
                     "descriptions": [
-                        "Its master was killed, so it's just standing here. Unfortunately, it's right in your way, and it's wearing fullplate.",
-                        "This giant armored zombie is completely motionless, since its master was killed. However, it's blocking the doorway.",
-                        "A massive zombie in fullplate blocks the door. Its master is dead, so it won't move at all, which means it's still a problem."
+                        "Necromancers usually have rooms like these to quickly turn zombies into skeletons.",
+                        "A common necromancer tool used to rapidly turn zombies into skeletons.",
+                        "Merely holding your breath isn't going to save you from this."
                     ],
                     "flavor": [
-                        "\"This is why I always program my golems with a default location to ransack. Incidentally, it is my rival's estate.\" -- Avaris"
+                        "\"If only this were in a more convenient location, it would be an excellent way to dispose of bodies.\" -- The Formless"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
                                 "Go around.",
                                 "Find a way around.",
-                                "Climb over it."
+                                "Go another way."
                             ],
                             "value": 2
                         },
                         "DIVINE": {
                             "texts": [
-                                "Turn Undead at it.",
-                                "Rebuke it so it runs away.",
-                                "Smite it so it moves away."
+                                "Protection from Acid.",
+                                "Ward against acid damage.",
+                                "Protect the party from acid."
                             ],
                             "value": 3
                         }
@@ -3755,6 +3749,36 @@
                 },
                 {
                     "id": "EVENT #2-26",
+                    "name": "Masterwork Door Lock",
+                    "descriptions": [
+                        "It has three times as many pins, so it's not any harder to pick, it just takes a lot longer.",
+                        "As it turns out, basically anything can be declared \"Masterwork\" these days.",
+                        "Maybe if you find a way to remove it from the door you can wield it for a +1 bonus."
+                    ],
+                    "flavor": [
+                        "\"Naturally they put the good lock on the solid steel door, too, so there's no easy way out.\" -- Tavila"
+                    ],
+                    "resources": {
+                        "TIME": {
+                            "texts": [
+                                "Go around.",
+                                "Go another way.",
+                                "Find another way."
+                            ],
+                            "value": 2
+                        },
+                        "STEALTH": {
+                            "texts": [
+                                "Find the right path up.",
+                                "Find the path up the stairs.",
+                                "Locate and avoid the trapped steps."
+                            ],
+                            "value": 3
+                        }
+                    }
+                },
+                {
+                    "id": "EVENT #2-27",
                     "name": "Trick Staircase",
                     "descriptions": [
                         "Transforms itself into a slide if you stand on the wrong steps. Wheeeeeeee!",
@@ -3778,36 +3802,6 @@
                                 "Find the right path up.",
                                 "Find the path up the stairs.",
                                 "Locate and avoid the trapped steps."
-                            ],
-                            "value": 3
-                        }
-                    }
-                },
-                {
-                    "id": "EVENT #2-27",
-                    "name": "Tar Trap",
-                    "descriptions": [
-                        "It'll dump a bucket of feathers on you afterwards, just to add insult to injury.",
-                        "Not only is it really disgusting, it takes FOREVER to get off of your gear.",
-                        "Comes with a complimentary feather trap that shares the same trigger."
-                    ],
-                    "flavor": [
-                        "\"You think you have it tough? Imagine trying to get tar out of the joints of plate armor.\" -- Talrath"
-                    ],
-                    "resources": {
-                        "TIME": {
-                            "texts": [
-                                "Eugh, it's in my hair!",
-                                "Ick, it's all over my clothes!",
-                                "Get it off, get it off!"
-                            ],
-                            "value": 2
-                        },
-                        "STEALTH": {
-                            "texts": [
-                                "Sneak around the trap.",
-                                "Avoid the trap trigger.",
-                                "Locate and avoid the trap."
                             ],
                             "value": 3
                         }
@@ -3875,29 +3869,29 @@
                 },
                 {
                     "id": "EVENT #2-30",
-                    "name": "Circuitboard Puzzle",
+                    "name": "Broken Secret Door",
                     "descriptions": [
-                        "Hope you remember how logic gates work, or you'll be at this for a while.",
-                        "Yes, it is a bit of an anachronism, but since when did that ever get in the way of a good puzzle?",
-                        "Binary logic has been around forever, allowing formal logic and obtuse puzzles to be created."
+                        "The cheapest parts on the market apparently proved inadequate to slide a half-ton section of rock. Who would've thought?",
+                        "If your secret door involves a half-ton section of rock moving aside, be sure the machinery can handle it.",
+                        "When building a secret door that involves sliding a rock section, be sure the machinery can handle the load."
                     ],
                     "flavor": [
-                        "\"What the hell is an XNAND supposed to be? Are we sure this uses binary logic?\" -- Solo"
+                        "\"It would have been too convenient for it to be jammed open instead of stuck closed, of course.\" -- Lyndra"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Brute force the puzzle.",
-                                "Keep trying stuff until it works.",
-                                "Solve through trial and error."
+                                "Go around.",
+                                "Find another way.",
+                                "Find another path."
                             ],
                             "value": 2
                         },
                         "MECHANICAL": {
                             "texts": [
-                                "Calculate the solution.",
-                                "Work out the solution.",
-                                "Solve the puzzle properly."
+                                "Fix the mechanism.",
+                                "Repair the mechanism.",
+                                "Upgrade the mechanism."
                             ],
                             "value": 3
                         }
@@ -7797,7 +7791,7 @@
                         "A case of even the room trying to kill you, the floor tiles here rise into the air one by one before flying straight towards your face."
                     ],
                     "flavor": [
-                        "\"What next? Doors that fall on us when we approach them? ...I've jinxed it now, haven't I?\" -- Talrath"
+                        "\"What next? Walls that throw bricks at us? ...I've jinxed it now, haven't I?\" -- Talrath"
                     ],
                     "resources": {
                         "HEALTH": {
