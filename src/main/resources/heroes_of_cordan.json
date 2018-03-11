@@ -734,28 +734,27 @@
             "events": [
                 {
                     "id": "EVENT #1-1",
-                    "name": "Arrow Trap",
+                    "name": "Needle Launcher",
                     "descriptions": [
-                        "One of the classics. No dungeon would be complete without one.",
-                        "Concealed hole in wall fires arrow when triggered. A timeless classic.",
-                        "You don't have a REAL dungeon until you've installed some of these."
+                        "This trap fires small, pointy, wooden needles - more commonly known as toothpicks.",
+                        "Cheapskate dungeon designers often save money by launching pointy sticks instead of arrows.",
+                        "You'd think what amounts to a toothpick wouldn't do much damage, amd that's why the trap fires 50 of them."
                     ],
                     "flavor": [
-                        "\"Just once I'd like to see a crossbow trap or even a throwing axe trap, just for variety.\" -- Talon"
+                        "\"I don't know about you, but I feel more threatened by a sewing kit than by this thing.\" -- Mac"
                     ],
                     "resources": {
                         "HEALTH": {
                             "texts": [
-                                "Take the hit.",
-                                "It's only one arrow."
+                                "Take the hit."
                             ],
                             "value": 1
                         },
                         "PHYSICAL": {
                             "texts": [
-                                "Block the arrow.",
-                                "Deflect the arrow.",
-                                "Knock the arrow out of the air."
+                                "Block the needles.",
+                                "Deflect the needles.",
+                                "Stop the needles on a shield."
                             ],
                             "value": 2
                         }
@@ -790,27 +789,27 @@
                 },
                 {
                     "id": "EVENT #1-3",
-                    "name": "Pit Trap",
+                    "name": "Rolling Boulder",
                     "descriptions": [
-                        "A staple of low-cost traps everywhere, the humble pit trap requires only a shovel and poor lighting to set up.",
-                        "Needing just a shovel and bad lighting, a pit trap is an excellent choice for an architect on a budget.",
-                        "Most of the material of a pit trap is elbow grease; even goblins have creation of this trap figured out."
+                        "Conveniently, the corridor is just wide enough to let it through without giving you any room to dodge.",
+                        "Staring down the approaching boulder makes you suddenly empathise with bowling pins.",
+                        "Really? And you haven't even stolen an ancient forbidden treasure yet! What gives?"
                     ],
                     "flavor": [
-                        "\"AAAAAH-! Oof! ...hey, I found a pit trap!\" -- Narius"
+                        "\"The long, cylindrical corridor really ought to have made us suspicious, in fairness.\" -- Dresbin"
                     ],
                     "resources": {
                         "HEALTH": {
                             "texts": [
-                                "Fall down, then climb back up."
+                                "Take the hit."
                             ],
                             "value": 1
                         },
                         "PHYSICAL": {
                             "texts": [
-                                "Jump across the pit.",
-                                "Jump if you can, get thrown across if you can't.",
-                                "Strong folks, carry the noodly folks when you jump over."
+                                "Block the rock.",
+                                "Stop the boulder on your shield.",
+                                "Stop the rock with your shield."
                             ],
                             "value": 2
                         }
@@ -818,27 +817,27 @@
                 },
                 {
                     "id": "EVENT #1-4",
-                    "name": "Rune of Wound",
+                    "name": "Lava Pool",
                     "descriptions": [
-                        "Whoever inscribed this rune wasn't terribly imaginative, but it get the job done.",
-                        "Does this get canceled out by the Scroll of Cure Wound?",
-                        "A simple rune made by a simple mind, but it still does what it promises."
+                        "It's extremely hot in here, and yet inexplicably the next room over is perfectly comfortable.",
+                        "This room is blisteringly hot. Why do people keep putting exposed lava in their dungeons?",
+                        "It's of the sort that does obey the laws of convection, so this room is painfully hot."
                     ],
                     "flavor": [
-                        "\"It could be worse. It could have had an adjective, like grisly wound or festering wound.\" -- Eleri"
+                        "\"How did they get the lava in here in the first place?\" -- Eleri"
                     ],
                     "resources": {
                         "ARCANE": {
                             "texts": [
-                                "Dispel the rune.",
-                                "Negate the rune."
+                                "Freeze the lava.",
+                                "Chill the room with a cone of cold.",
+                                "Freeze the room with ice magic."
                             ],
                             "value": 2
                         },
                         "HEALTH": {
                             "texts": [
-                                "How bad can it be?",
-                                "Deal with it."
+                                "Run through the room."
                             ],
                             "value": 1
                         }
@@ -846,27 +845,27 @@
                 },
                 {
                     "id": "EVENT #1-5",
-                    "name": "Rune of... something.",
+                    "name": "Air Conditioning Enchantment",
                     "descriptions": [
-                        "Trying to figure out what this scrawled rune is supposed to be makes your brain hurt!",
-                        "What IS this rune? The longer I stare at it the more of a headache you get!",
-                        "It's like one of those magic eye puzzles but inscribed onto the surface of a doorway."
+                        "Who calibrated this thing, a Northerner? There are icicles hanging from the ceiling in here!",
+                        "Someone left it cranked up to the maximum and now this room is covered in frost.",
+                        "Did a Northerner set this thing up? Your breath is misting already!"
                     ],
                     "flavor": [
-                        "\"Okay, I've narrowed it down to only 4,672 remaining possibilities... I think.\" -- Marty"
+                        "\"Afraid I can't help you - why would I have brought winter jackets to an underground dungeon complex?\" -- Uharo"
                     ],
                     "resources": {
                         "ARCANE": {
                             "texts": [
-                                "Dispel it, whatever it is.",
-                                "Minor ward from everything, just in case."
+                                "Fireball the room.",
+                                "Blast the room with fire.",
+                                "Dispel the enchantment."
                             ],
                             "value": 2
                         },
                         "HEALTH": {
                             "texts": [
-                                "What's the worst that can happen?",
-                                "Ow, so that's what it does."
+                                "Run through the room."
                             ],
                             "value": 1
                         }
@@ -902,28 +901,29 @@
                 },
                 {
                     "id": "EVENT #1-7",
-                    "name": "Demonic Crystal",
+                    "name": "Ring of Bad Decisions",
                     "descriptions": [
-                        "It's playing some kind of demonic chant backwards, and it hurts your ears to listen.",
-                        "Whatever noise this crystal is making, you can't hear it, but you can FEEL it on your eardrums.",
-                        "This crystal is making a noise that sounds like a cross between nail-on-chalkboard and fifty crying babies."
+                        "\"Hey, I know! We should split the party!\"",
+                        "\"Why don't we start digging straight down?\"",
+                        "\"Let's have the casters use melee weapons to conserve their spells!\""
                     ],
                     "flavor": [
-                        "\"It's still not as bad as the 'music' those inner-city bards are making.\" -- Bradley"
+                        "\"It's kind of ironic, since him putting that ring on without identifying it was, itself, a bad decision.\" -- Bradley"
                     ],
                     "resources": {
                         "HEALTH": {
                             "texts": [
-                                "Clean the blood from your ears and keep moving.",
-                                "Deal with the inevitable headache."
+                                "Rip the ring off.",
+                                "Bash the ring-wearer on the head and take it off.",
+                                "Tear the ring off."
                             ],
                             "value": 1
                         },
                         "DIVINE": {
                             "texts": [
-                                "Banish the crystal.",
-                                "Ward the party against the crystal's effects.",
-                                "Nullify the crystal's magic."
+                                "Remove the ring's curse.",
+                                "Undo the ring's enchantment.",
+                                "Break the ring's curse."
                             ],
                             "value": 2
                         }
@@ -959,27 +959,29 @@
                 },
                 {
                     "id": "EVENT #1-9",
-                    "name": "Floor Zombie",
+                    "name": "That Which Cannot Be Pronounced",
                     "descriptions": [
-                        "This is why you're not supposed to walk on the cracks between floor tiles.",
-                        "Some zombie fell into a trap door pit, and now takes swipes at passersby.",
-                        "This trap door has been made more hazardous by the unintentional addition of a zombie."
+                        "Correctly speaking its name instantly slays it, so give it your best shot: Nairkholexaqliag'nallfh'picus. You get one try.",
+                        "This eldritch monster's one weakness is having its name correctly pronounced: Nairkholexaqliag'nallfh'picus. Good luck. ",
+                        "A relatively minor eldritch abomination only slayable by pronouncing its name right: Nairkholexaqliag'nallfh'picus. Start running."
                     ],
                     "flavor": [
-                        "\"Makes me glad I wore my knee-length hunting boots today.\" -- Ralford"
+                        "\"Sure. Let me just DISLOCATE MY TONGUE so I can pronounce that.\" -- Hodge"
                     ],
                     "resources": {
                         "HEALTH": {
                             "texts": [
-                                "Take the hit.",
-                                "Just get past it."
+                                "Run past it.",
+                                "Run away!",
+                                "Just run."
                             ],
                             "value": 1
                         },
                         "DIVINE": {
                             "texts": [
-                                "Rebuke the zombie so it leaves you alone.",
-                                "Turn Undead so it won't be a problem."
+                                "Banish it.",
+                                "Smite it.",
+                                "Banish it instead."
                             ],
                             "value": 2
                         }
@@ -1015,6 +1017,35 @@
                 },
                 {
                     "id": "EVENT #1-11",
+                    "name": "Pit Trap",
+                    "descriptions": [
+                        "A staple of low-cost traps everywhere, the humble pit trap requires only a shovel and poor lighting to set up.",
+                        "Needing just a shovel and bad lighting, a pit trap is an excellent choice for an architect on a budget.",
+                        "Most of the material of a pit trap is elbow grease; even goblins have creation of this trap figured out."
+                    ],
+                    "flavor": [
+                        "\"AAAAAH-! Oof! ...hey, I found a pit trap!\" -- Narius"
+                    ],
+                    "resources": {
+                        "STEALTH": {
+                            "texts": [
+                                "Find the pit.",
+                                "Locate and avoid the pit.",
+                                "Search for the pit."
+                            ],
+                            "value": 2
+                        },
+                        "HEALTH": {
+                            "texts": [
+                                "Fall down, then climb back up.",
+                                "Find the pit the hard way."
+                            ],
+                            "value": 1
+                        }
+                    }
+                },
+                {
+                    "id": "EVENT #1-12",
                     "name": "Low Budget Caltrops",
                     "descriptions": [
                         "Four-sided dice have been scattered on the floor, and are surprisingly painful to step on.",
@@ -1022,7 +1053,7 @@
                         "Numerous glass shards are covering the ground here. Mind your feet!"
                     ],
                     "flavor": [
-                        "\"Did anyone happen to see a broom earlier in the dungeon?\" -- Tal'akh"
+                        "\"Did anyone happen to see a broom earlier in the dungeon?\" -- Talon"
                     ],
                     "resources": {
                         "STEALTH": {
@@ -1044,74 +1075,15 @@
                     }
                 },
                 {
-                    "id": "EVENT #1-12",
-                    "name": "Tripwire Hallway",
-                    "descriptions": [
-                        "The tripwires aren't connected to anything, but that doesn't make the tripping any more pleasant.",
-                        "Landing on your face is pretty embarrassing, so watch your step.",
-                        "Careful, the floor here is rough concrete just to make your fall all the worse."
-                    ],
-                    "flavor": [
-                        "\"Wha- ow! ...careful, I found a trip wire.\" -- Narius"
-                    ],
-                    "resources": {
-                        "STEALTH": {
-                            "texts": [
-                                "Cut the tripwires.",
-                                "Locate and mark all the tripwires."
-                            ],
-                            "value": 2
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "Deal with it.",
-                                "Just walk forward, it can't be that bad.",
-                                "A little trip never hurt anyone."
-                            ],
-                            "value": 1
-                        }
-                    }
-                },
-                {
                     "id": "EVENT #1-13",
-                    "name": "Obvious Pressure Plate",
+                    "name": "Swinging Steak Knife",
                     "descriptions": [
-                        "It wouldn't be that threatening if it didn't take up the entire corridor.",
-                        "It's easy to see, but unfortunately it takes up the whole floor.",
-                        "The fact that you can easily spot it doesn't help, given that it takes up the entire floor."
+                        "Whoever set this trap must have been low on parts and in a hurry.",
+                        "Some dungeon architects build traps from scrap and junk to keep costs down.",
+                        "A+ for creative use of parts, D- for effectiveness."
                     ],
                     "flavor": [
-                        "\"Maybe this was cheaper than tiling the whole corridor?\" -- Marty"
-                    ],
-                    "resources": {
-                        "MECHANICAL": {
-                            "texts": [
-                                "Disable it.",
-                                "Disable the plate",
-                                "Disarm it."
-                            ],
-                            "value": 2
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "Deal with it.",
-                                "Take the hit.",
-                                "Whatever it does can't be -that- bad."
-                            ],
-                            "value": 1
-                        }
-                    }
-                },
-                {
-                    "id": "EVENT #1-14",
-                    "name": "Rusted Axe Trap",
-                    "descriptions": [
-                        "Could really use some oil; it doesn't swing as fast as it used to.",
-                        "This thing hasn't been oiled in a long time, which is probably to your benefit.",
-                        "The rust makes the trap swing slower, but it also might cause tetanus."
-                    ],
-                    "flavor": [
-                        "\"Now see, this is exactly why high quality traps use mithril on the joints.\" -- Davey"
+                        "\"What next, a swinging shiv trap?\" -- Tal'akh"
                     ],
                     "resources": {
                         "MECHANICAL": {
@@ -1130,21 +1102,49 @@
                     }
                 },
                 {
-                    "id": "EVENT #1-15",
-                    "name": "Swinging Steak Knife",
+                    "id": "EVENT #1-14",
+                    "name": "Dart Trap",
                     "descriptions": [
-                        "Whoever set this trap must have been low on parts and in a hurry.",
-                        "Some dungeon architects build traps from scrap and junk to keep costs down.",
-                        "A+ for creative use of parts, D- for effectiveness."
+                        "Long narrow corridor. Launchers all over the place. Be careful about which tiles you step on!",
+                        "Unfortunately the dart launchers are hidden all over the place, so simply hiding behind a shield won't help.",
+                        "Brought a shield? Too bad for you, the architect though ahead, and the dart launchers are all over this corridor.."
                     ],
                     "flavor": [
-                        "\"What next, a swinging shiv trap?\" -- Tal'akh"
+                        "\"Who puts dart launchers in the floor? That's just unsportsmanlike.\" -- Avaris"
                     ],
                     "resources": {
                         "MECHANICAL": {
                             "texts": [
-                                "Disarm it.",
-                                "Disable it."
+                                "Disarm the trap.",
+                                "Disable the trigger.",
+                                "Disarm the triggers."
+                            ],
+                            "value": 2
+                        },
+                        "HEALTH": {
+                            "texts": [
+                                "Take the hit."
+                            ],
+                            "value": 1
+                        }
+                    }
+                },
+                {
+                    "id": "EVENT #1-15",
+                    "name": "Shoddy Door",
+                    "descriptions": [
+                        "Be careful opening it, or it'll bring down part of the ceiling on you.",
+                        "This poorly-constructed door frame is liable to collapse on you if you aren't careful.",
+                        "Poor construction means the door itself is holding up the frame, so be careful opening it."
+                    ],
+                    "flavor": [
+                        "\"I think we can definitely ascribe this one to incompetence rather than malice.\" -- Marty"
+                    ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "texts": [
+                                "Fix the door.",
+                                "Reinforce the door."
                             ],
                             "value": 2
                         },
@@ -1216,26 +1216,27 @@
                 },
                 {
                     "id": "EVENT #1-18",
-                    "name": "Cave-in",
+                    "name": "Roomful of Boxes",
                     "descriptions": [
-                        "Some previous overzealous adventurer knocked down a load-bearing column.",
-                        "At least this didn't happen while you were in the room.",
-                        "An example of why you should be careful swinging a greathammer near support pillars."
+                        "They're in your way. They have a finite number of hit points. What comes next is obvious.",
+                        "Annoying piles of boxes blocking your path are way more enjoyable with destructible environments.",
+                        "Unfortunately, smashing them doesn't yield any supplies. It's definitely cathartic, though."
                     ],
                     "flavor": [
-                        "\"Don't look at me, Disintegrate will only remove one rock at a time.\" -- Eleri"
+                        "\"Let's go! I'll buy a drink for whoever breaks the most boxes, once we get back.\" -- Rick"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Find a way around."
+                                "Break the boxes."
                             ],
                             "value": 1
                         },
                         "PHYSICAL": {
                             "texts": [
-                                "Clear a path.",
-                                "Shove the rubble out of the way."
+                                "Charge into the boxes.",
+                                "Smash up all the boxes at once.",
+                                "Demolish the boxes with one good swing."
                             ],
                             "value": 2
                         }
@@ -1243,28 +1244,29 @@
                 },
                 {
                     "id": "EVENT #1-19",
-                    "name": "Rune of Shiny",
+                    "name": "Enormous Trash Pile",
                     "descriptions": [
-                        "You can't help but stare at it for minutes on end...",
-                        "It's so pretty! You just want to stop and look at it for a while.",
-                        "A shiny thing, the guaranteed bait for adventurers of all kinds."
+                        "Wow, these dungeon denizens don't even bother sorting glass and metals out from their garbage!",
+                        "A massive pile of junk from other bits of the dungeon is blocking your path.",
+                        "A mixed pile of trash and recyclables is barring your way. Does nobody here take out the garbage?"
                     ],
                     "flavor": [
-                        "\"So shiny... must steal... can we pull that brick out of the wall...?\" -- Kirak"
+                        "\"It's mostly empty potion bottles and adventurer bits. You know, common dungeon refuse.\" -- Kirak"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Stare at it for a while.",
-                                "So shiny! Admire it for a bit."
+                                "Climb over it.",
+                                "Wade through it.",
+                                "Climb across the pile."
                             ],
                             "value": 1
                         },
                         "ARCANE": {
                             "texts": [
-                                "Dispel the rune.",
-                                "Negate the rune.",
-                                "Cancel the rune's magic."
+                                "Burn it all.",
+                                "Blast it with fire.",
+                                "Fireball it out of your way."
                             ],
                             "value": 2
                         }
@@ -1272,28 +1274,28 @@
                 },
                 {
                     "id": "EVENT #1-20",
-                    "name": "Arcane Puzzle Lock",
+                    "name": "Damaged Fast Travel Point",
                     "descriptions": [
-                        "It's pretty straightforward, but the instructions are in an ancient language.",
-                        "Not a difficult puzzle but the instructions are written in runes for some reason.",
-                        "This puzzle would be easier if the directions weren't written with magical runes."
+                        "What once was a helpful shortcut now sends you to a random nearby room instead.",
+                        "This used to be a helpful way to get around, but now it randomly puts you in a room you've already been in.",
+                        "As is typical of fast travel, it can only take you to places you've already been. This one picks randomly."
                     ],
                     "flavor": [
-                        "\"It might say 'push' or it might say 'pull'. My Ancient Dalvarian is a bit rusty.\" -- Tavila"
+                        "\"I always thought 'fast travel' was just a really boring form of teleportation.\" -- Tavila"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Brute force the puzzle.",
-                                "Find a way around."
+                                "Backtrack back to the point.",
+                                "Walk back to the travel point."
                             ],
                             "value": 1
                         },
                         "ARCANE": {
                             "texts": [
-                                "Translate the runes.",
-                                "Solve the puzzle.",
-                                "Dispel the puzzle lock."
+                                "Fix the travel point.",
+                                "Dimension Door past the travel point.",
+                                "Repair the travel point."
                             ],
                             "value": 2
                         }
@@ -1301,27 +1303,28 @@
                 },
                 {
                     "id": "EVENT #1-21",
-                    "name": "Blinking Rune",
+                    "name": "Mini-Game Room",
                     "descriptions": [
-                        "That rune is blinking! It's so distracting; find a way to make it stop!",
-                        "Simple things amuse simple... hey! That rune is blinking!",
-                        "Not only is this rune blinking, it's making an annoying buzzing sound."
+                        "The ultimate delaying tactic, as time flies when you're having fun.",
+                        "Sure, it's a time waster, but you need to get that high score before moving on!",
+                        "Just one more... dozen... rounds of Lockport Hold'em won't hurt, right?"
                     ],
                     "flavor": [
-                        "\"Why did I agree to come in here with such easily distracted fools, again?\" -- Siebel"
+                        "\"Wait a moment... can we even trade in these casino chips for anything?\" -- Siebel"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
-                                "Find a way to make it stop!",
-                                "Stop the blinking! Stop it!"
+                                "There's always time for mini-games.",
+                                "Just one more round..."
                             ],
                             "value": 1
                         },
                         "ARCANE": {
                             "texts": [
-                                "Dispel the rune.",
-                                "Negate the rune."
+                                "Cheat at the minigames.",
+                                "Cheat with magic.",
+                                "Transmute cards to win illegitimately."
                             ],
                             "value": 2
                         }
@@ -1348,8 +1351,9 @@
                         },
                         "DIVINE": {
                             "texts": [
-                                "Cast a Resist Temptation spell.",
-                                "Cats a ward against temptation."
+                                "It's an illusion... dispel it!",
+                                "It's an illusion; ward against it!.",
+                                "Cast a ward - it's just an illusion."
                             ],
                             "value": 2
                         }
@@ -1385,29 +1389,28 @@
                 },
                 {
                     "id": "EVENT #1-24",
-                    "name": "Nairkholexaqliag'nallfh'picus",
+                    "name": "Flooded Room",
                     "descriptions": [
-                        "This minor demon's only notable feature is that it blocks your way until someone pronounces its name correctly.",
-                        "This unpronounceable demon's sinister plot involves a force field that can only be dispelled by speaking its name.",
-                        "To get past this annoying demon, you 'just' have to speak its name without any mispronunciations."
+                        "Did you know there's an aquifer directly above this room? Neither did the people who dug it out.",
+                        "Digging into an aquifer is one of the many hazards of constructing an underground dungeon complex.",
+                        "When you're constructing an underground dungeon, watch out for aquifers or oil deposits, lest this happen."
                     ],
                     "flavor": [
-                        "\"Oh, sure, let me just DISLOCATE MY TONGUE so I can get this thing out of the way.\" -- Hodge"
+                        "\"And yet, they finished the room anyway. That's the sunk cost fallacy for you, I suppose.\" -- Laurie"
                     ],
                     "resources": {
                         "TIME": {
                             "texts": [
                                 "Find a way around.",
-                                "Meet its challenge. Eventually.",
-                                "Narco... nairko.. nearkho... this will take a while."
+                                "Go around.",
+                                "Find another path."
                             ],
                             "value": 1
                         },
                         "DIVINE": {
                             "texts": [
-                                "Banish it.",
-                                "Just banish it.",
-                                "Here's a better word: Banishment!"
+                                "Mass Water Breathing.",
+                                "Give the party Water Breathing."
                             ],
                             "value": 2
                         }
