@@ -8595,1022 +8595,743 @@
             ],
             "monsters": [
                 {
-                    "name": "MONSTER #4-1",
                     "id": "MONSTER #4-1",
+                    "name": "Basilisk",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "All you have to do is kill it without looking at it. How hard can that be?",
+                        "Surely you can kill a monster with your eyes closed, right?",
+                        "Adventurers like you ought to be able to kill a monster blindfolded, right?"
                     ],
                     "loot": "CONSUMABLE",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I don't know if scrying on it will still cause petrification, and I'm not about to find out.\" -- Lyndra"
                     ],
                     "resources": {
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "ARCANE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fireball the entire room.",
+                                "Fireball it from outside - it's the only way to be sure.",
+                                "Firestorm the whole room just to be safe."
                             ],
                             "value": 5
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally, but blindfolded."
                             ],
                             "value": 5
                         },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Swing wildly.",
+                                "Broad enough swings should hit it eventually.",
+                                "Swing in wide arcs until you hit it."
                             ],
                             "value": 5
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-2",
                     "id": "MONSTER #4-2",
+                    "name": "Mimic-guffin",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Hey, what's the Scroll of Omnipotence doing here?",
+                        "Wow, the Amulet of Yendor! And you're not even on the final dungeon floor yet!",
+                        "Look, it's the Yithidian Orb! The legends said it was better protected than this."
                     ],
                     "loot": "EQUIPMENT",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I think it's acceptable to look gift horses in the mouth when those horses are surrounded by skeletons.\" -- Avaris"
                     ],
                     "resources": {
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "ARCANE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Blast it with fire.",
+                                "Quick, Burning Hands!",
+                                "Hit it with an Acid Arrow."
                             ],
                             "value": 5
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
                         },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Smash it.",
+                                "Chop it into pieces.",
+                                "Chop it to bits."
                             ],
                             "value": 5
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-3",
                     "id": "MONSTER #4-3",
+                    "name": "Devil Lord",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Not to be confused with a Demon Lord. In fact, this guy is prepared to lecture you for half an hour on what makes demons and devils different.",
+                        "Don't accidentally call him a Demon Lord unless you want a lecture on how demons and devils differ from each other.",
+                        "Demons are Lawful, Devils are Chaotic. Or is it the other way around? Either way, this one's your next opponent."
                     ],
                     "loot": "CONSUMABLE",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"They're all different flavors of evil. I will smite all of them in the same way.\" -- Neville"
                     ],
                     "resources": {
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
                         },
                         "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Banish him.",
+                                "Send him back to hell.",
+                                "Banish him back to hell."
                             ],
                             "value": 5
                         },
                         "PHYSICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Disarm him.",
+                                "Pin him.",
+                                "Cut him in two."
                             ],
                             "value": 5
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-4",
                     "id": "MONSTER #4-4",
+                    "name": "Evil Adventuring Party",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "They're here for basically the same reason as you, but have Nefarious Plans for the power of the elements.",
+                        "Sure, they have the exact same classes, races, and skill loadouts as you... but their armor is black. Totally evil.",
+                        "Basically the same as a normal adventuring party, except they all use necromancy. Even the Fighter."
                     ],
                     "loot": "EQUIPMENT",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"The spiked armor is also a clue that they're not the good guys, in my experience.\" -- Rick"
                     ],
                     "resources": {
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
                         },
                         "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Ward against curses.",
+                                "Protection from Evil.",
+                                "Cast a ward against evil."
                             ],
                             "value": 5
                         },
                         "PHYSICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Beat them into next week.",
+                                "Best them in combat.",
+                                "Charge the casters first."
                             ],
                             "value": 5
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-5",
                     "id": "MONSTER #4-5",
+                    "name": "Orc Shaman",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "He doesn't actually know any magic, but he does know how to efficiently beat people to death with a skull-topped staff.",
+                        "He can't cast spells, but he's a master of the art of bashing people on the head with a skull-tipped staff.",
+                        "His ability to break bones by smashing them with his skull staff makes up for the fact that he can't actually use magic."
                     ],
                     "loot": "CONSUMABLE",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"So if he can break bones with that thing, how come the skull on the end hasn't craked yet?\" -- Talon"
                     ],
                     "resources": {
                         "STEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Get the drop on him.",
+                                "Backstab him.",
+                                "Sneak up behind him."
                             ],
                             "value": 5
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
                         },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Disarm him.",
+                                "Sunder his staff.",
+                                "Disarm him of his staff."
                             ],
                             "value": 5
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-6",
                     "id": "MONSTER #4-6",
+                    "name": "Elven Trickshot Artist",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "This elven markswoman is known to bounce arrows off of walls, shields, and even other arrows to reach her mark.",
+                        "Once an archery contest champion, now fallen into disgrace after being caught using a Bow of True Flight.",
+                        "It took her two different prestige classes and three different feat trees, but she'll never miss you now."
                     ],
                     "loot": "EQUIPMENT",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"And if you catch her arrows, they'll explode in your hands. Wear gloves.\" -- Ralford"
                     ],
                     "resources": {
                         "STEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Sneak up on her.",
+                                "Ambush her.",
+                                "Steal her quiver."
                             ],
                             "value": 5
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
                         },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Disarm her.",
+                                "Sunder her bow.",
+                                "Cut through her bowstring."
                             ],
                             "value": 5
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-7",
                     "id": "MONSTER #4-7",
+                    "name": "Chimera",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Three random encounters for the price of one! The lion head makes up for the goat head so it balances out in the end.",
+                        "It's basically three monsters in one, but only provides the loot of a single monster. What a rip-off!",
+                        "The goat head only seems less threatening than the lion and dragon if you've never been chased by an angry goat."
                     ],
                     "loot": "CONSUMABLE",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"So I'm guessing that one crossbow bolt to the face isn't gonna be enough for this thing?\" -- Wyatt"
                     ],
                     "resources": {
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Lure it into a trap.",
+                                "Make it chase you into a trap.",
+                                "Trick it into setting off a trap."
                             ],
                             "value": 5
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
                         },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Shoot multiple arrows.",
+                                "Time to use Manyshot.",
+                                "Put that Multishot feat to use."
                             ],
                             "value": 5
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-8",
                     "id": "MONSTER #4-8",
+                    "name": "Cutebold",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "He's so adorable and harmless. He also has friends who are upset that you're menacing him.",
+                        "Aww, he's so cute. And his friends are mad that you're scaring him with your big weapons.",
+                        "He's too cute to live and utterly harmless. His friends, however, are angry that you scared him."
                     ],
                     "loot": "EQUIPMENT",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"That's what you get for being bullies, you jerks.\" -- Kirak"
                     ],
                     "resources": {
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Set off their traps.",
+                                "Trick them into their own traps.",
+                                "Lure them into their own traps."
                             ],
                             "value": 5
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight them all normally."
                             ],
                             "value": 5
                         },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Scare them into submission.",
+                                "Intimidate them into submission.",
+                                "Menace them into giving up."
                             ],
                             "value": 5
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-9",
                     "id": "MONSTER #4-9",
+                    "name": "Gelatinous Geometric Shape",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "It's only as cubic as the room you're currently inside of.",
+                        "It won't be a gelatinous cube until it slurps into a cubic room.",
+                        "It expands to fill the room, so it's only a cube if the room is too."
                     ],
                     "loot": "CONSUMABLE",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"If you get grabbed, having to wash your clothes will be the least of your concerns.\" -- Mulcahy"
                     ],
                     "resources": {
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "ARCANE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fry it with lightning.",
+                                "Slime conducts electricity. Lightning Bolt.",
+                                "Blast it with lightning."
                             ],
                             "value": 5
                         },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
                         },
                         "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Protection from Acid.",
+                                "Ward against acid.",
+                                "Protect the party from acid."
                             ],
                             "value": 5
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-10",
                     "id": "MONSTER #4-10",
+                    "name": "Skeletal Wyvern",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Don't ask how it's able to fly, or where that poison breath is coming from. Just chalk it up to magic and don't think too hard.",
+                        "How does a skeleton have poison breath? Look, you're in a world where people will fireballs into existence. Just roll with it.",
+                        "Sure, a skeleton shouldn't be able to fly, but is that really the weirdest thing you've seen in a medieval fantasy setting?"
                     ],
                     "loot": "EQUIPMENT",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Can we maybe consider the workings of this creature AFTER we've beaten it?\" -- Laurie"
                     ],
                     "resources": {
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "ARCANE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Disintegrate!",
+                                "Dispel the magic holding it together.",
+                                "Blast it apart with Sonic damage."
                             ],
                             "value": 5
                         },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
                         },
                         "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Turn Undead.",
+                                "Smite it with holy power.",
+                                "Zap it with Turn Undead."
                             ],
                             "value": 5
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-11",
                     "id": "MONSTER #4-11",
+                    "name": "Half-Dragon Vampire Genie",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "This is what happens when templates don't have any restrictions on how many can be applied to a single creature.",
+                        "Maybe the GM should restrict how many templates one creature should be allowed to have.",
+                        "Is it even legal to have this many templates? If it is, should it be allowed?"
                     ],
                     "loot": "CONSUMABLE",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"If I stake it with a dragonslaying weapon, will I get a wish? I'm so confused.\" -- Siebel"
                     ],
                     "resources": {
                         "STEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Steal the lamp.",
+                                "Sneak up and grab the lamp.",
+                                "Steal its lamp."
                             ],
                             "value": 5
                         },
                         "ARCANE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Blast it with force damage.",
+                                "Pull out the force damage spells.",
+                                "Throw all the force damage at it."
                             ],
                             "value": 5
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-12",
                     "id": "MONSTER #4-12",
+                    "name": "Doppelgänger Party",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "A party of four shape-shifters who immediately assume the shape of your party. Make sure when you leave that you beat up the right ones.",
+                        "It's the evil versions of yourselves! Wow, the goatee-and-unibrow look does not suit you at all.",
+                        "It's a copy of you... or are you the copy of it? Is your whole life a lie? Kill it before you think on it too hard."
                     ],
                     "loot": "EQUIPMENT",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Ah, it's another instance of myself! Finally, a chance for some intelligent conversation.\" -- Avaris"
                     ],
                     "resources": {
                         "STEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Sneak up on them.",
+                                "Ambush them first.",
+                                "Get the drop on them."
                             ],
                             "value": 5
                         },
                         "ARCANE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fireball the lot of them.",
+                                "Blast them all with one spell.",
+                                "Hit them all with one spell."
                             ],
                             "value": 5
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-13",
                     "id": "MONSTER #4-13",
+                    "name": "Elven Construct",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "It's made entirely out of wood, leaves, a forest spirit, and flower garlands. Environmentally friendly and biodegradeable when destroyed.",
+                        "It's environmentally friendly - it's made entirely of biodegradeable materials, and seeks to destroy anything that isn't.",
+                        "Don't laugh; it may be made entirely from wood and nature magic but a tree trunk is a formidable melee weapon."
                     ],
                     "loot": "CONSUMABLE",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Is it macabre to build a campfire from the remains of a wood golem?\" -- Karth"
                     ],
                     "resources": {
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "ARCANE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fireball it.",
+                                "Cast a Fireball or two.",
+                                "Firestorm the rom."
                             ],
                             "value": 5
                         },
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Lure it into a trap.",
+                                "Trick it into setting off a trap.",
+                                "Set a fire trap for it."
                             ],
                             "value": 5
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-14",
                     "id": "MONSTER #4-14",
+                    "name": "Steampunk Golem",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "An autonomous creation whose effectiveness in battle is limited only by how insanely fast it burns through fuel and water.",
+                        "It's an effective construct, but it burns through a gallon of water and a pound of coal per minute.",
+                        "This thing would terrorize the battlefield if not for the fact that it burns its entire store of water and coal in a few minutes."
                     ],
                     "loot": "EQUIPMENT",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"With these things, the dwarven kingdoms will be unstoppable! ...in another forty years or so, maybe.\" -- Erdan"
                     ],
                     "resources": {
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "ARCANE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Freeze it and shut it off.",
+                                "Put out its fire with Freezing Wind.",
+                                "Use Cone of Cold to freeze its boiler."
                             ],
                             "value": 5
                         },
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Break open the water tank.",
+                                "Break off the coal hopper.",
+                                "Sabotage its water supply."
                             ],
                             "value": 5
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-15",
                     "id": "MONSTER #4-15",
+                    "name": "Trigger-happy Warlock",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Blast first and don't ask questions later.",
+                        "When all you have is an eldritch blast, everything looks like a target.",
+                        "Why bother talking when you could be blasting instead?"
                     ],
                     "loot": "CONSUMABLE",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I rather liked his no-nonsense style, right up until he hurled a fire blast at my head.\" -- Eleri"
                     ],
                     "resources": {
                         "STEALTH": {
                             "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 5
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
+                                "Sneak up on him.",
+                                "Sneak up and stab him.",
+                                "Ambush him."
                             ],
                             "value": 5
                         },
                         "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Smite him.",
+                                "Ward against the elements.",
+                                "Cast a warding spell."
                             ],
                             "value": 5
                         },
-                        "PHYSICAL": {
+                        "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
-                            "value": 0
+                            "value": 5
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-16",
                     "id": "MONSTER #4-16",
+                    "name": "Crusader of Hell",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "He's going around killing monsters, which is great, but he's gathering their souls for the Forces of Evil, which is not.",
+                        "The monster in this room is dead, but this guy has claimed its soul for the Foces of Evil and is coming for you now.",
+                        "He already killed the monster in this room. Great! But he did it to advance the agenda of the Forces of Evil. Not so great."
                     ],
                     "loot": "EQUIPMENT",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I don't get why these guys don't just, like, open an abattoir or something.\" -- Talon"
                     ],
                     "resources": {
                         "STEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Steal his evil glowy crystal.",
+                                "Steal his soul crystal thing.",
+                                "Pickpocket his soul crystal."
                             ],
                             "value": 5
                         },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
                         },
                         "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Suppress his unholy powers.",
+                                "Protection from Evil.",
+                                "Hit him with Hold Person."
                             ],
                             "value": 5
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-17",
                     "id": "MONSTER #4-17",
+                    "name": "Tentacle Monster",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "What sick, twisted mind added this to the monster list?!",
+                        "When one of these shows up, it's time to have a talk with the GM about appropriate content.",
+                        "Oh, great, this is one of THOSE campaigns."
                     ],
                     "loot": "CONSUMABLE",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Nope. No. Nuh-uh. No, no way, nope, I'm outta here. Have fun with it.\" -- Lyndra",
+                        "\"When the oracle decides to run away, it's probably a sign we should leave too.\" -- Marty"
                     ],
                     "resources": {
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Lure it into a trap.",
+                                "Lure the tentacles into traps.",
+                                "Trick it into some traps."
                             ],
                             "value": 5
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
                         },
                         "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Smite it.",
+                                "Banish it.",
+                                "Banish this thing."
                             ],
                             "value": 5
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-18",
                     "id": "MONSTER #4-18",
+                    "name": "Assorted Undead Mob",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Zombies, skeletons, and ghosts, oh my!",
+                        "There's a bit of everything. And I mean everything. No undead subtype is too obscure for this horde.",
+                        "It's not just zombies and skeletons; ghouls, mummies, vampire spawn, those oriental hopping zombies, and a wraith."
                     ],
                     "loot": "EQUIPMENT",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I haven't seen this many types of undead since I proofread that paper on necromancy.\" -- Laurie"
                     ],
                     "resources": {
-                        "STEALTH": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Lure them all into a trap.",
+                                "Set a trap for them to shamble into.",
+                                "Get them to chase you into a trap."
                             ],
                             "value": 5
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
                         },
                         "DIVINE": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Banish the lot of them.",
+                                "Turn ALL the undead.",
+                                "Good thing Turn Undead is an area effect."
                             ],
                             "value": 5
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-19",
                     "id": "MONSTER #4-19",
+                    "name": "Dwarven Mecha",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "There's a mad dwarven scientist in the head piloting it, and he needs some adventurers to test the new weapons on.",
+                        "A mad dwarven scientist is piloting this thing, having just finished destroying his own fortress with it.",
+                        "A well-armed, bipedal steampunk mech that's tall and imposing... by dwarf standards, so it's only a foot taller than you are."
                     ],
                     "loot": "CONSUMABLE",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"You know, I feel like there out to be a limit to what can be reasonably accomplished with a steam engine.\" -- Bradley"
                     ],
                     "resources": {
                         "STEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Distract it and sneak by.",
+                                "Sneak around it.",
+                                "Sneak by without being noticed."
                             ],
                             "value": 5
                         },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Break off an important part.",
+                                "Smash an important piece.",
+                                "Tear off an important part."
                             ],
                             "value": 5
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
                     }
                 },
                 {
-                    "name": "MONSTER #4-20",
                     "id": "MONSTER #4-20",
+                    "name": "Reaper Intern",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Death just doesn't have enough time to deal with every soul in existence, so he has interns take care of the unimportant folks.",
+                        "What with the increasing population, Death can't handle every mortal's soul, so he has some interns to delegate to.",
+                        "It's just not feasible for Death to handle all the mortal souls by itself, especially when new lore keeps showing up every edition."
                     ],
                     "loot": "EQUIPMENT",
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"It's a fantastic career option if you like to meet new people all the time, and then never see them again.\" -- The Formless"
                     ],
                     "resources": {
                         "STEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Sneak past.",
+                                "Sneak by.",
+                                "Sneak away."
                             ],
                             "value": 5
                         },
-                        "ARCANE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Lure it into a trap.",
+                                "Find a trap to lure into.",
+                                "Make it chase you into a trap."
                             ],
                             "value": 5
                         },
                         "HEALTH": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Fight normally."
                             ],
                             "value": 5
-                        },
-                        "DIVINE": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "texts": [
-                                "ACTION TEXT"
-                            ],
-                            "value": 0
                         }
                     }
                 }
