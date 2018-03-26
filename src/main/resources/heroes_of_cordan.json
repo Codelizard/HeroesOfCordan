@@ -9340,584 +9340,345 @@
         "5": {
             "equipment": [
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #5-1",
+                    "name": "The Fullblade of Conquest",
+                    "descriptions": [
+                        "This sword is so big and heavy that merely being able to carry it makes your opponents cower in fear of your strength.",
+                        "Almost as big as a typical humanoid, merely being able to carry this sword is so impressive it inspires others to victory.",
+                        "One swing of this gigantic blade could fell a horse, a tree, five orcs, or a one-man watchtower."
+                    ],
+                    "flavor": [
+                        "\"Now we just need to find a room big enough for you to swing it without hitting the walls.\" -- Solo"
+                    ],
                     "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 5
                         }
-                    },
-                    "name": "EQUIPMENT #5-1"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #5-2",
+                    "name": "A Katana",
+                    "descriptions": [
+                        "Well, now that you've found one of these, you've basically won the game.",
+                        "All right, that's it, time to pack it up. You found one of these, that's pretty much the same as winning the game.",
+                        "If the hype is to be believed, you've pretty much one the game now that you have one of these."
+                    ],
+                    "flavor": [
+                        "\"Yes, yes, it looks very nice. Let's just hope you never have to thrust, or parry, or riposte, or...\" -- Talrath"
+                    ],
                     "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 5
                         }
-                    },
-                    "name": "EQUIPMENT #5-2"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #5-3",
+                    "name": "The Seven Star Sword",
+                    "descriptions": [
+                        "Despite only having four of the seven sockets filled with gems, this starsteel blade surges with power in your hand.",
+                        "Only four of its seven sockets have their gems, and yet it *still* radiates power, energy, and other vague concepts.",
+                        "Despite missing three of the gems along its side, this thing still has enough power to give you your own personal aura."
+                    ],
+                    "flavor": [
+                        "\"If that sword is ever restored, it'll either save the world, or destroy it. I never found out which.\" -- Neville"
+                    ],
                     "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 5
                         }
-                    },
-                    "name": "EQUIPMENT #5-3"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #5-4",
+                    "name": "The Axe of Infinite Sharpness",
+                    "descriptions": [
+                        "It's covered in blood and you feel an urge to kill everything nearby when you hold it. Nothing can go wrong by keeping it.",
+                        "Holding it fills you with a desire to slaughter everything that moves and butcher the remnants. But hey, check out its stats!",
+                        "You found it in a pool of blood, in a room covered in blood and monster chunks. Seems safe to handle, right?"
+                    ],
+                    "flavor": [
+                        "\"Ohhhh ho ho ho ho... Vikari LIKE this. Vikari like this a LOT.\" -- Vikari",
+                        "\"For gods' sakes don't give that to Vikari. I don't want to be responsible for the Third Dark Age.\" -- Dresbin"
+                    ],
                     "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 5
                         }
-                    },
-                    "name": "EQUIPMENT #5-4"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #5-5",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 5
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #5-5"
-                },
-                {
+                    "name": "The Staff of the Half-Dragon",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Even half of the power of a dragon is still extremely impressive, as long as you choose the right half.",
+                        "Before you laugh, it has the power of the more impressive half of a dragon: fire blasts, deafening roars, and resistance to basically everything.",
+                        "Grants all the cool powers of a dragon like spell power, fire breath, and flight, while leaving out the kleptomania."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I feel really weird... hey, after we finish up here, anyone want to go kidnap a princess?\" -- Hodge"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #5-6",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 5
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #5-6"
-                },
-                {
+                    "name": "The Ultimate Spell Compendium",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Unfortunately, most of the spells are so powerful, the dungeon master will veto their use.",
+                        "It only has seventh-level spells and above, and a bunch of epic-level spells so powerful no game master will let you use them.",
+                        "The spells in this book start out at room-clearing power, and quickly advance to a level prohibited at gaming tables nationwide."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"It's a pretty rare honor to successfully cast a spell so immensely powerful that the gods themselves step in and stop it.\" -- Eleri"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #5-7",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 5
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #5-7"
-                },
-                {
+                    "name": "The Orb of Arcane Power",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Though an infinite source of energy, it can only be activated by monologuing and cackling madly.",
+                        "You can only draw on the limitless power of this orb by loudly declaring you are doing so to your surroundings.",
+                        "Endless arcane might can be yours, as long as you are able to monologue about it and laugh madly between sentences."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Yes! Yes! Unlimited power! All of the mortals will tremble at my feet as I- okay, that should be enough.\" -- Marty"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #5-8",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 5
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #5-8"
-                },
-                {
+                    "name": "The Robes of the Aether",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Channeling the purest source of all magic, these robes are technically more powerful than any of their previous wearers.",
+                        "Some garments help channel magic. These robes ARE magic. Not magical, but a physical representation of magic itself.",
+                        "These robes are raw magical power barely held in the form of stylish clothing. They're probably more powerful than you are."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I know I'm hardly one to talk, but wow, don't you think those are a little TOO flashy?\" -- Bradley"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #5-9",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 5
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #5-9"
-                },
-                {
+                    "name": "The Scarf of the Holy Knight",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Legends tell of a paladin who minmaxed so hard they ran out of common equipment slots and enchanted a scarf just for some extra stat boosts.",
+                        "You know you're taking your minmaxing to the extreme when you start filling in uncommon equipment slots like bracelets and scarves.",
+                        "A mighty paladin once realized that after you don a suit of plate armor, you don't have a lot of equipment slots left to work with, and made this."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"And, it flutters constantly behind me even when there's no wind! It's... perfect.\" -- Neville"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #5-10",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 5
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #5-10"
-                },
-                {
+                    "name": "A Piece of the True Holy Symbol",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Unbelievers who see you wield this will be stuck with fear that you will start a crusade to get the other pieces.",
+                        "The power of this item comes with the drawback of a murderous desire to go get the other pieces at any cost.",
+                        "Entire wars have been fought over possession of these things, so you might not want to keep it once this adventure is over."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"This might be the first time in the last few centuries that one of these has actually changed hands.\" -- Mulcahy"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #5-11",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 5
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #5-11"
-                },
-                {
+                    "name": "The Mantle of the Divine",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Supposedly worn by one of the Divines, though nobody is quite sure if they were actual gods or just epic-level casters.",
+                        "The Divines, depending who you ask, were avatars of the gods, actual gods, or just really powerful divine spellcasters.",
+                        "While nobody is quite sure if the Divines were gods, epic-level casters, or a sports team, the power of this cloak is undisputed."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I'm not the only one who heard a choir of angels as soon as he put that on, am I?\" -- Siebel"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #5-12",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 5
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #5-12"
-                },
-                {
+                    "name": "The Scripture of the Cleansing Light",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Don't read the entire thing unless you want the dungeon to be reduced to a smoking, but purified, crater.",
+                        "Be sure to only read it one page at a time, or you'll obliterate the entire dungeon.",
+                        "Be very careful how much you read at once, or the dungeon will be vaporized by divine energy."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"And nobody in your entire religion thought that a portable, tactical radiant strike was a bad idea?\" -- Lyndra"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #5-13",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 5
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #5-13"
-                },
-                {
+                    "name": "The Wingbands of the Assassin",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Even if you don't have wings, they make serviceable bracelets, and still confer a bonus to stealth checks.",
+                        "No wings? No problem. Just wrap them around your ankles instead and enjoy the delicious stealth bonus.",
+                        "They will work if you wear them around your wrists, ankles, or tail, but they might chafe a bit."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"You've never heard of the winged assassin? Shouldn't that tell you how good she was at her job?\" -- Aria"
                     ],
+                    "resources": {
+                        "STEALTH": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #5-14",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 5
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #5-14"
-                },
-                {
+                    "name": "A Someone Else's Problem Field",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Rather than rendering you invisible, this just makes things ignore you and hope someone else will take care of it.",
+                        "Invisibility has weaknesses. The ability to make people ignore you because they don't want to get involved does not.",
+                        "Activating this magical device causes people to pretend you don't exist because the alternative is too much work for them."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"If you've ever wondered why nobody worries about the Lich King until he starts invading, these things are why.\" -- Tavila"
                     ],
+                    "resources": {
+                        "STEALTH": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #5-15",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 5
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #5-15"
-                },
-                {
+                    "name": "The Incognito Cloak",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "As soon as you take it off, everything in the dungeon forgets whatever you did while you were wearing it.",
+                        "It does nothing to hide what you are doing, but when you take it off, everything in the dungeon forgets what you've been up to.",
+                        "Everything you do while wearing the cloak is forgotten by everyone other than you once you take it off."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Just be aware that if you talk to us while after donning it, we won't have any idea who you are.\" -- Karth"
                     ],
+                    "resources": {
+                        "STEALTH": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #5-16",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "STEALTH": {
-                            "value": 5
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #5-16"
-                },
-                {
+                    "name": "The Boots of Nondetection",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "You wouldn't have found them either if you hadn't tripped over them while searching the room.",
+                        "These boots are so stealthy that you only found them because someone tripped over them.",
+                        "They're almost impossible to find, and confer this property to the wearer. You only found them by tripping over them."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Don't take them off until you're ready to sell them, or you'll never find them again.\" -- Tal'akh"
                     ],
+                    "resources": {
+                        "STEALTH": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "EQUIPMENT #5-17",
+                    "name": "The Guide to Golemancy",
+                    "descriptions": [
+                        "A complete guide to building, dismantling, breaking, and recycling golems of all shapes, sizes and colors.",
+                        "Ever wanted to build a golem from some random scrap pieces and a couple nails? This book shows you how.",
+                        "Assemble your own disposable golems anytime, anywhere! Send them into traps to set them off so that you won't!"
+                    ],
+                    "flavor": [
+                        "\"As an added bonus, if your creations malfunction, dropping this book on them will smash them to pieces.\" -- Avaris"
+                    ],
                     "resources": {
                         "MECHANICAL": {
                             "value": 5
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "EQUIPMENT #5-17"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #5-18",
+                    "name": "The Dungeon Blueprint",
+                    "descriptions": [
+                        "Not all immensely helpful items have to be magical or named after someone. Sometimes they just need relevant info.",
+                        "It's not magic, it's not named after anyone, it's not carrying a mighty power - it's just insanely relevant.",
+                        "Just because an item is 100% mundane doesn't mean it won't give you a delicious +5 bonus."
+                    ],
+                    "flavor": [
+                        "\"Wow. Naturally. This would've been great to have four floors ago.\" -- Wyatt"
+                    ],
                     "resources": {
                         "MECHANICAL": {
                             "value": 5
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "EQUIPMENT #5-18"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "EQUIPMENT #5-19",
-                    "resources": {
-                        "MECHANICAL": {
-                            "value": 5
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "EQUIPMENT #5-19"
-                },
-                {
+                    "name": "The Wrench of Disassembly",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "When directed at a mechanical device, this wrench flies through the air and takes it apart at high speed. Even if it has screws.",
+                        "An animated tool that deconstructs all sorts of mechnical devices automatically. Removes bolts, nuts, screws, even nails.",
+                        "For the scrapper in a hurry, this magical wrench automatically deconstructs mechanical objects. Even screws and nails can't stop it."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"No, I will not hold it in my mechanical arm just to see what happens. However funny you think it would be.\" -- Narius"
                     ],
-                    "id": "EQUIPMENT #5-20",
                     "resources": {
                         "MECHANICAL": {
                             "value": 5
-                        },
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "EQUIPMENT #5-20"
+                    }
+                },
+                {
+                    "id": "EQUIPMENT #5-20",
+                    "name": "The Ultracompact Omnitool",
+                    "descriptions": [
+                        "Contains an entire toolbox's worth of tools, folded into a tesseract for easy transportation.",
+                        "Every tool you could ever want has been collapsed into a convenient, easy-to-carry tesseract.",
+                        "Every known tool is at your disposal, providing you know how to extract them from a tesseract."
+                    ],
+                    "flavor": [
+                        "\"I used to have one of these, and then I lost it inside of itself.\" -- Volkur"
+                    ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "value": 5
+                        }
+                    }
                 }
             ],
             "consumables": [
