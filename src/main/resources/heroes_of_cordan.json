@@ -215,7 +215,7 @@
                         "Try not to let the leftover particles of flour make you sneeze."
                     ],
                     "flavor": [
-                        "\"Here, let's put 'dis over Tal'akh's face so we don't have to look at him.\" -- Wyatt"
+                        "\"Here, let's put this over Tal'akh's face so we don't have to look at him.\" -- Wyatt"
                     ],
                     "resources": {
                         "STEALTH": {
@@ -1339,7 +1339,7 @@
                         "A cup of coffee and a few pastries will ensure the success of this adventure."
                     ],
                     "flavor": [
-                        "\"We'd better get in 'dere quick before Vikari eats all the food.\" -- Wyatt"
+                        "\"We'd better get in there quick before Vikari eats all the food.\" -- Wyatt"
                     ],
                     "resources": {
                         "TIME": {
@@ -3060,7 +3060,7 @@
                         "A sudden and pointed reminder to look up, too."
                     ],
                     "flavor": [
-                        "\"See, dat's just karma for all those short jokes.\" -- Wyatt"
+                        "\"See, that's just karma for all those short jokes.\" -- Wyatt"
                     ],
                     "resources": {
                         "HEALTH": {
@@ -3986,7 +3986,7 @@
                     ],
                     "loot": "CONSUMABLE",
                     "flavor": [
-                        "\"Ugh. No, I don't want to hear 'bout the package deal on lodgers' insurance!\" -- Wyatt"
+                        "\"Ugh. No, I don't want to hear about the package deal on lodgers' insurance!\" -- Wyatt"
                     ],
                     "resources": {
                         "HEALTH": {
@@ -4097,7 +4097,7 @@
                     ],
                     "loot": "EQUIPMENT",
                     "flavor": [
-                        "\"What da hell! Why is dis a thing? Dis has to be illegal.\" -- Wyatt"
+                        "\"What the hell! Why is this a thing? This has to be illegal.\" -- Wyatt"
                     ],
                     "resources": {
                         "STEALTH": {
@@ -4504,7 +4504,7 @@
                     ],
                     "loot": "CONSUMABLE",
                     "flavor": [
-                        "\"Remember the three rules about trolls: 'dey regenerate, 'dey hate fire, and 'dey always win drinking contests.\" -- Wyatt"
+                        "\"Remember the three rules about trolls: they regenerate, they hate fire, and they always win drinking contests.\" -- Wyatt"
                     ],
                     "resources": {
                         "MECHANICAL": {
@@ -4911,7 +4911,7 @@
                         "Just make sure nobody's looking when you tiptoe around while hiding under it, and you'll be fine."
                     ],
                     "flavor": [
-                        "\"Oh, hey, 'dis beats the paper bag for covering up Tal'akh's ugly mug.\" -- Wyatt"
+                        "\"Oh, hey, this beats the paper bag for covering up Tal'akh's ugly mug.\" -- Wyatt"
                     ],
                     "resources": {
                         "STEALTH": {
@@ -11133,7 +11133,7 @@
                         "The maker of this 'unpickable' lock has promised a reward to anyone who can pick it, and then meet him alone in a dark alley."
                     ],
                     "flavor": [
-                        "\"Too bad 'dis thing is such a pain to use that even if we had the key, it wouldn't speed this up any.\" -- Wyatt"
+                        "\"Too bad this thing is such a pain to use that even if we had the key, it wouldn't speed this up any.\" -- Wyatt"
                     ],
                     "resources": {
                         "TIME": {
