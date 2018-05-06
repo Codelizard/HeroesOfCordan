@@ -9683,644 +9683,344 @@
             ],
             "consumables": [
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #5-1",
+                    "name": "Potion of Ludicrous Muscles",
+                    "descriptions": [
+                        "Be forewarned, your upper-body clothing WILL be torn to shreds by this potion's effects.",
+                        "Immediately, but briefly, gives you the physique of the world's strongest humanoid. Your shirt will not survive.",
+                        "This potion gives a massive bonus to strength, giving you huge muscles and utterly destroying your shirt in the process."
+                    ],
+                    "flavor": [
+                        "\"Should I spend the time stripping my shirt in battle, or just start extras around to replace them?\" -- Rick"
+                    ],
                     "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 5
                         }
-                    },
-                    "name": "CONSUMABLE #5-1"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #5-2",
+                    "name": "Potion of Mutation",
+                    "descriptions": [
+                        "On the one hand, tentacles and extra eyeballs. On the other, fire breath and giant muscles!",
+                        "Okay, so the horns, scales and tail you grew mean your armor doesn't fit, but look at all the damage dice on that acid breath!",
+                        "So, your hands are dripping with poison now and you have a third eye on your forehead. Just think of it in terms of combat bonuses."
+                    ],
+                    "flavor": [
+                        "\"The effects of that potion ARE temporary... right? ...right?\" -- Narius"
+                    ],
                     "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 5
                         }
-                    },
-                    "name": "CONSUMABLE #5-2"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #5-3",
+                    "name": "Scroll of Masterful Fighting Techniques",
+                    "descriptions": [
+                        "Although effective, they're so complicated they're forgotten almost immediately.",
+                        "The scroll imparts fighting moves powerful enough to crush an opponent, and complicated enough to be forgotten immediately thereafter.",
+                        "The effectiveness of the fighting moves taught by the scroll is only diminished by how quickly they are forgotten due to their complexity."
+                    ],
+                    "flavor": [
+                        "\"I vaguely remember something about a... quarter-circle forward, whatever that means?\" -- Mac"
+                    ],
                     "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
                         "PHYSICAL": {
                             "value": 5
                         }
-                    },
-                    "name": "CONSUMABLE #5-3"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #5-4",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 5
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #5-4"
-                },
-                {
+                    "name": "Fireball Bead Cluster",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Sometimes it's just not enough to blow something up only once. Now you can blow it up ten times at once!",
+                        "Why blow something up once when you can blow it up ten times?",
+                        "Throw the entire cluster at something to blow it up, not just once, or twice, but ten times in succession."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Sure, I *could* take it apart and get more mileage out of it... but what if I really, really want to be sure it's dead?\" -- Eleri"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #5-5",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 5
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #5-5"
-                },
-                {
+                    "name": "Scroll of Maximized Disintegrate",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "This item might be against the rules; better use it quick before somebody notices.",
+                        "This is way too powerful to be a legal scroll - use it quick before the GM notices.",
+                        "This spell is way higher level than a scroll is supposed to contain. Use it up fast before someone else notices."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"You call it cheating; I call it using all the resources at my disposal.\" -- Laurie"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #5-6",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 5
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #5-6"
-                },
-                {
+                    "name": "Wand of Chaingun Lightning",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Has 50 charges, but fires all of them off in less than a second.",
+                        "The 50 charges in this wand will all be consumed in under a second, vaporizing your target.",
+                        "Fires off lightning bolts so fast that it burns through all 50 charges in one round, annihilating whatever it hits."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"You might want to close your eyes before I fire this thing.\" -- Karth"
                     ],
+                    "resources": {
+                        "ARCANE": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #5-7",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 5
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #5-7"
-                },
-                {
+                    "name": "Throwing Cross",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Embeds in your target, then explodes in a burst of radiant energy. Remember to look away from the explosion for best effect.",
+                        "You wouldn't think crosses were particularly aerodynamic, but this one will return to you if you miss.",
+                        "These surprisingly potent weapons were developed by a vampire hunter who got tired of vampires running away from him."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I'm not sure how I feel about weaponized holy symbols, but I can't deny its effectiveness.\" -- Mulcahy"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #5-8",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 5
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #5-8"
-                },
-                {
+                    "name": "Holy Hand Grenade",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "These things are the reason you don't hear about the Cult of Arz'ath Raa any more.",
+                        "Ever heard of the Cult of Arz'ath Raa? No? That's because of these things. Be very careful.",
+                        "The Cult of Arz'ath Raa only exists in the pages of history after some paladins used these to blow up their entire hideout."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Never doubt the ability of a priest to sanctify any object, no matter how unusual.\" -- Neville"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #5-9",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 5
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #5-9"
-                },
-                {
+                    "name": "Scroll of Bless from Orbit",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Sometimes, it's the only way to be sure.",
+                        "It's the only way to be sure that demon infestation is cleared out.",
+                        "When a town is completely overrun by the Forces of Evil, this is the last resort."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Just one of these is enough to put an end to a zombie apocalypse, I hear.\" -- The Formless"
                     ],
+                    "resources": {
+                        "DIVINE": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #5-10",
+                    "name": "Potion of Ghostform",
+                    "descriptions": [
+                        "The makers insist, quite firmly, almost suspiciously so, that it does not temporarily kill the user.",
+                        "\"Does not temporarily kill the user\", the label says. That seems like a suspiciously specific denial.",
+                        "Allows you to pass through solid walls and objects temporarily, then returns you to your body. ...wait a second..."
+                    ],
+                    "flavor": [
+                        "\"It's fine, you'll only be a little dead. There are worse things to be in this place.\" -- Lyndra"
+                    ],
                     "resources": {
                         "STEALTH": {
                             "value": 5
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "CONSUMABLE #5-10"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #5-11",
+                    "name": "Invisibility Cloak",
+                    "descriptions": [
+                        "Sadly, after a few minutes of use, it runs out of power and instead becomes the much less useful Technicolor Cloak.",
+                        "While incredibly useful, after a few minutes it loses its magic power and instead becomes an obnoxious acid green color.",
+                        "While its power lasts, this cloak renders the wearer invisible. Afterwards, it changes color to hot pink."
+                    ],
+                    "flavor": [
+                        "\"I have a feeling someone made this cloak invisible so they wouldn't have to look at it any more.\" -- Talon"
+                    ],
                     "resources": {
                         "STEALTH": {
                             "value": 5
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "CONSUMABLE #5-11"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #5-12",
+                    "name": "Scroll of Silence",
+                    "descriptions": [
+                        "Creates a silence so perfect, you won't even be able to hear yourself think.",
+                        "The aura of silence created by this spell blocks out the sound of your inner monlogue.",
+                        "Silences absolutely every possible sound you could hear, even tinnitus and your own thoughts."
+                    ],
+                    "flavor": [
+                        "\"You know when you get a song stuck in your head and can't get it out? These are the solution.\" -- Bradley"
+                    ],
                     "resources": {
                         "STEALTH": {
                             "value": 5
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "CONSUMABLE #5-12"
+                    }
                 },
                 {
-                    "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
-                    ],
-                    "flavor": [
-                        "FLAVOR TEXT"
-                    ],
                     "id": "CONSUMABLE #5-13",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 5
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #5-13"
-                },
-                {
+                    "name": "Scroll of Repair",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Instantly repairs any mechanical device. Or if you mispronounce the last word, destroys it completely. Pick whatever's appropriate!",
+                        "Completely restores a mechanical device to a working state. Or totally dismantles it into pristine parts for recycling, if you prefer.",
+                        "Either completely repairs or completely destroys a mechanical device depending on the pronunciation of the last word, so don't stutter."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Too bad these are so expensive that it's usually cheaper to buy a new thing instead.\" -- Davey"
                     ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #5-14",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 5
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #5-14"
-                },
-                {
+                    "name": "Wand of Trapsmutation",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Randomly alters a trap, but use enough charges and you'll eventually get the pillow launcher. Just don't be allergic to feathers.",
+                        "Switches out one trap for another of a different type. Eventually you'll get something harmless like a Cold Water Sprayer.",
+                        "Poke a trap with it, and it turns into a different trap. Once you get a Tickle Trap you can probably stop."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Wouldn't it have been better to just turn the trap into a block of metal or something?\" -- Wyatt"
                     ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #5-15",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 5
-                        },
-                        "HEALTH": {
-                            "value": 0
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #5-15"
-                },
-                {
+                    "name": "Trap Teleporter",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Not to be confused with a Teleporter Trap, this device makes a trap in your way go elsewhere, turning it into someone else's problem.",
+                        "This one-use magic item causes a trap in your vicinity to teleport elsewhere, thus removing it from your path and putting it in someone else's.",
+                        "Use this to remove a trap nearby and teleport it in a random direction, thus causing someone else to be inconvenienced instead."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"If I try to use the Trap Teleporter on a Teleporter Trap, it won't cause an explosion or something, will it?\" -- Narius"
                     ],
+                    "resources": {
+                        "MECHANICAL": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #5-16",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 5
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #5-16"
-                },
-                {
+                    "name": "Potion of Positive Energy",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Raw, concentrated, purified energy. What could possibly go wrong from drinking it?",
+                        "A bottle of glowing, pure energy. Drinking it cannot possibly have adverse side-effects.",
+                        "This bottle glows brightly with the purity of the energy stored inside. Clearly you should drink some."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I'll pass - if I drink that, it'll probably make my stomach glow, and then how am I supposed to hide?\" -- Tal'akh"
                     ],
+                    "resources": {
+                        "HEALTH": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #5-17",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 5
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #5-17"
-                },
-                {
+                    "name": "Scroll of Ultimate Healing",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "It works great but it involves far too many shiny orbs and rays of light during its use animation.",
+                        "It'll completely cure one person's wounds if they can sit through an incredibly long use animation.",
+                        "As long as you can bear the long animation filled with glowy orbs and rays of light, this scroll will heal one person's wounds in one shot."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I couldn't help shouting the name of the scroll when I used it. Something compelled me to do so.\" -- Ralford"
                     ],
+                    "resources": {
+                        "HEALTH": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #5-18",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 5
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #5-18"
-                },
-                {
+                    "name": "Healer's Rod",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Somewhat counterintuitively, this rod requires you to bash someone over the head with it to heal them, but it works fantastically.",
+                        "The secret to using this rod is that it only works if you smash someone over the head with it.",
+                        "The power of this rod is only unleashed, rather counterintuitively, if you bash someone on the head with it."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"Trust me, this is required to use it, just hold still. If I enjoy it, that's merely a side-effect.\" -- Siebel"
                     ],
+                    "resources": {
+                        "HEALTH": {
+                            "value": 5
+                        }
+                    }
+                },
+                {
                     "id": "CONSUMABLE #5-19",
-                    "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
-                        "HEALTH": {
-                            "value": 5
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
-                        }
-                    },
-                    "name": "CONSUMABLE #5-19"
-                },
-                {
+                    "name": "Ancient Chongsheng Remedy",
                     "descriptions": [
-                        "DESCRIPTION 1",
-                        "DESCRIPTION 2",
-                        "DESCRIPTION 3"
+                        "Its contents are an Ancient Chongsheng Secret, but adventurers worldwide swear by it.",
+                        "Nobody knows what's in it, just that it works - it's an Ancient Chongsheng Secret.",
+                        "Everyone knows the effectiveness of this herbal poultice, but nobody knows what's in it. It's an Ancient Chongsheng Secret."
                     ],
                     "flavor": [
-                        "FLAVOR TEXT"
+                        "\"I neither know nor care if the contents are all that common - after all, people pay a premium for it.\" -- Uharo"
                     ],
-                    "id": "CONSUMABLE #5-20",
                     "resources": {
-                        "STEALTH": {
-                            "value": 0
-                        },
-                        "ARCANE": {
-                            "value": 0
-                        },
-                        "MECHANICAL": {
-                            "value": 0
-                        },
                         "HEALTH": {
                             "value": 5
-                        },
-                        "DIVINE": {
-                            "value": 0
-                        },
-                        "PHYSICAL": {
-                            "value": 0
                         }
-                    },
-                    "name": "CONSUMABLE #5-20"
+                    }
+                },
+                {
+                    "id": "CONSUMABLE #5-20",
+                    "name": "Full Heal Elixir",
+                    "descriptions": [
+                        "It has changed hands many times because its owners keep refusing to use it on the offchance they need it later.",
+                        "This potent remedy completely heals one person's wounds - yet few people ever drink them, just in case they need them later.",
+                        "This bottle has passed through many hands and adventuring parties, as nobody ever seems willing to use them lest they need it later."
+                    ],
+                    "flavor": [
+                        "\"No, we can't use it! We need to conserve! It's not like you can buy these things in stores.\" -- Solo"
+                    ],
+                    "resources": {
+                        "HEALTH": {
+                            "value": 5
+                        }
+                    }
                 }
             ],
             "boss": {
