@@ -86,7 +86,11 @@ public enum GameState {
         public PlayerState update(PlayerState currentState, String playerText) {
             
             //Accept any response even if it's not the exact one expected.
-            currentState.setGameState(SELECT_HEROES);
+            /* Also, send the party into the Quick Start after reading the instructions;
+             * new players shouldn't be dumped into the advanced setup. */
+            currentState.setParty(new Party(HeroesOfCordan.getContent().fourRandomHeroes()));
+            currentState.calculateResources();
+            currentState.setGameState(ENTER_DUNGEON);
             return currentState;
             
         }
