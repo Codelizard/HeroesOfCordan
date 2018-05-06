@@ -26,7 +26,7 @@ public class ActionProcessor {
      */
     private PlayerState getState(final PlayerAction action) {
         if(!gameState.containsKey(action.getServiceName())) {
-            gameState.put(action.getServiceName(), new HashMap<String, PlayerState>());
+            gameState.put(action.getServiceName(), new HashMap<>());
         }
         return gameState.get(action.getServiceName()).get(action.getServiceUserId());
     }
@@ -39,7 +39,7 @@ public class ActionProcessor {
     private void setState(final PlayerAction action, final PlayerState newState) {
         
         if(!gameState.containsKey(action.getServiceName())) {
-            gameState.put(action.getServiceName(), new HashMap<String, PlayerState>());
+            gameState.put(action.getServiceName(), new HashMap<>());
         }
         
         gameState.get(action.getServiceName()).put(action.getServiceUserId(), newState);

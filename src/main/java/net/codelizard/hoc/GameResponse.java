@@ -41,7 +41,7 @@ public final class GameResponse {
      */
     public GameResponse(final String text, final List<String> responses) {
         this.text = text;
-        this.responses = responses == null ? new ArrayList<String>() : responses;
+        this.responses = responses == null ? new ArrayList<>() : responses;
     }
     
     public GameResponse(final String text, final String... responses) {
