@@ -22,24 +22,24 @@ public enum GameState {
         @Override
         public GameResponse enterState(PlayerState currentState) {
             return new GameResponse(
-                getMessage("opening.text"),
-                getMessage("opening.instructions"),
-                getMessage("opening.new_game"),
-                getMessage("opening.advanced_start")
+                getStaticMessage("opening.text"),
+                getStaticMessage("opening.instructions"),
+                getStaticMessage("opening.new_game"),
+                getStaticMessage("opening.advanced_start")
             );
         }
 
         @Override
         public PlayerState update(PlayerState currentState, String playerText) {
             
-            if(getMessage("opening.instructions").equalsIgnoreCase(playerText)) {
+            if(getStaticMessage("opening.instructions").equalsIgnoreCase(playerText)) {
                 currentState.setParty(new Party());
                 currentState.setGameState(INSTRUCTIONS);
-            } else if(getMessage("opening.new_game").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("opening.new_game").equalsIgnoreCase(playerText)) {
                 currentState.setParty(new Party(HeroesOfCordan.getContent().fourRandomHeroes()));
                 currentState.calculateResources();
                 currentState.setGameState(ENTER_DUNGEON);
-            } else if(getMessage("opening.advanced_start").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("opening.advanced_start").equalsIgnoreCase(playerText)) {
                 currentState.setParty(new Party());
                 currentState.setGameState(SELECT_HEROES);
             }
@@ -56,8 +56,8 @@ public enum GameState {
         @Override
         public GameResponse enterState(PlayerState currentState) {
             return new GameResponse(
-                HeroesOfCordan.getContent().getMessages().randomRestartMessage(),
-                getMessage("global.confirm")
+                getDynamicMessages().randomRestartMessage(),
+                getStaticMessage("global.confirm")
             );
         }
 
@@ -77,8 +77,8 @@ public enum GameState {
         @Override
         public GameResponse enterState(PlayerState currentState) {
             return new GameResponse(
-                getMessage("instructions.text"),
-                getMessage("global.confirm")
+                getStaticMessage("instructions.text"),
+                getStaticMessage("global.confirm")
             );
         }
 
@@ -104,7 +104,7 @@ public enum GameState {
         public GameResponse enterState(PlayerState currentState) {
             
             final StringBuilder message = new StringBuilder();
-            message.append(getMessage("select_hero.text")).append("\n");
+            message.append(getStaticMessage("select_hero.text")).append("\n");
             
             final List<Hero> heroes = HeroesOfCordan.getContent().getHeroes();
             final List<String> options = new ArrayList<>(); //Button texts given to the user
@@ -187,8 +187,8 @@ public enum GameState {
             
             return new GameResponse(
                 message.toString(),
-                getMessage("hero_detail.select"),
-                getMessage("hero_detail.cancel")
+                getStaticMessage("hero_detail.select"),
+                getStaticMessage("hero_detail.cancel")
             );
             
         }
@@ -196,7 +196,7 @@ public enum GameState {
         @Override
         public PlayerState update(PlayerState currentState, String playerText) {
             
-            if(getMessage("hero_detail.select").equalsIgnoreCase(playerText)) {
+            if(getStaticMessage("hero_detail.select").equalsIgnoreCase(playerText)) {
                 
                 final Hero hero = HeroesOfCordan.getContent().getHeroes().get(currentState.getHeroIndex());
                 currentState.getParty().addHero(hero);
@@ -208,7 +208,7 @@ public enum GameState {
                     currentState.setGameState(SELECT_HEROES);
                 }
                 
-            } else if(getMessage("hero_detail.cancel").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("hero_detail.cancel").equalsIgnoreCase(playerText)) {
                 
                 currentState.setGameState(SELECT_HEROES);
                 
@@ -226,13 +226,13 @@ public enum GameState {
         @Override
         public GameResponse enterState(PlayerState currentState) {
             
-            String output = HeroesOfCordan.getContent().getMessages().randomEnterDungeonMessage()
+            String output = getDynamicMessages().randomEnterDungeonMessage()
                     + "\n\n"
                     + currentState.listHeroes()
                     + "...\n"
-                    + HeroesOfCordan.getContent().getMessages().randomEnterDungeonClosingMessage();
+                    + getDynamicMessages().randomEnterDungeonClosingMessage();
             
-            return new GameResponse(output, getMessage("enter_dungeon.start"));
+            return new GameResponse(output, getStaticMessage("enter_dungeon.start"));
             
         }
 
@@ -259,7 +259,7 @@ public enum GameState {
             final StringBuilder output = new StringBuilder();
             
             if(!currentState.hasSeenInstructions(EVENT)) {
-                output.append(getMessage("event.instructions"));
+                output.append(getStaticMessage("event.instructions"));
                 output.append("\n\n");
                 currentState.setSeenInstructions(EVENT, true);
             }
@@ -281,7 +281,7 @@ public enum GameState {
             
             //If the player has any consumables, give them the option to use one
             if(!currentState.getConsumables().isEmpty()) {
-                responses.add(getMessage("global.use_consumable"));
+                responses.add(getStaticMessage("global.use_consumable"));
             }
             
             return new GameResponse(
@@ -296,7 +296,7 @@ public enum GameState {
             
             final Event nextEvent = currentState.upcomingEvent();
             
-            if(getMessage("global.use_consumable").equalsIgnoreCase(playerText)) {
+            if(getStaticMessage("global.use_consumable").equalsIgnoreCase(playerText)) {
                 
                 currentState.setReturnState(EVENT);
                 currentState.setGameState(USE_CONSUMABLE);
@@ -369,35 +369,35 @@ public enum GameState {
             if(!currentState.hasSeenInstructions(ACTION)) {
                 
                 //General instructions
-                message.append(getMessage("action.instructions"))
+                message.append(getStaticMessage("action.instructions"))
                        .append("\n\n");
                 
                 //Then list all the actions the player can do, even if they don't have the resources.
-                message.append(getMessage("instructions.fight_text"))
+                message.append(getStaticMessage("instructions.fight_text"))
                        .append("\n")
-                       .append(getMessage("instructions.short_rest_text"))
+                       .append(getStaticMessage("instructions.short_rest_text"))
                        .append("\n")
-                       .append(getMessage("instructions.long_rest_text"))
+                       .append(getStaticMessage("instructions.long_rest_text"))
                        .append("\n")
-                       .append(getMessage("instructions.charge_text"))
+                       .append(getStaticMessage("instructions.charge_text"))
                        .append("\n")
-                       .append(getMessage("instructions.transmute_text"))
+                       .append(getStaticMessage("instructions.transmute_text"))
                        .append("\n")
-                       .append(getMessage("instructions.cure_text"))
+                       .append(getStaticMessage("instructions.cure_text"))
                        .append("\n")
-                       .append(getMessage("instructions.mass_cure_text"))
+                       .append(getStaticMessage("instructions.mass_cure_text"))
                        .append("\n")
-                       .append(getMessage("instructions.scout_text"))
+                       .append(getStaticMessage("instructions.scout_text"))
                        .append("\n")
-                       .append(getMessage("instructions.secret_door_text"))
+                       .append(getStaticMessage("instructions.secret_door_text"))
                        .append("\n")
-                       .append(getMessage("instructions.use_consumable_text"))
+                       .append(getStaticMessage("instructions.use_consumable_text"))
                        .append("\n")
-                       .append(getMessage("instructions.boss_text"))
+                       .append(getStaticMessage("instructions.boss_text"))
                        .append("\n")
-                       .append(getMessage("instructions.boss_charge_text"))
+                       .append(getStaticMessage("instructions.boss_charge_text"))
                        .append("\n")
-                       .append(getMessage("instructions.repeat_instructions_text"));
+                       .append(getStaticMessage("instructions.repeat_instructions_text"));
                 
                 //Then prevent the prompt from showing up again unless asked
                 currentState.setSeenInstructions(ACTION, true);
@@ -411,56 +411,56 @@ public enum GameState {
             //Only add buttons for things the player has enough resources for.
             final List<String> responses = new ArrayList<>();
             if(!currentState.outOfMonsters()) {
-                responses.add(getMessage("action.fight"));
+                responses.add(getStaticMessage("action.fight"));
             }
             
             if(currentState.canShortRest()) {
-                responses.add(getMessage("action.short_rest"));
+                responses.add(getStaticMessage("action.short_rest"));
             }
             
             if(currentState.canExtendedRest()) {
-                responses.add(getMessage("action.long_rest"));
+                responses.add(getStaticMessage("action.long_rest"));
             }
             
             if(currentState.getResourceCount(ResourceType.PHYSICAL) > 0
                 && !currentState.outOfMonsters()) {
-                responses.add(getMessage("action.charge"));
+                responses.add(getStaticMessage("action.charge"));
             }
             
             if(currentState.getResourceCount(ResourceType.ARCANE) > 0
                 && currentState.hasItems()) { //Only if they actually have something to transmute
-                responses.add(getMessage("action.transmute"));
+                responses.add(getStaticMessage("action.transmute"));
             }
             
             if(currentState.getResourceCount(ResourceType.DIVINE) > 0) {
-                responses.add(getMessage("action.cure"));
+                responses.add(getStaticMessage("action.cure"));
             }
             
             if(currentState.getResourceCount(ResourceType.DIVINE) >= 3) {
-                responses.add(getMessage("action.mass_cure"));
+                responses.add(getStaticMessage("action.mass_cure"));
             }
             
             if(currentState.getResourceCount(ResourceType.STEALTH) > 0) {
-                responses.add(getMessage("action.scout"));
+                responses.add(getStaticMessage("action.scout"));
             }
             
             if(currentState.getResourceCount(ResourceType.MECHANICAL) > 0
                 && !currentState.outOfMonsters()) {
-                responses.add(getMessage("action.secret_door"));
+                responses.add(getStaticMessage("action.secret_door"));
             }
             
             if(currentState.hasItems()) {
-                responses.add(getMessage("action.use_consumable"));
+                responses.add(getStaticMessage("action.use_consumable"));
             }
             
             if(currentState.canFightBoss()) {
-                responses.add(getMessage("action.boss"));
+                responses.add(getStaticMessage("action.boss"));
                 if(currentState.getResourceCount(ResourceType.PHYSICAL) > 0) {
-                    responses.add(getMessage("action.boss_charge"));
+                    responses.add(getStaticMessage("action.boss_charge"));
                 }
             }
             
-            responses.add(getMessage("action.repeat_instructions"));
+            responses.add(getStaticMessage("action.repeat_instructions"));
             
             return new GameResponse(message.toString(), responses);
             
@@ -469,22 +469,22 @@ public enum GameState {
         @Override
         public PlayerState update(PlayerState currentState, String playerText) {
             
-            if(getMessage("action.fight").equalsIgnoreCase(playerText)) {
+            if(getStaticMessage("action.fight").equalsIgnoreCase(playerText)) {
                 
                 currentState.spendResource(ResourceType.TIME, 3); //TODO: Constant/config this value
                 currentState.setGameState(MONSTER);
                 
-            } else if(getMessage("action.short_rest").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("action.short_rest").equalsIgnoreCase(playerText)) {
                 
                 currentState.spendResource(ResourceType.TIME, 5); //TODO: Constant/config this value
                 currentState.setGameState(SHORT_REST);
                 
-            } else if(getMessage("action.long_rest").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("action.long_rest").equalsIgnoreCase(playerText)) {
                 
                 currentState.spendResource(ResourceType.TIME, 15); //TODO: Constant/config this value
                 currentState.setGameState(LONG_REST);
                 
-            } else if(getMessage("action.charge").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("action.charge").equalsIgnoreCase(playerText)) {
                 
                 if(currentState.getResourceCount(ResourceType.PHYSICAL) > 0) {
                     currentState.spendResource(ResourceType.PHYSICAL, 1); //TODO: Constant/config this value
@@ -492,7 +492,7 @@ public enum GameState {
                     currentState.setGameState(MONSTER);
                 }
                 
-            } else if(getMessage("action.transmute").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("action.transmute").equalsIgnoreCase(playerText)) {
                 
                 if(currentState.getResourceCount(ResourceType.ARCANE) > 0
                     && currentState.hasItems()) {
@@ -500,7 +500,7 @@ public enum GameState {
                     currentState.setGameState(TRANSMUTE);
                 }
                 
-            } else if(getMessage("action.cure").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("action.cure").equalsIgnoreCase(playerText)) {
                 
                 if(currentState.getResourceCount(ResourceType.DIVINE) > 0) {
                     currentState.spendResource(ResourceType.DIVINE, 1);
@@ -508,7 +508,7 @@ public enum GameState {
                     currentState.setGameState(CURE);
                 }
                 
-            } else if(getMessage("action.mass_cure").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("action.mass_cure").equalsIgnoreCase(playerText)) {
                 
                 if(currentState.getResourceCount(ResourceType.DIVINE) >= 3) { //TODO: Constant/config this value
                     currentState.spendResource(ResourceType.DIVINE, 3); //TODO: Constant/config this value
@@ -516,7 +516,7 @@ public enum GameState {
                     currentState.setGameState(MASS_CURE);
                 }
                 
-            } else if(getMessage("action.scout").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("action.scout").equalsIgnoreCase(playerText)) {
                 
                 if(currentState.getResourceCount(ResourceType.STEALTH) > 0) {
                     currentState.spendResource(ResourceType.STEALTH, 1); //TODO: Constant/config this value
@@ -524,7 +524,7 @@ public enum GameState {
                     currentState.setGameState(SCOUT);
                 }
                 
-            } else if(getMessage("action.secret_door").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("action.secret_door").equalsIgnoreCase(playerText)) {
                 
                 if(currentState.getResourceCount(ResourceType.MECHANICAL) > 0) {
                     currentState.spendResource(ResourceType.MECHANICAL, 1); //TODO: Constant/config this value
@@ -532,14 +532,14 @@ public enum GameState {
                     currentState.setGameState(SECRET_DOOR);
                 }
                 
-            } else if(getMessage("action.use_consumable").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("action.use_consumable").equalsIgnoreCase(playerText)) {
                 
                 if(currentState.hasItems()) {
                     currentState.setReturnState(ACTION);
                     currentState.setGameState(USE_CONSUMABLE);
                 }
                 
-            } else if(getMessage("action.boss").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("action.boss").equalsIgnoreCase(playerText)) {
                 
                 if(currentState.canFightBoss()) {
                     currentState.spendResource(ResourceType.TIME, 3); //TODO: Constant/config this value
@@ -547,7 +547,7 @@ public enum GameState {
                     currentState.setGameState(MONSTER);
                 }
                 
-            } else if(getMessage("action.boss_charge").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("action.boss_charge").equalsIgnoreCase(playerText)) {
                 
                 if(currentState.canFightBoss()
                     && currentState.getResourceCount(ResourceType.PHYSICAL) > 0) {
@@ -557,7 +557,7 @@ public enum GameState {
                     currentState.setGameState(MONSTER);
                 }
                 
-            } else if(getMessage("action.repeat_instructions").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("action.repeat_instructions").equalsIgnoreCase(playerText)) {
                 
                 currentState.setSeenInstructions(ACTION, false);
                 
@@ -584,7 +584,7 @@ public enum GameState {
             final StringBuilder output = new StringBuilder();
             
             if(!currentState.hasSeenInstructions(MONSTER)) {
-                output.append(getMessage("monster.instructions"));
+                output.append(getStaticMessage("monster.instructions"));
                 output.append("\n\n");
                 currentState.setSeenInstructions(MONSTER, true);
             }
@@ -607,7 +607,7 @@ public enum GameState {
             
             //If the player has any consumables, give them the option to use one
             if(!currentState.getConsumables().isEmpty()) {
-                responses.add(getMessage("global.use_consumable"));
+                responses.add(getStaticMessage("global.use_consumable"));
             }
             
             return new GameResponse(
@@ -623,7 +623,7 @@ public enum GameState {
             
             final Monster nextMonster = currentState.upcomingMonster();
             
-            if(getMessage("global.use_consumable").equalsIgnoreCase(playerText)) {
+            if(getStaticMessage("global.use_consumable").equalsIgnoreCase(playerText)) {
                 
                 currentState.setReturnState(MONSTER);
                 currentState.setGameState(USE_CONSUMABLE);
@@ -705,7 +705,7 @@ public enum GameState {
         
         @Override
         public GameResponse enterState(PlayerState currentState) {
-            return new GameResponse(getMessage("ready_for_boss.message"), getMessage("global.confirm"));
+            return new GameResponse(getStaticMessage("ready_for_boss.message"), getStaticMessage("global.confirm"));
         }
 
         @Override
@@ -735,19 +735,19 @@ public enum GameState {
                 currentState.setLootAwarded(true);
             }
             
-            String output = getMessage("loot.message")
+            String output = getStaticMessage("loot.message")
                     + "\n\n"
                     + loot.fullLengthDescription()
                     + "\n\n"
-                    + getMessage("loot.consumable_blurb")
+                    + getStaticMessage("loot.consumable_blurb")
                     + "\n"
                     + loot.benefits();
             
             if(currentState.consumablesOverfull()) {
-                output += "\n\n" + getMessage("loot.consumables_full");
+                output += "\n\n" + getStaticMessage("loot.consumables_full");
                 return new GameResponse(output, currentState.listConsumables());
             } else {
-                return new GameResponse(output, getMessage("global.confirm"));
+                return new GameResponse(output, getStaticMessage("global.confirm"));
             }
             
         }
@@ -796,19 +796,19 @@ public enum GameState {
                 currentState.setLootAwarded(true);
             }
             
-            String output = getMessage("loot.message")
+            String output = getStaticMessage("loot.message")
                     + "\n\n"
                     + loot.fullLengthDescription()
                     + "\n\n"
-                    + getMessage("loot.equipment_blurb")
+                    + getStaticMessage("loot.equipment_blurb")
                     + "\n"
                     + loot.benefits();
             
             if(currentState.equipmentOverfull()) {
-                output += "\n\n" + getMessage("loot.equipment_full");
+                output += "\n\n" + getStaticMessage("loot.equipment_full");
                 return new GameResponse(output, currentState.listEquipment());
             } else {
-                return new GameResponse(output, getMessage("global.confirm"));
+                return new GameResponse(output, getStaticMessage("global.confirm"));
             }
             
         }
@@ -852,13 +852,13 @@ public enum GameState {
             currentState.calculateResources();
             currentState.nextFloor();
             
-            String output = getMessage("levelup.opening")
+            String output = getStaticMessage("levelup.opening")
                     + "\n\n"
                     + currentState.statusReport()
                     + "\n\n"
-                    + getMessage("levelup.closing");
+                    + getStaticMessage("levelup.closing");
             
-            return new GameResponse(output, getMessage("global.confirm"));
+            return new GameResponse(output, getStaticMessage("global.confirm"));
             
         }
 
@@ -880,9 +880,9 @@ public enum GameState {
         public GameResponse enterState(PlayerState currentState) {
             
             final List<String> options = currentState.listConsumables();
-            options.add(getMessage("global.cancel"));
+            options.add(getStaticMessage("global.cancel"));
             
-            return new GameResponse(getMessage("use_consumable.message"), options);
+            return new GameResponse(getStaticMessage("use_consumable.message"), options);
             
         }
 
@@ -910,7 +910,7 @@ public enum GameState {
         @Override
         public GameResponse enterState(PlayerState currentState) {
             currentState.refillResources();
-            return new GameResponse(HeroesOfCordan.getContent().getMessages().randomShortRestMessage(), getMessage("global.confirm"));
+            return new GameResponse(getDynamicMessages().randomShortRestMessage(), getStaticMessage("global.confirm"));
         }
 
         @Override
@@ -927,7 +927,7 @@ public enum GameState {
         @Override
         public GameResponse enterState(PlayerState currentState) {
             currentState.refillAll();
-            return new GameResponse(HeroesOfCordan.getContent().getMessages().randomLongRestMessage(), getMessage("global.confirm"));
+            return new GameResponse(getDynamicMessages().randomLongRestMessage(), getStaticMessage("global.confirm"));
         }
 
         @Override
@@ -947,7 +947,7 @@ public enum GameState {
             StringBuilder output = new StringBuilder();
             
             if(!currentState.hasSeenInstructions(TRANSMUTE)) {
-                output.append(getMessage("transmute.instructions"));
+                output.append(getStaticMessage("transmute.instructions"));
                 output.append("\n\n");
                 currentState.setSeenInstructions(TRANSMUTE, true);
             }
@@ -955,7 +955,7 @@ public enum GameState {
             output.append("transmute.message");
             
             final List<String> options = currentState.listItems();
-            options.add(getMessage("global.cancel"));
+            options.add(getStaticMessage("global.cancel"));
             
             return new GameResponse(output.toString(), options);
             
@@ -1013,15 +1013,15 @@ public enum GameState {
             
             final Item result = currentState.getTransmuteResult();
             
-            final String output = getMessage("transmute.result")
+            final String output = getStaticMessage("transmute.result")
                     + "\n\n"
                     + result.fullLengthDescription()
                     + "\n\n"
-                    + getMessage("loot.consumable_blurb")
+                    + getStaticMessage("loot.consumable_blurb")
                     + "\n"
                     + result.benefits();
             
-            return new GameResponse(output, getMessage("global.confirm"));
+            return new GameResponse(output, getStaticMessage("global.confirm"));
             
         }
 
@@ -1043,7 +1043,7 @@ public enum GameState {
         @Override
         public GameResponse enterState(PlayerState currentState) {
             currentState.gainResource(ResourceType.HEALTH, 1, false); //TODO: Constant/config this value
-            return new GameResponse(HeroesOfCordan.getContent().getMessages().randomCureMessage(), getMessage("global.confirm"));
+            return new GameResponse(getDynamicMessages().randomCureMessage(), getStaticMessage("global.confirm"));
         }
 
         @Override
@@ -1060,7 +1060,7 @@ public enum GameState {
         @Override
         public GameResponse enterState(PlayerState currentState) {
             currentState.gainResource(ResourceType.HEALTH, 4, false); //TODO: Constant/config this value
-            return new GameResponse(HeroesOfCordan.getContent().getMessages().randomMassCureMessage(), getMessage("global.confirm"));
+            return new GameResponse(getDynamicMessages().randomMassCureMessage(), getStaticMessage("global.confirm"));
         }
 
         @Override
@@ -1080,32 +1080,32 @@ public enum GameState {
             StringBuilder output = new StringBuilder();
             
             if(!currentState.hasSeenInstructions(SCOUT)) {
-                output.append(getMessage("scout.instructions"));
+                output.append(getStaticMessage("scout.instructions"));
                 output.append("\n\n");
                 currentState.setSeenInstructions(SCOUT, true);
             }
             
             final Event nextEvent = currentState.upcomingEvent();
             
-            output.append(getMessage("scout.message"))
+            output.append(getStaticMessage("scout.message"))
                   .append("\n\n")
                   .append(nextEvent.getName()) //Don't show flavor text, just the stats.
                   .append("\n\n")
                   .append(nextEvent.costListing(currentState))
                   .append("\n\n")
-                  .append(getMessage("scout.question"));
+                  .append(getStaticMessage("scout.question"));
             
-            return new GameResponse(output.toString(), getMessage("global.yes"), getMessage("global.no"));
+            return new GameResponse(output.toString(), getStaticMessage("global.yes"), getStaticMessage("global.no"));
             
         }
 
         @Override
         public PlayerState update(PlayerState currentState, String playerText) {
             
-            if(getMessage("global.yes").equalsIgnoreCase(playerText)) {
+            if(getStaticMessage("global.yes").equalsIgnoreCase(playerText)) {
                 currentState.redrawEvent();
                 currentState.setGameState(ACTION);
-            } else if(getMessage("global.no").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("global.no").equalsIgnoreCase(playerText)) {
                 currentState.setGameState(ACTION);
             }
             return currentState;
@@ -1123,32 +1123,32 @@ public enum GameState {
             StringBuilder output = new StringBuilder();
             
             if(!currentState.hasSeenInstructions(SECRET_DOOR)) {
-                output.append(getMessage("secret_door.instructions"));
+                output.append(getStaticMessage("secret_door.instructions"));
                 output.append("\n\n");
                 currentState.setSeenInstructions(SECRET_DOOR, true);
             }
             
             final Monster nextMonster = currentState.upcomingMonster();
             
-            output.append(getMessage("secret_door.message"))
+            output.append(getStaticMessage("secret_door.message"))
                   .append("\n\n")
                   .append(nextMonster.getName()) //Don't show flavor text, just the stats.
                   .append("\n\n")
                   .append(nextMonster.costListing(currentState))
                   .append("\n\n")
-                  .append(getMessage("secret_door.question"));
+                  .append(getStaticMessage("secret_door.question"));
             
-            return new GameResponse(output.toString(), getMessage("global.yes"), getMessage("global.no"));
+            return new GameResponse(output.toString(), getStaticMessage("global.yes"), getStaticMessage("global.no"));
             
         }
 
         @Override
         public PlayerState update(PlayerState currentState, String playerText) {
             
-            if(getMessage("global.yes").equalsIgnoreCase(playerText)) {
+            if(getStaticMessage("global.yes").equalsIgnoreCase(playerText)) {
                 currentState.redrawMonster();
                 currentState.setGameState(ACTION);
-            } else if(getMessage("global.no").equalsIgnoreCase(playerText)) {
+            } else if(getStaticMessage("global.no").equalsIgnoreCase(playerText)) {
                 currentState.setGameState(ACTION);
             }
             return currentState;
@@ -1163,7 +1163,7 @@ public enum GameState {
         @Override
         public GameResponse enterState(PlayerState currentState) {
             
-            String message = HeroesOfCordan.getContent().getMessages().randomOutOfHealthMessage();
+            String message = getDynamicMessages().randomOutOfHealthMessage();
             
             currentState.spendResource(ResourceType.TIME, 20); //TODO: Move this to a constant or config or something
             
@@ -1171,13 +1171,13 @@ public enum GameState {
             if(currentState.getResourceCount(ResourceType.TIME) <= 0) {
                 
                 currentState.setGameState(OUT_OF_TIME);
-                message += "\n\n" + HeroesOfCordan.getContent().getMessages().randomOutOfTimeMessage();
-                return new GameResponse(message, getMessage("game_over.restart"));
+                message += "\n\n" + getDynamicMessages().randomOutOfTimeMessage();
+                return new GameResponse(message, getStaticMessage("game_over.restart"));
                 
             } else {
                 
                 currentState.refillAll();
-                return new GameResponse(message, getMessage("out_of_health.continue"));
+                return new GameResponse(message, getStaticMessage("out_of_health.continue"));
                 
             }
 
@@ -1200,8 +1200,8 @@ public enum GameState {
         @Override
         public GameResponse enterState(PlayerState currentState) {
             return new GameResponse(
-                HeroesOfCordan.getContent().getMessages().randomOutOfTimeMessage(),
-                getMessage("game_over.restart")
+                getDynamicMessages().randomOutOfTimeMessage(),
+                getStaticMessage("game_over.restart")
             );
         }
 
@@ -1220,17 +1220,17 @@ public enum GameState {
         @Override
         public GameResponse enterState(PlayerState currentState) {
             
-            String output = getMessage("victory.opening")
+            String output = getStaticMessage("victory.opening")
                     + "\n\n"
-                    + getMessage("victory.heroes")
+                    + getStaticMessage("victory.heroes")
                     + currentState.listHeroes()
                     + "\n"
-                    + getMessage("victory.time")
+                    + getStaticMessage("victory.time")
                     + currentState.getResourceCount(ResourceType.TIME)
                     + "\n\n"
-                    + getMessage("victory.thanks");
+                    + getStaticMessage("victory.thanks");
             
-            return new GameResponse(output, getMessage("global.confirm"));
+            return new GameResponse(output, getStaticMessage("global.confirm"));
             
         }
 
@@ -1263,9 +1263,14 @@ public enum GameState {
      */
     public abstract PlayerState update(PlayerState currentState, String playerText);
     
-    /** Helper method to save having to fully qualify getMessage on every use. */
-    private static String getMessage(String identifier) {
-        return HeroesOfCordan.getMessage(identifier);
+    /** Helper method to save having to fully qualify getStaticMessage on every use. */
+    private static String getStaticMessage(String identifier) {
+        return HeroesOfCordan.getStaticMessage(identifier);
+    }
+    
+    /** Helper method to save having to fully qualify getDynamicMessages on every use. */
+    private static DynamicMessages getDynamicMessages() {
+        return HeroesOfCordan.getDynamicMessages();
     }
     
     /** Helper method: Given player input intended to interact with an indexed list, try to get an index from it. */

@@ -64,7 +64,7 @@ public class ActionProcessor {
             //We've never seen this user before.
             newState = new PlayerState();
             
-        } else if (HeroesOfCordan.getMessage("global.restart").equalsIgnoreCase(playerText)
+        } else if (HeroesOfCordan.getStaticMessage("global.restart").equalsIgnoreCase(playerText)
                 || "/restart".equalsIgnoreCase(playerText)) {
             
             //User abandoning in-progress game
@@ -78,7 +78,7 @@ public class ActionProcessor {
                 newState = currentState.getGameState().update(currentState, playerText);
             } catch (Exception x) {
                 x.printStackTrace();
-                return new GameResponse(HeroesOfCordan.getMessage("error.update") + x.getMessage());
+                return new GameResponse(HeroesOfCordan.getStaticMessage("error.update") + x.getMessage());
             }
             
         }
@@ -89,7 +89,7 @@ public class ActionProcessor {
             return newState.getGameState().enterState(newState);
         } catch (Exception x) {
             x.printStackTrace();
-            return new GameResponse(HeroesOfCordan.getMessage("error.enter_state") + x.getMessage());
+            return new GameResponse(HeroesOfCordan.getStaticMessage("error.enter_state") + x.getMessage());
         }
         
     }

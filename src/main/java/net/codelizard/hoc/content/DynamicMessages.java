@@ -14,48 +14,48 @@ import java.util.List;
  */
 @JsonInclude(JsonInclude.Include.NON_DEFAULT)
 @JsonIgnoreProperties(ignoreUnknown=true)
-public class Messages {
+public class DynamicMessages {
     
-    /** Messages shown when entering the dungeon. */
+    /** DynamicMessages shown when entering the dungeon. */
     @JsonProperty("enter_dungeon_messages")
     private List<String> enterDungeonMessages;
     
-    /** Messages shown when entering the dungeon after the main enter dungeon message. */
+    /** DynamicMessages shown when entering the dungeon after the main enter dungeon message. */
     @JsonProperty("enter_dungeon_closing_messages")
     private List<String> enterDungeonClosingMessages;
     
-    /** Messages shown when restarting the game. */
+    /** DynamicMessages shown when restarting the game. */
     @JsonProperty("restart_messages")
     private List<String> restartMessages;
     
-    /** Messages shown when taking a short rest. */
+    /** DynamicMessages shown when taking a short rest. */
     @JsonProperty("short_rest_messages")
     private List<String> shortRestMessages;
     
-    /** Messages shown when taking a long rest. */
+    /** DynamicMessages shown when taking a long rest. */
     @JsonProperty("long_rest_messages")
     private List<String> longRestMessages;
     
-    /** Messages shown when doing a Cure. */
+    /** DynamicMessages shown when doing a Cure. */
     @JsonProperty("cure_messages")
     private List<String> cureMessages;
     
-    /** Messages shown when doing a Mass Cure. */
+    /** DynamicMessages shown when doing a Mass Cure. */
     @JsonProperty("mass_cure_messages")
     private List<String> massCureMessages;
     
-    /** Messages shown when the player runs out of time. */
+    /** DynamicMessages shown when the player runs out of time. */
     @JsonProperty("out_of_time_messages")
     private List<String> outOfTimeMessages;
     
-    /** Messages shown when the player runs out of health. */
+    /** DynamicMessages shown when the player runs out of health. */
     @JsonProperty("out_of_health_messages")
     private List<String> outOfHealthMessages;
     
     /**
-     * Constructs a new, empty Messages object.
+     * Constructs a new, empty DynamicMessages object.
      */
-    public Messages() {}
+    public DynamicMessages() {}
     
     private String randomMessage(List<String> list, String defaultMessage) {
         if(list.size() > 0) {
