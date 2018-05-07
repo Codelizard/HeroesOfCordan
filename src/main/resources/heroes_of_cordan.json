@@ -11805,7 +11805,7 @@
         "instructions.fight_text": "[-3 Time] Back to Adventure: Fight the next Monster.",
         "instructions.short_rest_text": "[-5 Time] Short Rest: Recover Physical/Arcane/Divine/Stealth/Mechanical back to their max values.",
         "instructions.long_rest_text": "[-15 Time] Extended Rest: Recover P/A/D/S/M, and heal HP to full.",
-        "instructions.charge_text": "[-1 Physical, -1 Time] Charge Ahead: Fight the next Monster.",
+        "instructions.charge_text": "[-1 Physical, -2 Time] Charge Ahead: Fight the next Monster.",
         "instructions.cure_text": "[-1 Divine, -1 Time] Cure Wounds: Heal 1 HP.",
         "instructions.mass_cure_text": "[-3 Divine, -1 Time] Mass Cure Wounds: Heal 4 HP.",
         "instructions.transmute_text": "[-1 Arcane, -1 Time] Transmutation: Exchange 1 Equipment or Consumable for a different one of the same quality.",
@@ -11813,7 +11813,7 @@
         "instructions.secret_door_text": "[-1 Mechanical, -1 Time] Find a Secret Door: Peek at the next Monster. Optionally, discard it and replace with another.",
         "instructions.use_consumable_text": "[0 Time] Use Consumable: Use a Consumable item from your inventory.",
         "instructions.boss_text": "[Defeated 10 Monsters, -3 Time] Seal a Portal: Fight the boss of this floor.",
-        "instructions.boss_charge_text": "[Defeated 10 Monsters, -1 Physical, -1 Time] Dramatic Entry: Fight the boss of this floor.",
+        "instructions.boss_charge_text": "[Defeated 10 Monsters, -1 Physical, -2 Time] Dramatic Entry: Fight the boss of this floor.",
         "instructions.repeat_instructions_text": "[0 Time] Repeat Instructions: Display these instructions again.",
 
         "transmute.instructions": "[[Transmutation allows you to exchange equipment or consumables for other items of the same type and tier. It's a good way to spread stats around or attempt to focus them, depending on your play style.]]",

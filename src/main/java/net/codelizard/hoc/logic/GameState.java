@@ -471,30 +471,30 @@ public enum GameState {
             
             if(getStaticMessage("action.fight").equalsIgnoreCase(playerText)) {
                 
-                currentState.spendResource(ResourceType.TIME, 3); //TODO: Constant/config this value
+                currentState.spendResource(ResourceType.TIME, FIGHT_TIME_COST);
                 currentState.setGameState(MONSTER);
                 
             } else if(getStaticMessage("action.short_rest").equalsIgnoreCase(playerText)) {
                 
-                currentState.spendResource(ResourceType.TIME, 5); //TODO: Constant/config this value
+                currentState.spendResource(ResourceType.TIME, SHORT_REST_TIME_COST);
                 currentState.setGameState(SHORT_REST);
                 
             } else if(getStaticMessage("action.long_rest").equalsIgnoreCase(playerText)) {
                 
-                currentState.spendResource(ResourceType.TIME, 15); //TODO: Constant/config this value
+                currentState.spendResource(ResourceType.TIME, LONG_REST_TIME_COST);
                 currentState.setGameState(LONG_REST);
                 
             } else if(getStaticMessage("action.charge").equalsIgnoreCase(playerText)) {
                 
-                if(currentState.getResourceCount(ResourceType.PHYSICAL) > 0) {
-                    currentState.spendResource(ResourceType.PHYSICAL, 1); //TODO: Constant/config this value
-                    currentState.spendResource(ResourceType.TIME, 1); //TODO: Constant/config this value
+                if(currentState.getResourceCount(ResourceType.PHYSICAL) >= CHARGE_PHYSICAL_COST) {
+                    currentState.spendResource(ResourceType.PHYSICAL, CHARGE_PHYSICAL_COST);
+                    currentState.spendResource(ResourceType.TIME, CHARGE_TIME_COST);
                     currentState.setGameState(MONSTER);
                 }
                 
             } else if(getStaticMessage("action.transmute").equalsIgnoreCase(playerText)) {
                 
-                if(currentState.getResourceCount(ResourceType.ARCANE) > 0
+                if(currentState.getResourceCount(ResourceType.ARCANE) >= TRANSMUTE_ARCANE_COST
                     && currentState.hasItems()) {
                     //Don't spend resources yet; they might back out of transmuting
                     currentState.setGameState(TRANSMUTE);
@@ -502,33 +502,33 @@ public enum GameState {
                 
             } else if(getStaticMessage("action.cure").equalsIgnoreCase(playerText)) {
                 
-                if(currentState.getResourceCount(ResourceType.DIVINE) > 0) {
-                    currentState.spendResource(ResourceType.DIVINE, 1);
-                    currentState.spendResource(ResourceType.TIME, 1); //TODO: Constant/config this value
+                if(currentState.getResourceCount(ResourceType.DIVINE) >= CURE_DIVINE_COST) {
+                    currentState.spendResource(ResourceType.DIVINE, CURE_DIVINE_COST);
+                    currentState.spendResource(ResourceType.TIME, CURE_TIME_COST);
                     currentState.setGameState(CURE);
                 }
                 
             } else if(getStaticMessage("action.mass_cure").equalsIgnoreCase(playerText)) {
                 
-                if(currentState.getResourceCount(ResourceType.DIVINE) >= 3) { //TODO: Constant/config this value
-                    currentState.spendResource(ResourceType.DIVINE, 3); //TODO: Constant/config this value
-                    currentState.spendResource(ResourceType.TIME, 1); //TODO: Constant/config this value
+                if(currentState.getResourceCount(ResourceType.DIVINE) >= MASS_CURE_DIVINE_COST) {
+                    currentState.spendResource(ResourceType.DIVINE, MASS_CURE_DIVINE_COST);
+                    currentState.spendResource(ResourceType.TIME, MASS_CURE_TIME_COST);
                     currentState.setGameState(MASS_CURE);
                 }
                 
             } else if(getStaticMessage("action.scout").equalsIgnoreCase(playerText)) {
                 
-                if(currentState.getResourceCount(ResourceType.STEALTH) > 0) {
-                    currentState.spendResource(ResourceType.STEALTH, 1); //TODO: Constant/config this value
-                    currentState.spendResource(ResourceType.TIME, 1); //TODO: Constant/config this value
+                if(currentState.getResourceCount(ResourceType.STEALTH) >= SCOUT_STEALTH_COST) {
+                    currentState.spendResource(ResourceType.STEALTH, SCOUT_STEALTH_COST);
+                    currentState.spendResource(ResourceType.TIME, SCOUT_TIME_COST);
                     currentState.setGameState(SCOUT);
                 }
                 
             } else if(getStaticMessage("action.secret_door").equalsIgnoreCase(playerText)) {
                 
-                if(currentState.getResourceCount(ResourceType.MECHANICAL) > 0) {
-                    currentState.spendResource(ResourceType.MECHANICAL, 1); //TODO: Constant/config this value
-                    currentState.spendResource(ResourceType.TIME, 1); //TODO: Constant/config this value
+                if(currentState.getResourceCount(ResourceType.MECHANICAL) >= SECRET_DOOR_MECHANICAL_COST) {
+                    currentState.spendResource(ResourceType.MECHANICAL, SECRET_DOOR_MECHANICAL_COST);
+                    currentState.spendResource(ResourceType.TIME, SECRET_DOOR_TIME_COST);
                     currentState.setGameState(SECRET_DOOR);
                 }
                 
@@ -542,7 +542,7 @@ public enum GameState {
             } else if(getStaticMessage("action.boss").equalsIgnoreCase(playerText)) {
                 
                 if(currentState.canFightBoss()) {
-                    currentState.spendResource(ResourceType.TIME, 3); //TODO: Constant/config this value
+                    currentState.spendResource(ResourceType.TIME, BOSS_TIME_COST);
                     currentState.setFightingBoss(true);
                     currentState.setGameState(MONSTER);
                 }
@@ -550,9 +550,9 @@ public enum GameState {
             } else if(getStaticMessage("action.boss_charge").equalsIgnoreCase(playerText)) {
                 
                 if(currentState.canFightBoss()
-                    && currentState.getResourceCount(ResourceType.PHYSICAL) > 0) {
-                    currentState.spendResource(ResourceType.PHYSICAL, 1); //TODO: Constant/config this value
-                    currentState.spendResource(ResourceType.TIME, 1); //TODO: Constant/config this value
+                    && currentState.getResourceCount(ResourceType.PHYSICAL) > BOSS_CHARGE_PHYSICAL_COST) {
+                    currentState.spendResource(ResourceType.PHYSICAL, BOSS_CHARGE_PHYSICAL_COST);
+                    currentState.spendResource(ResourceType.TIME, BOSS_CHARGE_TIME_COST);
                     currentState.setFightingBoss(true);
                     currentState.setGameState(MONSTER);
                 }
@@ -981,8 +981,8 @@ public enum GameState {
                 currentState.setTransmuteResult(newItem);
                 
                 //Now that the transmutation has been confirmed, spend resources
-                currentState.spendResource(ResourceType.ARCANE, 1); //TODO: Constant/config this value
-                currentState.spendResource(ResourceType.TIME, 1); //TODO: Constant/config this value
+                currentState.spendResource(ResourceType.ARCANE, TRANSMUTE_ARCANE_COST);
+                currentState.spendResource(ResourceType.TIME, TRANSMUTE_TIME_COST);
                 
                 //And recalculate the new maximums in case we transmuted equipment
                 currentState.calculateResources();
@@ -1042,7 +1042,7 @@ public enum GameState {
         
         @Override
         public GameResponse enterState(PlayerState currentState) {
-            currentState.gainResource(ResourceType.HEALTH, 1, false); //TODO: Constant/config this value
+            currentState.gainResource(ResourceType.HEALTH, CURE_HEALTH_GAIN, false);
             return new GameResponse(getDynamicMessages().randomCureMessage(), getStaticMessage("global.confirm"));
         }
 
@@ -1059,7 +1059,7 @@ public enum GameState {
         
         @Override
         public GameResponse enterState(PlayerState currentState) {
-            currentState.gainResource(ResourceType.HEALTH, 4, false); //TODO: Constant/config this value
+            currentState.gainResource(ResourceType.HEALTH, MASS_CURE_HEALTH_GAIN, false);
             return new GameResponse(getDynamicMessages().randomMassCureMessage(), getStaticMessage("global.confirm"));
         }
 
@@ -1165,7 +1165,7 @@ public enum GameState {
             
             String message = getDynamicMessages().randomOutOfHealthMessage();
             
-            currentState.spendResource(ResourceType.TIME, 20); //TODO: Move this to a constant or config or something
+            currentState.spendResource(ResourceType.TIME, TPK_TIME_COST);
             
             //Did we run out of time as a result?
             if(currentState.getResourceCount(ResourceType.TIME) <= 0) {
@@ -1244,6 +1244,69 @@ public enum GameState {
         }
         
     };
+    
+    /** How much Time it costs to use the Back To Adventure action. */
+    private static final int FIGHT_TIME_COST = 3;
+    
+    /** How much Time it costs to use the Short Rest action. */
+    private static final int SHORT_REST_TIME_COST = 5;
+    
+    /** How much Time it costs to use the Long Rest action. */
+    private static final int LONG_REST_TIME_COST = 15;
+    
+    /** How much Physical it costs to use the Charge Ahead action. */
+    private static final int CHARGE_PHYSICAL_COST = 1;
+    
+    /** How much Time it costs to use the Charge Ahead action. */
+    private static final int CHARGE_TIME_COST = 2;
+    
+    /** How much Arcane it costs to use the Transmute action. */
+    private static final int TRANSMUTE_ARCANE_COST = 1;
+    
+    /** How much Time it costs to use the Arcane action. */
+    private static final int TRANSMUTE_TIME_COST = 1;
+    
+    /** How much Divine it costs to use the Cure action. */
+    private static final int CURE_DIVINE_COST = 1;
+    
+    /** How much Time it costs to use the Cure action. */
+    private static final int CURE_TIME_COST = 1;
+    
+    /** How much Health is gained by the Cure action. */
+    private static final int CURE_HEALTH_GAIN = 1;
+    
+    /** How much Divine it costs to use the Mass Cure action. */
+    private static final int MASS_CURE_DIVINE_COST = 3;
+    
+    /** How much Time it costs to use the Mass Cure action. */
+    private static final int MASS_CURE_TIME_COST = 1;
+    
+    /** How much Health is gained by the Mass Cure action. */
+    private static final int MASS_CURE_HEALTH_GAIN = 4;
+    
+    /** How much Stealth it costs to use the Scout Ahead action. */
+    private static final int SCOUT_STEALTH_COST = 1;
+    
+    /** How much Time it costs to use the Scout Ahead action. */
+    private static final int SCOUT_TIME_COST = 1;
+    
+    /** How much Mechanical it costs to use the Secret Door action. */
+    private static final int SECRET_DOOR_MECHANICAL_COST = 1;
+    
+    /** How much Time it costs to use the Secret Door action. */
+    private static final int SECRET_DOOR_TIME_COST = 1;
+    
+    /** How much Time it costs to use the Seal A Portal action. */
+    private static final int BOSS_TIME_COST = 3;
+    
+    /** How much Physical it costs to use the Dramatic Entry action. */
+    private static final int BOSS_CHARGE_PHYSICAL_COST = 1;
+    
+    /** How much Time it costs to use the Dramatic Entry action. */
+    private static final int BOSS_CHARGE_TIME_COST = 2;
+    
+    /** How much Time the party loses if it wipes. */
+    private static final int TPK_TIME_COST = 20;
     
     /**
      * Generates a response to be returned to the user after transitioning INTO this GameState, based on the information
