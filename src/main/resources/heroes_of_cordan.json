@@ -11810,6 +11810,11 @@
             "A group of adventurers has broken through evil's legions at the entrance to a dungeon. While the rest hold the line, four of them must delve into it, close elemental portals, and defeat the Omnimental before it gathers enough power to escape and wreak havoc upon Cordan.",
             "Some adventurers out dungeon crawling have stumbled on a scheme to unleash an Omnimental upon the lands of Cordan. For lack of anyone better in the area, these adventurers must now close the elemental portals and defeat the Omnimental, or there won't be a civilization left for them to sell their loot to."
         ],
+        "enter_dungeon_closing_messages": [
+            "Will they become the Heroes of Cordan?",
+            "Can they become the Heroes of Cordan?",
+            "Will they survive and become the Heroes of Cordan?"
+        ],
         "long_rest_messages": [
             "The party stops in a safe location to tend to their wounds and make a pot of tea.",
             "A long rest gives the party time to heal their wounds and make a quick meal.",

@@ -20,6 +20,10 @@ public class Messages {
     @JsonProperty("enter_dungeon_messages")
     private List<String> enterDungeonMessages;
     
+    /** Messages shown when entering the dungeon after the main enter dungeon message. */
+    @JsonProperty("enter_dungeon_closing_messages")
+    private List<String> enterDungeonClosingMessages;
+    
     /** Messages shown when restarting the game. */
     @JsonProperty("restart_messages")
     private List<String> restartMessages;
@@ -73,6 +77,13 @@ public class Messages {
      */
     public String randomEnterDungeonMessage() {
         return randomMessage(enterDungeonMessages, "Your party assembled, you descend into the dungeon...");
+    }
+    
+    /**
+     * @return A random message from the list of enter dungeon closing messages.
+     */
+    public String randomEnterDungeonClosingMessage() {
+        return randomMessage(enterDungeonClosingMessages, "Will they become the Heroes of Cordan?");
     }
     
     /**

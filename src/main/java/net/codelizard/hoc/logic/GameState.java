@@ -230,7 +230,7 @@ public enum GameState {
                     + "\n\n"
                     + currentState.listHeroes()
                     + "...\n"
-                    + getMessage("enter_dungeon.blurb");
+                    + HeroesOfCordan.getContent().getMessages().randomEnterDungeonClosingMessage();
             
             return new GameResponse(output, getMessage("enter_dungeon.start"));
             
