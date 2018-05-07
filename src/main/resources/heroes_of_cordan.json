@@ -10483,7 +10483,9 @@
                     "resources": {
                         "MECHANICAL": {
                             "texts": [
-                                "ACTION TEXT"
+                                "Disarm the trap.",
+                                "Jam the napalm dispenser.",
+                                "Disarm the sprayer."
                             ],
                             "value": 6
                         },
