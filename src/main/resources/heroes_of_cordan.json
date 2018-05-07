@@ -11836,7 +11836,7 @@
 
         "use_consumable.message": "Choose a consumable to use:",
 
-        "ready_for_boss.message": "You can now fight the boss of this floor! When you are ready, select \"Seal a Portal\" (or Dynamic Entry if that's more your style) and be prepared for a hard fight!",
+        "ready_for_boss.message": "You can now fight the boss of this floor! When you are ready, select \"Seal a Portal\" (or Dramatic Entry if that's more your style) and be prepared for a hard fight!",
 
         "levelup.opening": "Level up! Your new resource totals are:",
         "levelup.closing": "Your party descends the stairs to the next floor...",
