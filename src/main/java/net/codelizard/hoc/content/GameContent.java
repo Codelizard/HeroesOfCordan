@@ -2,6 +2,7 @@ package net.codelizard.hoc.content;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -18,8 +19,13 @@ import java.util.Map;
 @JsonIgnoreProperties(ignoreUnknown=true)
 public class GameContent {
     
-    /** Sets of messages in the game. */
-    private Messages messages;
+    /** Sets of messages in the game, where one is chosen randomly each time the set is displayed. */
+    @JsonProperty("dynamic_messages")
+    private DynamicMessages dynamicMessages;
+    
+    /** Static messages that, unlike the DynamicMessages above, are always the same. */
+    @JsonProperty("static_messages")
+    private Map<String, String> staticMessages;
     
     /** Tier-organized game content. */
     private Map<Integer, Tier> tiers;
@@ -30,10 +36,17 @@ public class GameContent {
     public GameContent() {}
     
     /**
-     * @return The game messages object.
+     * @return The dynamic messages object.
      */
-    public Messages getMessages() {
-        return messages;
+    public DynamicMessages getDynamicMessages() {
+        return dynamicMessages;
+    }
+    
+    /**
+     * @return The static messages map.
+     */
+    public Map<String, String> getStaticMessages() {
+        return staticMessages;
     }
 
     /**
@@ -51,10 +64,17 @@ public class GameContent {
     }
     
     /**
-     * @param messages The new game messages object to use.
+     * @param dynamicMessages The new dyanmic messages object to use.
      */
-    public void setMessages(final Messages messages) {
-        this.messages = messages;
+    public void setDynamicMessages(final DynamicMessages dynamicMessages) {
+        this.dynamicMessages = dynamicMessages;
+    }
+    
+    /**
+     * @param staticMessages The new map of static messages to use.
+     */
+    public void setStaticMessages(final Map<String, String> staticMessages) {
+        this.staticMessages = staticMessages;
     }
 
     /**
@@ -99,6 +119,14 @@ public class GameContent {
         Collections.shuffle(copy);
         return copy.subList(0, 4);
         
+    }
+    
+    /**
+     * @param identifier The identifier of the static message to look up.
+     * @return The static message with the given identifier.
+     */
+    public String getStaticMessage(String identifier) {
+        return staticMessages.getOrDefault(identifier, "((Error: Missing message \"" + identifier + "\".))");
     }
     
 }

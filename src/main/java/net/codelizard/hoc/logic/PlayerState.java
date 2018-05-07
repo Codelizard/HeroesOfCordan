@@ -294,13 +294,13 @@ public class PlayerState {
         output.append(", ")
               .append(kills)
               .append(" ")
-              .append(HeroesOfCordan.getMessage("status.kills"))
+              .append(HeroesOfCordan.getStaticMessage("status.kills"))
               .append(".");
         
         if(!consumables.isEmpty()) {
 
             output.append("\n\n")
-                  .append(HeroesOfCordan.getMessage("status.consumables"));
+                  .append(HeroesOfCordan.getStaticMessage("status.consumables"));
             
             final StringBuilder consumableText = new StringBuilder();
             for(Consumable nextConsumable : consumables) {
@@ -316,7 +316,7 @@ public class PlayerState {
         if(!equipment.isEmpty()) {
             
             output.append("\n")
-                  .append(HeroesOfCordan.getMessage("status.equipment"));
+                  .append(HeroesOfCordan.getStaticMessage("status.equipment"));
             
             final StringBuilder equipmentText = new StringBuilder();
             for(Equipment nextEquipment : equipment) {
