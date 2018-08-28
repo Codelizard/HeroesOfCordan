@@ -608,7 +608,7 @@
                         "It's so diluted you can practically see through the phial it's in."
                     ],
                     "flavor": [
-                        "\"I don't this will cure particularly much other than thirst.\" -- Eleri"
+                        "\"I don't think this will cure particularly much other than thirst.\" -- Eleri"
                     ],
                     "resources": {
                         "HEALTH": {
@@ -5927,7 +5927,7 @@
                     "id": "EVENT #3-20",
                     "name": "Teleportitis Trap",
                     "descriptions": [
-                        "Funny how 'random' teleporting never takes yuo in the direction you want to go, isn't it?",
+                        "Funny how 'random' teleporting never takes you in the direction you want to go, isn't it?",
                         "Inflicts 'random' teleportation on you for a while that will never take you in a helpful direction.",
                         "Causes you to periodically teleport in a 'random' direction that always takes you further from your destination."
                     ],
