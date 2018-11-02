@@ -249,7 +249,7 @@
                         "The flag is from an underground nation with no light. But why would they need a flag at all?"
                     ],
                     "flavor": [
-                        "\"I would appreciate it if sssomone could cut a head hole into thisss thing...\" -- Mardak"
+                        "\"I would appreciate it if sssomeone could cut a head hole into thisss thing...\" -- Mardak"
                     ],
                     "resources": {
                         "STEALTH": {
@@ -1107,7 +1107,7 @@
                     "descriptions": [
                         "Long narrow corridor. Launchers all over the place. Be careful about which tiles you step on!",
                         "Unfortunately the dart launchers are hidden all over the place, so simply hiding behind a shield won't help.",
-                        "Brought a shield? Too bad for you, the architect though ahead, and the dart launchers are all over this corridor.."
+                        "Brought a shield? Too bad for you, the architect though ahead, and the dart launchers are all over this corridor."
                     ],
                     "flavor": [
                         "\"Who puts dart launchers in the floor? That's just unsportsmanlike.\" -- Avaris"
@@ -9691,7 +9691,7 @@
                         "This potion gives a massive bonus to strength, giving you huge muscles and utterly destroying your shirt in the process."
                     ],
                     "flavor": [
-                        "\"Should I spend the time stripping my shirt in battle, or just start extras around to replace them?\" -- Rick"
+                        "\"Should I spend the time stripping my shirt in battle, or just start carrying extras around to replace them?\" -- Rick"
                     ],
                     "resources": {
                         "PHYSICAL": {
@@ -11252,7 +11252,7 @@
                             "texts": [
                                 "Make a distraction.",
                                 "Set up a distraction.",
-                                "Crate a distraction."
+                                "Create a distraction."
                             ],
                             "value": 6
                         },
