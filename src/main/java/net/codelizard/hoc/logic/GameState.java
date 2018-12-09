@@ -1013,11 +1013,15 @@ public enum GameState {
             
             final Item result = currentState.getTransmuteResult();
             
+            final String blurb = result instanceof Consumable ?
+                    getStaticMessage("loot.consumable_blurb") :
+                    getStaticMessage("loot.equipment_blurb");
+            
             final String output = getStaticMessage("transmute.result")
                     + "\n\n"
                     + result.fullLengthDescription()
                     + "\n\n"
-                    + getStaticMessage("loot.consumable_blurb")
+                    + blurb
                     + "\n"
                     + result.benefits();
             
